@@ -5,17 +5,12 @@ base_url = "https://arunkd13.github.io"
 compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
-build_search_index = true
+build_search_index = false
 
-theme = "after-dark"
+theme = "hook"
 
-paginate_by = 5
-
-taxonomies = [
-    # You can enable/disable RSS
-    {name = "categories", feed = true},
-    {name = "tags", feed = true},
-]
+title = "My Blog"
+description = "My Blog"
 
 [markdown]
 # Whether to do syntax highlighting
@@ -24,11 +19,6 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
-
-after_dark_menu = [
-    {url = "$BASE_URL", name = "Home"},
-    {url = "$BASE_URL/categories", name = "Categories"},
-    {url = "$BASE_URL/tags", name = "Tags"},
-    {url = "https://google.com", name = "Google"},
+links = [
+    { title = "GitHub", href = "https://github.com/arunkd13" }
 ]
-author = "Arunkumar Dhananjayan"
