@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>arunkd13</title>
+	<subtitle>My Blog and Projects</subtitle>
+	<link href="https://arunkd13.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://arunkd13.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-11-22T00:00:00+00:00</updated>
+	<id>https://arunkd13.github.io/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Install Rust for all users</title>
+		<published>2022-11-22T00:00:00+00:00</published>
+		<updated>2022-11-22T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://arunkd13.github.io/blog/install-rust-for-all-users/" type="text/html"/>
+		<id>https://arunkd13.github.io/blog/install-rust-for-all-users/</id>
+		<content type="html">&lt;p&gt;So, I wanted a single rust compiler to be installed system wide, but the
+default result of using &lt;a href=&quot;https:&#x2F;&#x2F;rustup.rs&#x2F;&quot;&gt;rustup&lt;&#x2F;a&gt; is, it is installed
+locally in the current user&#x27;s home directory.&lt;&#x2F;p&gt;
+&lt;p&gt;After a bit of searching on the Internet and some dead ends, I stumbled on
+&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;rust-lang&#x2F;rustup&#x2F;issues&#x2F;1085&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;rust-lang&#x2F;rustup&#x2F;issues&#x2F;1085&lt;&#x2F;a&gt; which seems to be mostly working.&lt;&#x2F;p&gt;
+&lt;p&gt;Interesting thing I learned from the above is that, the script that was
+suggested for &#x27;rustc&#x27; can simply be symlinked to other commands like &#x27;cargo&#x27;
+and it still works as it uses some
+&lt;a href=&quot;http:&#x2F;&#x2F;mywiki.wooledge.org&#x2F;BashSheet#Parameter_Operations&quot;&gt;parameter expansion&lt;&#x2F;a&gt;
+magic.&lt;&#x2F;p&gt;
+&lt;p&gt;Also for whatever reason I had to do a &lt;code&gt;sudo rustup component add rust-src&lt;&#x2F;code&gt;
+to make rust-analyzer work with Visual Studio Code.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Hello world</title>
+		<published>2022-11-18T00:00:00+00:00</published>
+		<updated>2022-11-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://arunkd13.github.io/blog/hello-world/" type="text/html"/>
+		<id>https://arunkd13.github.io/blog/hello-world/</id>
+		<content type="html">&lt;p&gt;Hello world!&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>

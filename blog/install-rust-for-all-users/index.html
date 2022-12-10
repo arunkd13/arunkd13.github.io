@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="My Blog and Projects">
+    <title>arunkd13 | Install Rust for all users</title>
+    
+    <link rel="stylesheet" href="https://arunkd13.github.io/style.css?h=a56f213afcf5d255b64918e7a9e0f468ef1d0ac2954b49f36003998666482371">
+    
+</head>
+<body>
+    
+<header class="space">
+    <a href="https:&#x2F;&#x2F;arunkd13.github.io">&LeftArrow; Home</a>
+</header>
+
+    
+<main>
+    <h1>Install Rust for all users</h1>
+    
+    <p class="secondary">22 November, 2022</p>
+    
+    <div class="space"></div>
+    <p>So, I wanted a single rust compiler to be installed system wide, but the
+default result of using <a href="https://rustup.rs/">rustup</a> is, it is installed
+locally in the current user's home directory.</p>
+<p>After a bit of searching on the Internet and some dead ends, I stumbled on
+<a href="https://github.com/rust-lang/rustup/issues/1085">https://github.com/rust-lang/rustup/issues/1085</a> which seems to be mostly working.</p>
+<p>Interesting thing I learned from the above is that, the script that was
+suggested for 'rustc' can simply be symlinked to other commands like 'cargo'
+and it still works as it uses some
+<a href="http://mywiki.wooledge.org/BashSheet#Parameter_Operations">parameter expansion</a>
+magic.</p>
+<p>Also for whatever reason I had to do a <code>sudo rustup component add rust-src</code>
+to make rust-analyzer work with Visual Studio Code.</p>
+
+</main>
+
+    <div class="dark-mode-buttons">
+        <button class="dark-mode-button" id="dark-mode-on"><img src="https://arunkd13.github.io/dark_mode.svg" width="24" height="24" alt="Dark mode" aria-label="dark mode toggle" title="Dark mode"></button>
+        <button class="dark-mode-button" id="dark-mode-off"><img src="https://arunkd13.github.io/light_mode.svg" width="24" height="24" alt="Light mode" aria-label="light mode toggle" title="Light mode"></button>
+    </div>
+    <script>
+        const cls = document.body.classList;
+        const getSessionTheme = sessionStorage.getItem("theme");
+        if (getSessionTheme === "dark") {
+            cls.toggle("dark-mode", true);
+        } else if (getSessionTheme === "light") {
+            cls.toggle("dark-mode", false);
+        } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+            cls.toggle("dark-mode", true);
+        }
+
+        document.getElementById("dark-mode-on").addEventListener("click", function(e) {
+            cls.toggle("dark-mode", true);
+            sessionStorage.setItem("theme", "dark");
+        });
+        document.getElementById("dark-mode-off").addEventListener("click", function(e) {
+            cls.toggle("dark-mode", false);
+            sessionStorage.setItem("theme", "light");
+        });
+    </script>
+    <noscript>
+        <style>
+            .dark-mode-buttons {
+                display: none;
+            }
+        </style>
+    </noscript>
+</body>
+</html>
