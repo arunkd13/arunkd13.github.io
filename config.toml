@@ -9,8 +9,10 @@ build_search_index = false
 
 theme = "hook"
 
-title = "My Blog"
-description = "My Blog"
+title = "arunkd13"
+description = "My Blog and Projects"
+
+generate_feed = true
 
 [markdown]
 # Whether to do syntax highlighting
@@ -20,6 +22,5 @@ highlight_code = true
 [extra]
 # Put all your custom variables here
 links = [
-    { title = "GitHub", href = "https://github.com/arunkd13" },
-    { title = "Bevy Snake", href = "./bevy-snake/" }
+    { title = "GitHub", href = "https://github.com/arunkd13" }
 ]

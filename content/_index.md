@@ -1,4 +1,4 @@
 +++
 +++
 
-Hi! Welcome to my blog.
+Hi! Welcome to my corner on the Internet.
