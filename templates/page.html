@@ -1,0 +1,18 @@
+{% extends "hook/templates/page.html" %}
+{% block content %}
+<main>
+    <h1>{{ page.title }}</h1>
+    {% if page.date %}
+    <p class="secondary">{{ page.date | date(format="%-d %B, %Y") }}</p>
+    {% endif %}
+    <div class="space"></div>
+    {{ page.content | safe }}
+    <script src="https://utteranc.es/client.js"
+        repo="arunkd13/arunkd13.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+</main>
+{% endblock content %}
