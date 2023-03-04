@@ -21,7 +21,7 @@ which unfortunately needed to download some files from the cursed github domain.
 After some Googling, I ended up using [ProxyChains](https://github.com/haad/proxychains)
 to make the Doom Emacs install command to use the local tor connection.
 
-```
+```bash
 sudo service tor start
 sudo apt install proxychains
 proxychains ~/.config/emacs/bin/doom install
