@@ -1,7 +1,7 @@
 +++
 title = "Access raw.githubusercontent.com files in India"
 date = 2023-01-18
-updated = 2023-03-04
+updated = 2023-03-20
 +++
 
 
@@ -28,3 +28,5 @@ proxychains ~/.config/emacs/bin/doom install
 ```
 
 Yay! I don't need to buy a VPN now, just because I cheaped out choosing Jio.
+
+**Update:** As of 20 March, 2023, I am able to access content from raw.githubusercontent.com
