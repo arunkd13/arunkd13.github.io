@@ -12,3 +12,4 @@ Links to people, blogs and websites I follow:
 * [Krishna Mckenzie](https://www.youtube.com/@KrishnaMckenzie)
 * [Kirsten Dirksen](https://www.youtube.com/@kirstendirksen)
 * [ChrisFix](https://www.youtube.com/@chrisfix)
+* [Huberman Lab](https://hubermanlab.com/)
