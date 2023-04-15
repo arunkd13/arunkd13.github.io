@@ -14,3 +14,4 @@ Links to people, blogs and websites I follow:
 * [ChrisFix](https://www.youtube.com/@chrisfix)
 * [Huberman Lab](https://hubermanlab.com/)
 * [Primitive Technology](https://www.youtube.com/@primitivetechnology9550/videos)
+* [Project Kamp](https://projectkamp.com/)
