@@ -15,3 +15,5 @@ Links to people, blogs and websites I follow:
 * [Huberman Lab](https://hubermanlab.com/)
 * [Primitive Technology](https://www.youtube.com/@primitivetechnology9550/videos)
 * [Project Kamp](https://projectkamp.com/)
+* [Team-BHP.com](https://www.team-bhp.com/)
+* [Crispy Fried Opinions](https://crispyfriedopinions.com/)
