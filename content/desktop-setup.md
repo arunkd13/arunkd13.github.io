@@ -10,6 +10,8 @@ Following is my preferred computer desktop setup which I replicate on any new ma
   * [Top Indicator App](https://github.com/ubuntu/gnome-shell-extension-appindicator)
   * [TopHat](https://github.com/fflewddur/tophat)
 * Web Browser: Firefox
+* Tools:
+  * [Password Safe / Secrets](https://gitlab.gnome.org/World/secrets)
 * IDE: [Visual Studio Code](https://code.visualstudio.com/) with following extensions:
   * vscodevim.vim
   * vscode-org-mode.org-mode

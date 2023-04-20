@@ -17,3 +17,5 @@ Links to people, blogs and websites I follow:
 * [Project Kamp](https://projectkamp.com/)
 * [Team-BHP.com](https://www.team-bhp.com/)
 * [Crispy Fried Opinions](https://crispyfriedopinions.com/)
+* [Access Agriculture](https://www.accessagriculture.org/)
+* [ECHOcommunity](https://www.echocommunity.org/)
