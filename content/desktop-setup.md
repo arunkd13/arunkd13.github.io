@@ -9,7 +9,9 @@ Following is my preferred computer desktop setup which I replicate on any new ma
 * Desktop: Gnome with the following extensions:
   * [Top Indicator App](https://github.com/ubuntu/gnome-shell-extension-appindicator)
   * [TopHat](https://github.com/fflewddur/tophat)
-* Web Browser: Firefox
+* Web Browser: Firefox with the following extensions:
+  * [uBlacklist](https://iorate.github.io/ublacklist/docs)
+  * [uBlock Origin](https://github.com/gorhill/uBlock)
 * Tools:
   * [Password Safe / Secrets](https://gitlab.gnome.org/World/secrets)
 * IDE: [Visual Studio Code](https://code.visualstudio.com/) with following extensions:
