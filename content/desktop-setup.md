@@ -1,5 +1,5 @@
 +++
-title = "Desktop Setup"
+title = "Desktop and Mobile Setup"
 extra.in_header = true
 +++
 
@@ -21,3 +21,14 @@ Following is my preferred computer desktop setup which I replicate on any new ma
   * [Dropbox](https://www.dropbox.com/)
   * [Gnucash](https://www.gnucash.org/)
   * [Gimp](https://www.gimp.org/)
+
+Following is my mobile setup with my preferred apps:
+* OS: Android
+* Apps
+  * [Files](https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.files)
+  * [Dropbox](https://play.google.com/store/apps/details?id=com.dropbox.android)
+  * [Orgzly](https://play.google.com/store/apps/details?id=com.orgzly)
+  * [KeePassDroid](https://play.google.com/store/apps/details?id=com.android.keepass)
+  * [Weather Underground](https://play.google.com/store/apps/details?id=com.wunderground.android.weather)
+  * [F-Droid](https://f-droid.org/)
+  * [NewPipe](https://f-droid.org/en/packages/org.schabi.newpipe/)
