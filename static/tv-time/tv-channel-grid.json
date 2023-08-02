@@ -1,27 +1,46 @@
 [
-  // TV-News-Tamil
-  "https://www.youtube.com/playlist?list=PLlkexvjePDK-cNIdt7aT-S7CTpsY5zgR6",
-  // TV-News-English
-  "https://www.youtube.com/playlist?list=PLlkexvjePDK--5QDlqxsXEAhnZyPnT5yK",
-  // TV-News-Hindi
-  "https://www.youtube.com/playlist?list=PLlkexvjePDK_jrW62MSWsZEJSSJ7VkNtf",
-  // TV-News-India
-  "https://www.youtube.com/playlist?list=PLlkexvjePDK9eaZYHQtodxn7c3mkfGfit",
-  // TV-News-US
-  "https://www.youtube.com/playlist?list=PLlkexvjePDK8Sz7UOomgjtiUrwmOsPsSU",
-  // TV-News-World
-  "https://www.youtube.com/playlist?list=PLlkexvjePDK_JO_Fh9ljTtlV_l83A4jwS",
-  // TV-Science-US
-  "https://www.youtube.com/playlist?list=PLlkexvjePDK9Gvs-wVxlJQ5eOS6iI_VKV",
-  // TV-Lifestyle-US
-  "https://www.youtube.com/playlist?list=PLlkexvjePDK8YRGinHgKZ12p7IEgpaJCR",
-  // TV-Lifestyle-World
-  "https://www.youtube.com/playlist?list=PLlkexvjePDK82kaVkn3ceqhVX_zcS-Os0",
-  // TV-Kids-US
-  "https://www.youtube.com/playlist?list=PLlkexvjePDK8W3LOIePjnqcNGuPLDs96W",
-  // TV-Religion-India
-  "https://www.youtube.com/playlist?list=PLlkexvjePDK_snHWabffEA7HP-4rk95mG",
-  // TV-Religion-US
-  "https://www.youtube.com/playlist?list=PLlkexvjePDK_NUXSsDPOg6AOkSyzFG_35"
+  {
+    "id": "TV-News-Tamil",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLlkexvjePDK-cNIdt7aT-S7CTpsY5zgR6"
+  },
+  {
+    "id": "TV-News-English",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLlkexvjePDK--5QDlqxsXEAhnZyPnT5yK"
+  },
+  {
+    "id": "TV-News-Hindi",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLlkexvjePDK_jrW62MSWsZEJSSJ7VkNtf"
+  },
+  {
+    "id": "TV-News-India",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLlkexvjePDK9eaZYHQtodxn7c3mkfGfit"
+  },
+  {
+    "id": "TV-News-US",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLlkexvjePDK8Sz7UOomgjtiUrwmOsPsSU"
+  },
+  {
+    "id": "TV-News-World",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLlkexvjePDK_JO_Fh9ljTtlV_l83A4jwS"
+  },
+  {
+    "id": "TV-Science-US",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLlkexvjePDK9Gvs-wVxlJQ5eOS6iI_VKV"
+  },
+  {
+    "id": "TV-Lifestyle-US",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLlkexvjePDK8YRGinHgKZ12p7IEgpaJCR"
+  },
+  {
+    "id": "TV-Lifestyle-World",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLlkexvjePDK82kaVkn3ceqhVX_zcS-Os0"
+  },
+  {
+    "id": "TV-Kids-US",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLlkexvjePDK8W3LOIePjnqcNGuPLDs96W"
+  },
+  {
+    "id": "TV-Religion-India",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLlkexvjePDK_snHWabffEA7HP-4rk95mG"
+  }
 ]
-
