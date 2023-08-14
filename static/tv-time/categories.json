@@ -1,0 +1,14 @@
+[
+  {
+    "id": "news/tamil",
+    "name": "Tamil News"
+  },
+  {
+    "id": "news/english",
+    "name": "English News"
+  },
+  {
+    "id": "news/hindi",
+    "name": "Hindi News"
+  }
+]

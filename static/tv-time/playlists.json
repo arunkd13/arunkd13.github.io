@@ -1,0 +1,14 @@
+[
+  {
+    "categoryId": "news/tamil",
+    "url": "https://www.youtube.com/playlist?list=PLlkexvjePDK-cNIdt7aT-S7CTpsY5zgR6"
+  },
+  {
+    "categoryId": "news/english",
+    "url": "https://www.youtube.com/playlist?list=PLlkexvjePDK--5QDlqxsXEAhnZyPnT5yK"
+  },
+  {
+    "categoryId": "news/hindi",
+    "url": "https://www.youtube.com/playlist?list=PLlkexvjePDK_jrW62MSWsZEJSSJ7VkNtf"
+  }
+]
