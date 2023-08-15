@@ -1,0 +1,24 @@
+[
+  {
+    "id": "news/tamil",
+    "name": "Tamil News",
+    "channels": [
+      "https://www.youtube.com/@Sunnewstamil",
+      "https://www.youtube.com/@PuthiyaThalaimuraiTV",
+      "https://www.youtube.com/@thanthitv"
+    ]
+  },
+  {
+    "id": "news/english",
+    "name": "English News",
+    "channels": [
+      "https://www.youtube.com/@DDIndia"
+    ]
+  },
+  {
+    "id": "news/hindi",
+    "name": "Hindi News",
+    "channels": [
+    ]
+  }
+]
