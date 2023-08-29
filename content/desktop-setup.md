@@ -6,6 +6,9 @@ extra.in_header = true
 Following is my preferred computer desktop setup which I replicate on any new machine I use:
 
 * OS: Debian stable
+  * To enable higher resolutions on my Acer EL220Q monitor:
+    * edit /etc/default/grub and set GRUB_CMDLINE_LINUX to "video=VGA-1:1920x1080@64.9"
+    * run 'sudo update-grub'
 * Desktop: Gnome with the following extensions:
   * [Top Indicator App](https://github.com/ubuntu/gnome-shell-extension-appindicator)
   * [TopHat](https://github.com/fflewddur/tophat)

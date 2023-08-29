@@ -24,3 +24,5 @@ Links to people, blogs and websites I follow:
   * [Team-BHP.com](https://www.team-bhp.com/)
 * Entertainment
   * [Crispy Fried Opinions](https://crispyfriedopinions.com/)
+  
+Useful [bookmarks](/bookmarks)
