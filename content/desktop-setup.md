@@ -16,7 +16,7 @@ Following is my preferred computer desktop setup which I replicate on any new ma
   * [uBlacklist](https://iorate.github.io/ublacklist/docs)
   * [uBlock Origin](https://github.com/gorhill/uBlock)
 * Tools:
-  * [Password Safe / Secrets](https://gitlab.gnome.org/World/secrets)
+* [Password Safe / Secrets](https://gitlab.gnome.org/World/secrets). [KeePassXC](https://keepassxc.org/) when I am using Windows.
 * IDE: [Visual Studio Code](https://code.visualstudio.com/) with following extensions:
   * vscodevim.vim
   * vscode-org-mode.org-mode
