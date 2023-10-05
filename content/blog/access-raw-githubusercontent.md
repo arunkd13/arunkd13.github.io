@@ -1,7 +1,7 @@
 +++
 title = "Access raw.githubusercontent.com files in India"
 date = 2023-01-18
-updated = 2023-09-29
+updated = 2023-10-05
 +++
 
 As of January 2023, raw.githubusercontent.com domain is blocked by Jio and
@@ -21,9 +21,13 @@ _8.8.8.8_ and _8.8.4.4._. The _DNS Servers_ setting seems to get reset to
 _Use DNS Proxy_, every time I reboot the router. So, finally I had to set the
 custom DNS directly on my PC.
 
-Unfortunately I have not yet figured out how to change the DNS on my Redmi Android phone.
+On my Redmi phone, there is no way to set a custom DNS as the setting has been
+removed by Xiaomi. The easiest way to overcome this was to use
+[1.1.1.1 + Warp](https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone&hl=en&gl=US)
+from Cloudflare. This provides a VPN configuration that uses Cloudflare's
+free DNS resolver at 1.1.1.1.
 
-For some time, the DNS server change didn't seem to work. In this case, I got
+Sometimes the DNS server change didn't seem to work on my desktop. In this case, I got
 unblocked by using the [Tor Browser](https://www.torproject.org/). This doesn't
 help with other apps that make a request to _raw.githubusercontent.com_. I ran into
 this problem again when installing [Doom Emacs](https://github.com/doomemacs/doomemacs)
@@ -39,5 +43,5 @@ proxychains ~/.config/emacs/bin/doom install
 
 Yay! I don't need to buy a VPN now, just because I cheaped out choosing Jio.
 
-**Update:** As of 29 September, 2023, I am still unable to access content from raw.githubusercontent.com
+**Update:** As of 5 October, 2023, I am still unable to access content from raw.githubusercontent.com
 when using Jio Broadband unless I use one of the above techniques.
