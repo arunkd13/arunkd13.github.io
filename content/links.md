@@ -14,10 +14,11 @@ Links to people, blogs and websites I follow:
   * [Remains of the Day](https://harmanjit.blogspot.com/)
   * [Huberman Lab](https://hubermanlab.com/)
 * Tech
+  * [Hundred Rabbits](https://100r.co/site/home.html)
+  * [Project Kamp](https://projectkamp.com/)
   * [No Tech Magazine](https://www.notechmagazine.com/), [Low Tech Magazine](https://www.lowtechmagazine.com/)
   * [ChrisFix](https://www.youtube.com/@chrisfix)
   * [Primitive Technology](https://www.youtube.com/@primitivetechnology9550/videos)
-  * [Project Kamp](https://projectkamp.com/)
   * [Hacker News](https://news.ycombinator.com/news)
 * Lifestyle
   * [Kirsten Dirksen](https://www.youtube.com/@kirstendirksen)
@@ -25,4 +26,4 @@ Links to people, blogs and websites I follow:
 * Entertainment
   * [Crispy Fried Opinions](https://crispyfriedopinions.com/)
   
-Useful [bookmarks](/bookmarks)
+Other useful [bookmarks](/bookmarks)
