@@ -95,4 +95,5 @@ the stack has been emptied.
 
 I hope this figure is now self explanatory.
 
-I will explore a few other data structures in subsequent posts.
+In this [next post](../blog/datastructures-on-hypercore-queue), I explore
+how we can implement a queue on a hypercore.
