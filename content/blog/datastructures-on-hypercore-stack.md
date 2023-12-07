@@ -93,7 +93,8 @@ the stack has been emptied.
 
 ![Stack on Hypercore - Step 7 - Pop](hypercore-stack-7.excalidraw.png)
 
-I hope this figure is now self explanatory.
+I hope this figure is now self explanatory. You can find the code I
+have used at [experiment-hyperstack](https://github.com/arunkd13/experiment-hyperstack/tree/main)
 
 In this [next post](../blog/datastructures-on-hypercore-queue), I explore
 how we can implement a queue on a hypercore.
