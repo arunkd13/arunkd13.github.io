@@ -1,6 +1,7 @@
 +++
 title = "Visualizing historical rainfall data"
 date = 2023-03-11
+updated = 2023-12-07
 +++
 
 With the limited water capacity in my well, I have to depend mostly on rainfall
@@ -27,4 +28,7 @@ January 2000 to February 2023. Rainfall data was taken from
 [Open-Meteo](https://open-meteo.com/en/docs/historical-weather-api#latitude=12.23&longitude=79.66&start_date=2000-01-01&end_date=2023-02-28&daily=precipitation_sum&timezone=auto)
 
 <iframe width="100%" height="1430" frameborder="0"
-  src="https://observablehq.com/embed/f650972998319078@383?cells=chart%2Clegend"></iframe>
+  src="https://observablehq.com/embed/f650972998319078?cells=chart"></iframe>
+
+## History
+* 2023-12-07: Updated rainfall data up to Dec 2023
