@@ -34,7 +34,7 @@ Probably someone needs to file an RTI requesting for the details and also
 if there are any penalties levied on the toll provider for incorrect 
 chargebacks.
 
-Searching on the Internet, I found [this thread on team-bhp.com](https://www.team-bhp.com/forum/street-experiences/210138-raise-dispute-trip-new-trick-toll-plazas-cheat-fastag-users-2.html)
+Searching on the Internet, I found [this thread on team-bhp.com](https://www.team-bhp.com/forum/street-experiences/210138-raise-dispute-trip-new-trick-toll-plazas-cheat-fastag-users.html)
 dating back to 2019 raising similar concerns. And another [long wieldy article
 on
 moneylife.in](https://www.moneylife.in/article/fastag-wrong-deductions-why-complaints-are-not-getting-resolved-sooner/63149.html)
