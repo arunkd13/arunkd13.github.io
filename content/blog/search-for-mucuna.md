@@ -1,6 +1,7 @@
 +++
 title = "Search for Mucuna"
 date = 2023-03-04
+updated = 2024-02-04
 +++
 
 I first came across Mucuna, last year, as Black Velvette Bean during the
@@ -24,6 +25,9 @@ With so many good things that I heard, I decided to try it in my farm and was
 looking for a supplier. I initially contacted [Vinayaga
 Pharmaceuticals](https://www.indiamart.com/vinarghya-pharmaceuticals/), through
 IndiaMART, but they were quoting Rs. 220 per kg + Rs 80 for courier. I also
-found a neighbouring natural farmer, but he was quoting Rs. 400 per kg. I
-finally ordered it from the [ICAR - IIHR Seed Portal](https://seed.iihr.res.in/)
-for Rs. 120 per kg and postal and packaging charges of Rs. 118.
+found a neighbouring natural farmer, but he was quoting Rs. 400 per kg.
+
+I finally ordered it from the [ICAR - IIHR Seed
+Portal](https://seed.iihr.res.in/) for Rs. 120 per kg with an additional postal
+and packaging charges of Rs. 118. This was in January 2023. The variety was
+marked as ARKA Dhanwantri.
