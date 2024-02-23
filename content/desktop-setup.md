@@ -1,14 +1,15 @@
 +++
 title = "Desktop and Mobile Setup"
 extra.in_header = true
+updated = 2024-02-23
 +++
 
 Following is my preferred computer desktop setup which I replicate on any new machine I use:
 
 * OS: Debian stable
   * To enable higher resolutions on my Acer EL220Q monitor:
-    * edit /etc/default/grub and set GRUB_CMDLINE_LINUX to "video=VGA-1:1920x1080@64.9"
-    * run 'sudo update-grub'
+    * Edit /etc/default/grub and set GRUB_CMDLINE_LINUX to "video=VGA-1:1920x1080@64.9". In case this doesn't work, try a lower refresh rate like @49.9.
+    * Run 'sudo update-grub'
 * OS: Windows when I am forced to
   * [Scoop](https://scoop.sh/) package manager for installing applications
 * Desktop: Gnome with the following extensions:
