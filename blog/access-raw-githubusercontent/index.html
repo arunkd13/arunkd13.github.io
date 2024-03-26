@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="My Blog and Projects">
+    <title>arunkd13 | Access raw.githubusercontent.com files in India</title>
+    
+    <link rel="stylesheet" href="https://arunkd13.github.io/style.css?h=8d04f631f031a556582c7c81c5d406cd8e51de010f383c1dca7e176822499920">
+    
+    
+    
+    <link rel="alternate" type="application/atom+xml" title="Feed" href="https://arunkd13.github.io/atom.xml">
+    
+    
+</head>
+<body>
+    
+<header class="space">
+    <a href="https:&#x2F;&#x2F;arunkd13.github.io">&LeftArrow; Home</a>
+</header>
+
+    
+<main>
+    <h1>Access raw.githubusercontent.com files in India</h1>
+    
+    <p class="secondary">18 January, 2023</p>
+    
+    <div class="space"></div>
+    <p>As of January 2023, raw.githubusercontent.com domain is blocked by Jio and
+possibly other ISPs in India. This likely is due to a wise government or court
+order. There is a substantial <a href="https://news.ycombinator.com/item?id=34231553">Hacker News
+thread</a> discussing this issue,
+but the situation has been the same now, for more than a
+couple of months.</p>
+<p>The block seems to be at the DNS level and I had sucess with using
+<a href="https://developers.google.com/speed/public-dns">Google's Public DNS</a> server.</p>
+<p>To change the DNS server I updated the <em>DNS servers</em> setting in the
+Jio broadband router under <em>Network &gt; LAN &gt; DNS servers</em>. Change the option to
+select <em>Use Below</em> and enter Google's primary and secondary DNS servers viz.
+<em>8.8.8.8</em> and <em>8.8.4.4.</em>. The <em>DNS Servers</em> setting seems to get reset to
+<em>Use DNS Proxy</em>, every time I reboot the router. So, finally I had to set the
+custom DNS directly on my PC.</p>
+<p>On my Redmi phone, there is no way to set a custom DNS as the setting has been
+removed by Xiaomi. The easiest way to overcome this was to use
+<a href="https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone&amp;hl=en&amp;gl=US">1.1.1.1 + Warp</a>
+from Cloudflare. This provides a VPN configuration that uses Cloudflare's
+free DNS resolver at 1.1.1.1.</p>
+<p>Sometimes the DNS server change didn't seem to work on my desktop. In this case, I got
+unblocked by using the <a href="https://www.torproject.org/">Tor Browser</a>. This doesn't
+help with other apps that make a request to <em>raw.githubusercontent.com</em>. I ran into
+this problem again when installing <a href="https://github.com/doomemacs/doomemacs">Doom Emacs</a>
+which unfortunately needed to download some files from the cursed github domain.
+After some Googling, I ended up using <a href="https://github.com/haad/proxychains">ProxyChains</a>
+to make the Doom Emacs install command to use the local tor connection.</p>
+<pre data-lang="bash" style="background-color:#2b303b;color:#c0c5ce;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#bf616a;">sudo</span><span> service tor start
+</span><span style="color:#bf616a;">sudo</span><span> apt install proxychains
+</span><span style="color:#bf616a;">proxychains ~</span><span>/.config/emacs/bin/doom install
+</span></code></pre>
+<p>Yay! I don't need to buy a VPN now, just because I cheaped out choosing Jio.</p>
+<p><strong>Update:</strong> As of 5 October, 2023, I am still unable to access content from raw.githubusercontent.com
+when using Jio Broadband unless I use one of the above techniques.</p>
+
+    <script src="https://utteranc.es/client.js"
+        repo="arunkd13/arunkd13.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+</main>
+
+    <div class="dark-mode-buttons">
+        <button class="dark-mode-button" id="dark-mode-on"><img src="https://arunkd13.github.io/dark_mode.svg" width="24" height="24" alt="Dark mode" aria-label="dark mode toggle" title="Dark mode"></button>
+        <button class="dark-mode-button" id="dark-mode-off"><img src="https://arunkd13.github.io/light_mode.svg" width="24" height="24" alt="Light mode" aria-label="light mode toggle" title="Light mode"></button>
+    </div>
+    <script>
+        const cls = document.body.classList;
+        const getSessionTheme = sessionStorage.getItem("theme");
+        if (getSessionTheme === "dark") {
+            cls.toggle("dark-mode", true);
+        } else if (getSessionTheme === "light") {
+            cls.toggle("dark-mode", false);
+        } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+            cls.toggle("dark-mode", true);
+        }
+
+        document.getElementById("dark-mode-on").addEventListener("click", function(e) {
+            cls.toggle("dark-mode", true);
+            sessionStorage.setItem("theme", "dark");
+        });
+        document.getElementById("dark-mode-off").addEventListener("click", function(e) {
+            cls.toggle("dark-mode", false);
+            sessionStorage.setItem("theme", "light");
+        });
+    </script>
+    <noscript>
+        <style>
+            .dark-mode-buttons {
+                display: none;
+            }
+        </style>
+    </noscript>
+</body>
+</html>

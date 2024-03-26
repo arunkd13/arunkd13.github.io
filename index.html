@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="My Blog and Projects">
+    <title>arunkd13</title>
+    
+    <link rel="stylesheet" href="https://arunkd13.github.io/style.css?h=8d04f631f031a556582c7c81c5d406cd8e51de010f383c1dca7e176822499920">
+    
+    
+    
+    <link rel="alternate" type="application/atom+xml" title="Feed" href="https://arunkd13.github.io/atom.xml">
+    
+    
+</head>
+<body>
+    
+    <header class="space">
+        <h1>arunkd13</h1>
+        
+        
+        <nav class="header-links">
+            
+            <a href="atom.xml">RSS</a>
+            
+            <a href="https:&#x2F;&#x2F;github.com&#x2F;arunkd13">GitHub</a>
+            
+            
+            <a href="https:&#x2F;&#x2F;arunkd13.github.io&#x2F;links&#x2F;">Links</a>
+            
+            <a href="https:&#x2F;&#x2F;arunkd13.github.io&#x2F;desktop-setup&#x2F;">Desktop and Mobile Setup</a>
+            
+            <a href="https:&#x2F;&#x2F;arunkd13.github.io&#x2F;projects&#x2F;">Projects</a>
+            
+        </nav>
+        
+    </header>
+    
+    
+    
+    
+    <main>
+        
+        <div class="space">
+            <p>Hi! Welcome to my corner on the Internet.</p>
+
+        </div>
+        
+        
+        <h2>Recent posts</h2>
+        <ul>
+            
+            <li><a href="https:&#x2F;&#x2F;arunkd13.github.io&#x2F;blog&#x2F;glass-bottles&#x2F;">Glass bottles</a></li>
+            
+            <li><a href="https:&#x2F;&#x2F;arunkd13.github.io&#x2F;blog&#x2F;trusted-amazon-brands-and-sellers&#x2F;">Trusted Amazon brands and sellers</a></li>
+            
+            <li><a href="https:&#x2F;&#x2F;arunkd13.github.io&#x2F;blog&#x2F;hello-earthworm&#x2F;">Hello earthworm</a></li>
+            
+            <li><a href="https:&#x2F;&#x2F;arunkd13.github.io&#x2F;blog&#x2F;chargebacks-on-fastag&#x2F;">Fastag chargebacks</a></li>
+            
+            <li><a href="https:&#x2F;&#x2F;arunkd13.github.io&#x2F;blog&#x2F;datastructures-on-hypercore-queue&#x2F;">Datastructures on Hypercore - Queue</a></li>
+            
+            <li><a href="https:&#x2F;&#x2F;arunkd13.github.io&#x2F;blog&#x2F;datastructures-on-hypercore-stack&#x2F;">Datastructures on Hypercore - Stack</a></li>
+            
+            <li><a href="https:&#x2F;&#x2F;arunkd13.github.io&#x2F;blog&#x2F;search-for-vscode-alternative&#x2F;">Search for Visual Studio Code alternative</a></li>
+            
+            <li><a href="https:&#x2F;&#x2F;arunkd13.github.io&#x2F;blog&#x2F;income-tax-refund&#x2F;">Check status of income tax refund</a></li>
+            
+            <li><a href="https:&#x2F;&#x2F;arunkd13.github.io&#x2F;blog&#x2F;visualizing-historical-rainfall&#x2F;">Visualizing historical rainfall data</a></li>
+            
+            <li><a href="https:&#x2F;&#x2F;arunkd13.github.io&#x2F;blog&#x2F;climate-spiral&#x2F;">Climate Spiral</a></li>
+            
+            <li><a href="https:&#x2F;&#x2F;arunkd13.github.io&#x2F;blog&#x2F;search-for-mucuna&#x2F;">Search for Mucuna</a></li>
+            
+            <li><a href="https:&#x2F;&#x2F;arunkd13.github.io&#x2F;blog&#x2F;access-raw-githubusercontent&#x2F;">Access raw.githubusercontent.com files in India</a></li>
+            
+            <li><a href="https:&#x2F;&#x2F;arunkd13.github.io&#x2F;blog&#x2F;install-rust-for-all-users&#x2F;">Install Rust for all users</a></li>
+            
+            <li><a href="https:&#x2F;&#x2F;arunkd13.github.io&#x2F;blog&#x2F;hello-world&#x2F;">Hello world</a></li>
+            
+        </ul>
+        <p><a href="https:&#x2F;&#x2F;arunkd13.github.io&#x2F;blog&#x2F;">Archive</a></p>
+        
+    </main>
+    
+    
+    <div class="dark-mode-buttons">
+        <button class="dark-mode-button" id="dark-mode-on"><img src="https://arunkd13.github.io/dark_mode.svg" width="24" height="24" alt="Dark mode" aria-label="dark mode toggle" title="Dark mode"></button>
+        <button class="dark-mode-button" id="dark-mode-off"><img src="https://arunkd13.github.io/light_mode.svg" width="24" height="24" alt="Light mode" aria-label="light mode toggle" title="Light mode"></button>
+    </div>
+    <script>
+        const cls = document.body.classList;
+        const getSessionTheme = sessionStorage.getItem("theme");
+        if (getSessionTheme === "dark") {
+            cls.toggle("dark-mode", true);
+        } else if (getSessionTheme === "light") {
+            cls.toggle("dark-mode", false);
+        } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+            cls.toggle("dark-mode", true);
+        }
+
+        document.getElementById("dark-mode-on").addEventListener("click", function(e) {
+            cls.toggle("dark-mode", true);
+            sessionStorage.setItem("theme", "dark");
+        });
+        document.getElementById("dark-mode-off").addEventListener("click", function(e) {
+            cls.toggle("dark-mode", false);
+            sessionStorage.setItem("theme", "light");
+        });
+    </script>
+    <noscript>
+        <style>
+            .dark-mode-buttons {
+                display: none;
+            }
+        </style>
+    </noscript>
+</body>
+</html>

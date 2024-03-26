@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="My Blog and Projects">
+    <title>arunkd13 | Search for Mucuna</title>
+    
+    <link rel="stylesheet" href="https://arunkd13.github.io/style.css?h=8d04f631f031a556582c7c81c5d406cd8e51de010f383c1dca7e176822499920">
+    
+    
+    
+    <link rel="alternate" type="application/atom+xml" title="Feed" href="https://arunkd13.github.io/atom.xml">
+    
+    
+</head>
+<body>
+    
+<header class="space">
+    <a href="https:&#x2F;&#x2F;arunkd13.github.io">&LeftArrow; Home</a>
+</header>
+
+    
+<main>
+    <h1>Search for Mucuna</h1>
+    
+    <p class="secondary">4 March, 2023</p>
+    
+    <div class="space"></div>
+    <p>I first came across Mucuna, last year, as Black Velvette Bean during the
+<a href="https://solitude.farm/farm/">Saturday Farm Tour</a> at Solitude Farm, Auroville.
+<a href="https://krishnamckenzie.com/">Krishna McKenzie</a> explained its benefits for
+controlling Parkinsons disease etc. in his inimitable style, but it went way
+over my head at that time.</p>
+<p>In my search for cover crops for my no-till farming experiments, I came across this
+excellent blog called <a href="farming-experiments.blogspot.com/">My Experiments with
+Farming</a>
+where Nandakumar talks about using <a href="http://farming-experiments.blogspot.com/2014/09/invasive-cover-crops-pueraria-javanica.html">Mucuna as a cover
+crop</a>.
+Interestingly Krishna McKenzie too has a video where he uses Mucuna as a cover
+crop which he cuts and <a href="https://www.youtube.com/watch?v=y0xmEDq3NIs">mulches over rice
+seeds</a>. Access Agriculture, is
+another website that I trust, which also exudes the <a href="https://www.accessagriculture.org/reviving-soils-mucuna">benefits of
+Mucuna</a>.</p>
+<p>With so many good things that I heard, I decided to try it in my farm and was
+looking for a supplier. I initially contacted <a href="https://www.indiamart.com/vinarghya-pharmaceuticals/">Vinayaga
+Pharmaceuticals</a>, through
+IndiaMART, but they were quoting Rs. 220 per kg + Rs 80 for courier. I also
+found a neighbouring natural farmer, but he was quoting Rs. 400 per kg.</p>
+<p>I finally ordered it from the <a href="https://seed.iihr.res.in/">ICAR - IIHR Seed
+Portal</a> for Rs. 120 per kg with an additional postal
+and packaging charges of Rs. 118. This was in January 2023. The variety was
+marked as ARKA Dhanwantri.</p>
+
+    <script src="https://utteranc.es/client.js"
+        repo="arunkd13/arunkd13.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+</main>
+
+    <div class="dark-mode-buttons">
+        <button class="dark-mode-button" id="dark-mode-on"><img src="https://arunkd13.github.io/dark_mode.svg" width="24" height="24" alt="Dark mode" aria-label="dark mode toggle" title="Dark mode"></button>
+        <button class="dark-mode-button" id="dark-mode-off"><img src="https://arunkd13.github.io/light_mode.svg" width="24" height="24" alt="Light mode" aria-label="light mode toggle" title="Light mode"></button>
+    </div>
+    <script>
+        const cls = document.body.classList;
+        const getSessionTheme = sessionStorage.getItem("theme");
+        if (getSessionTheme === "dark") {
+            cls.toggle("dark-mode", true);
+        } else if (getSessionTheme === "light") {
+            cls.toggle("dark-mode", false);
+        } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+            cls.toggle("dark-mode", true);
+        }
+
+        document.getElementById("dark-mode-on").addEventListener("click", function(e) {
+            cls.toggle("dark-mode", true);
+            sessionStorage.setItem("theme", "dark");
+        });
+        document.getElementById("dark-mode-off").addEventListener("click", function(e) {
+            cls.toggle("dark-mode", false);
+            sessionStorage.setItem("theme", "light");
+        });
+    </script>
+    <noscript>
+        <style>
+            .dark-mode-buttons {
+                display: none;
+            }
+        </style>
+    </noscript>
+</body>
+</html>

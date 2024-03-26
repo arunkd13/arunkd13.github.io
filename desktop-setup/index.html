@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="My Blog and Projects">
+    <title>arunkd13 | Desktop and Mobile Setup</title>
+    
+    <link rel="stylesheet" href="https://arunkd13.github.io/style.css?h=8d04f631f031a556582c7c81c5d406cd8e51de010f383c1dca7e176822499920">
+    
+    
+    
+    <link rel="alternate" type="application/atom+xml" title="Feed" href="https://arunkd13.github.io/atom.xml">
+    
+    
+</head>
+<body>
+    
+<header class="space">
+    <a href="https:&#x2F;&#x2F;arunkd13.github.io">&LeftArrow; Home</a>
+</header>
+
+    
+<main>
+    <h1>Desktop and Mobile Setup</h1>
+    
+    <div class="space"></div>
+    <p>Following is my preferred computer desktop setup which I replicate on any new machine I use:</p>
+<ul>
+<li>OS: Debian stable
+<ul>
+<li>To enable higher resolutions on my Acer EL220Q monitor:
+<ul>
+<li>Edit /etc/default/grub and set GRUB_CMDLINE_LINUX to &quot;video=VGA-1:1920x1080@64.9&quot;. In case this doesn't work, try a lower refresh rate like @49.9.</li>
+<li>Run 'sudo update-grub'</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>OS: Windows when I am forced to
+<ul>
+<li><a href="https://scoop.sh/">Scoop</a> package manager for installing applications</li>
+</ul>
+</li>
+<li>Desktop: Gnome with the following extensions:
+<ul>
+<li><a href="https://github.com/ubuntu/gnome-shell-extension-appindicator">Top Indicator App</a></li>
+<li><a href="https://github.com/fflewddur/tophat">TopHat</a></li>
+</ul>
+</li>
+<li>Web Browser: Firefox with the following extensions:
+<ul>
+<li><a href="https://iorate.github.io/ublacklist/docs">uBlacklist</a></li>
+<li><a href="https://github.com/gorhill/uBlock">uBlock Origin</a></li>
+</ul>
+</li>
+<li>Tools:</li>
+<li><a href="https://gitlab.gnome.org/World/secrets">Password Safe / Secrets</a>. <a href="https://keepassxc.org/">KeePassXC</a> when I am using Windows.</li>
+<li>IDE: <a href="https://code.visualstudio.com/">Visual Studio Code</a> with following extensions:
+<ul>
+<li>vscodevim.vim</li>
+<li>vscode-org-mode.org-mode</li>
+</ul>
+</li>
+<li>Application Software:
+<ul>
+<li><a href="https://www.dropbox.com/">Dropbox</a></li>
+<li><a href="https://www.gnucash.org/">Gnucash</a></li>
+<li><a href="https://www.gimp.org/">Gimp</a></li>
+</ul>
+</li>
+</ul>
+<p>Following is my mobile setup with my preferred apps:</p>
+<ul>
+<li>OS: Android</li>
+<li>Apps
+<ul>
+<li><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.files">Files</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.dropbox.android">Dropbox</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.orgzly">Orgzly</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.android.keepass">KeePassDroid</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.wunderground.android.weather">Weather Underground</a></li>
+<li><a href="https://f-droid.org/">F-Droid</a></li>
+<li><a href="https://f-droid.org/en/packages/org.schabi.newpipe/">NewPipe</a></li>
+</ul>
+</li>
+</ul>
+
+    <script src="https://utteranc.es/client.js"
+        repo="arunkd13/arunkd13.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+</main>
+
+    <div class="dark-mode-buttons">
+        <button class="dark-mode-button" id="dark-mode-on"><img src="https://arunkd13.github.io/dark_mode.svg" width="24" height="24" alt="Dark mode" aria-label="dark mode toggle" title="Dark mode"></button>
+        <button class="dark-mode-button" id="dark-mode-off"><img src="https://arunkd13.github.io/light_mode.svg" width="24" height="24" alt="Light mode" aria-label="light mode toggle" title="Light mode"></button>
+    </div>
+    <script>
+        const cls = document.body.classList;
+        const getSessionTheme = sessionStorage.getItem("theme");
+        if (getSessionTheme === "dark") {
+            cls.toggle("dark-mode", true);
+        } else if (getSessionTheme === "light") {
+            cls.toggle("dark-mode", false);
+        } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+            cls.toggle("dark-mode", true);
+        }
+
+        document.getElementById("dark-mode-on").addEventListener("click", function(e) {
+            cls.toggle("dark-mode", true);
+            sessionStorage.setItem("theme", "dark");
+        });
+        document.getElementById("dark-mode-off").addEventListener("click", function(e) {
+            cls.toggle("dark-mode", false);
+            sessionStorage.setItem("theme", "light");
+        });
+    </script>
+    <noscript>
+        <style>
+            .dark-mode-buttons {
+                display: none;
+            }
+        </style>
+    </noscript>
+</body>
+</html>

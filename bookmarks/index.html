@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="My Blog and Projects">
+    <title>arunkd13 | Bookmarks</title>
+    
+    <link rel="stylesheet" href="https://arunkd13.github.io/style.css?h=8d04f631f031a556582c7c81c5d406cd8e51de010f383c1dca7e176822499920">
+    
+    
+    
+    <link rel="alternate" type="application/atom+xml" title="Feed" href="https://arunkd13.github.io/atom.xml">
+    
+    
+</head>
+<body>
+    
+<header class="space">
+    <a href="https:&#x2F;&#x2F;arunkd13.github.io">&LeftArrow; Home</a>
+</header>
+
+    
+<main>
+    <h1>Bookmarks</h1>
+    
+    <div class="space"></div>
+    <ul>
+<li>Open Source apps
+<ul>
+<li>Fantasy Consoles and emulators
+<ul>
+<li><a href="https://tic80.com/">TIC-80</a> - Runs on Windows, Linux, Mac OS X, Android, Raspberry PI</li>
+</ul>
+</li>
+<li>Maps
+<ul>
+<li><a href="https://organicmaps.app/">Organic Maps</a> - Runs on Android</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Electrical / Electronics
+<ul>
+<li><a href="https://www.repairfaq.org/">sci.electronics.repair FAQ</a> - I fondly remember my days, pouring through this, in an attempt to repair my CRT monitor.</li>
+</ul>
+</li>
+<li>Programming
+<ul>
+<li><a href="https://sonictk.github.io/asm_tutorial/">Understanding Windows x64 Assembly</a></li>
+<li><a href="https://people.freebsd.org/~lstewart/articles/cpumemory.pdf">What Every Programmer Should Know About Memory</a></li>
+<li><a href="https://asmtutor.com/">Learn Assembly Language</a></li>
+<li><a href="https://tumbleforth.hardcoded.net/">Tumble Forth</a></li>
+<li><a href="https://wiki.osdev.org/Main_Page">OSDev wiki</a></li>
+</ul>
+</li>
+<li>DIY
+<ul>
+<li><a href="https://simplifier.neocities.org/">Simplifier</a></li>
+</ul>
+</li>
+</ul>
+
+    <script src="https://utteranc.es/client.js"
+        repo="arunkd13/arunkd13.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+</main>
+
+    <div class="dark-mode-buttons">
+        <button class="dark-mode-button" id="dark-mode-on"><img src="https://arunkd13.github.io/dark_mode.svg" width="24" height="24" alt="Dark mode" aria-label="dark mode toggle" title="Dark mode"></button>
+        <button class="dark-mode-button" id="dark-mode-off"><img src="https://arunkd13.github.io/light_mode.svg" width="24" height="24" alt="Light mode" aria-label="light mode toggle" title="Light mode"></button>
+    </div>
+    <script>
+        const cls = document.body.classList;
+        const getSessionTheme = sessionStorage.getItem("theme");
+        if (getSessionTheme === "dark") {
+            cls.toggle("dark-mode", true);
+        } else if (getSessionTheme === "light") {
+            cls.toggle("dark-mode", false);
+        } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+            cls.toggle("dark-mode", true);
+        }
+
+        document.getElementById("dark-mode-on").addEventListener("click", function(e) {
+            cls.toggle("dark-mode", true);
+            sessionStorage.setItem("theme", "dark");
+        });
+        document.getElementById("dark-mode-off").addEventListener("click", function(e) {
+            cls.toggle("dark-mode", false);
+            sessionStorage.setItem("theme", "light");
+        });
+    </script>
+    <noscript>
+        <style>
+            .dark-mode-buttons {
+                display: none;
+            }
+        </style>
+    </noscript>
+</body>
+</html>

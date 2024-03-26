@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="My Blog and Projects">
+    <title>arunkd13 | Glass bottles</title>
+    
+    <link rel="stylesheet" href="https://arunkd13.github.io/style.css?h=8d04f631f031a556582c7c81c5d406cd8e51de010f383c1dca7e176822499920">
+    
+    
+    
+    <link rel="alternate" type="application/atom+xml" title="Feed" href="https://arunkd13.github.io/atom.xml">
+    
+    
+</head>
+<body>
+    
+<header class="space">
+    <a href="https:&#x2F;&#x2F;arunkd13.github.io">&LeftArrow; Home</a>
+</header>
+
+    
+<main>
+    <h1>Glass bottles</h1>
+    
+    <p class="secondary">26 March, 2024</p>
+    
+    <div class="space"></div>
+    <p>I wanted a set of glass water bottles which I could use to <a href="https://en.m.wikipedia.org/wiki/Solar_water_disinfection">disinfect water, through solar radiation</a>. I obviously did not want to use plastic bottles as they degrade on exposure to the sun and also leech harmful chemicals.</p>
+<p>I searched on Amazon and liked this simple one litre <a href="https://www.amazon.in/gp/product/B07X97R325">milk bottle model</a>, which cost Rs. 165 per bottle. This looked way expensive for my liking and I decided to checkout prices from wholesale stores around Parry's corner.</p>
+<p>Nainiappa Naicken street is the street for pharmaceuticals, perfumes and chemicals. It also had a few glass bottle stores and I was able to locate a similar 1 litre milk bottle. I ended up buying an entire box containing 20 nos. for Rs. 800. That comes to around Rs. 40 per bottle. This is way cheap, but transport cost is what would now tip the balance. Fortunately, I was able to use the metro and share-auto to transport the box which was slightly smaller than a checkin luggage.</p>
+<p>Now I probably have a life's supply of milk bottles :-)</p>
+
+    <script src="https://utteranc.es/client.js"
+        repo="arunkd13/arunkd13.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+</main>
+
+    <div class="dark-mode-buttons">
+        <button class="dark-mode-button" id="dark-mode-on"><img src="https://arunkd13.github.io/dark_mode.svg" width="24" height="24" alt="Dark mode" aria-label="dark mode toggle" title="Dark mode"></button>
+        <button class="dark-mode-button" id="dark-mode-off"><img src="https://arunkd13.github.io/light_mode.svg" width="24" height="24" alt="Light mode" aria-label="light mode toggle" title="Light mode"></button>
+    </div>
+    <script>
+        const cls = document.body.classList;
+        const getSessionTheme = sessionStorage.getItem("theme");
+        if (getSessionTheme === "dark") {
+            cls.toggle("dark-mode", true);
+        } else if (getSessionTheme === "light") {
+            cls.toggle("dark-mode", false);
+        } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+            cls.toggle("dark-mode", true);
+        }
+
+        document.getElementById("dark-mode-on").addEventListener("click", function(e) {
+            cls.toggle("dark-mode", true);
+            sessionStorage.setItem("theme", "dark");
+        });
+        document.getElementById("dark-mode-off").addEventListener("click", function(e) {
+            cls.toggle("dark-mode", false);
+            sessionStorage.setItem("theme", "light");
+        });
+    </script>
+    <noscript>
+        <style>
+            .dark-mode-buttons {
+                display: none;
+            }
+        </style>
+    </noscript>
+</body>
+</html>
