@@ -14,7 +14,7 @@ In my search for cover crops for my no-till farming experiments, I came across t
 excellent blog called [My Experiments with
 Farming](farming-experiments.blogspot.com/)
 where Nandakumar talks about using [Mucuna as a cover
-crop](http://farming-experiments.blogspot.com/2014/09/invasive-cover-crops-pueraria-javanica.html).
+crop](https://farming-experiments.blogspot.com/2014/09/invasive-cover-crops-pueraria-javanica.html).
 Interestingly Krishna McKenzie too has a video where he uses Mucuna as a cover
 crop which he cuts and [mulches over rice
 seeds](https://www.youtube.com/watch?v=y0xmEDq3NIs). Access Agriculture, is
