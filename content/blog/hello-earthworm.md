@@ -1,6 +1,7 @@
 
 +++
 title = "Hello earthworm"
+taxonomies.tags = ["farming"]
 date = 2024-01-02
 +++
 

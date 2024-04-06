@@ -1,5 +1,6 @@
 +++
 title = "Glass bottles"
+taxonomies.tags = ["diy"]
 date = 2024-03-26
 +++
 

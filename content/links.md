@@ -1,7 +1,5 @@
 +++
 title = "Links"
-
-extra.in_header = true
 +++
 
 Links to people, blogs and websites I follow:

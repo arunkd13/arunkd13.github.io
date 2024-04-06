@@ -1,18 +1,30 @@
+title = "arunkd13"
+
 # The URL the site will be built for
 base_url = "https://arunkd13.github.io"
 
+description = "My Blog and Projects"
+
 # Whether to automatically compile all Sass files in the sass directory
-compile_sass = true
+compile_sass = false
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
-theme = "hook"
+theme = "zola-bearblog"
 
-title = "arunkd13"
-description = "My Blog and Projects"
+taxonomies = [
+  {name = "categories", feed = true},
+  {name = "tags", feed = true},
+]
 
 generate_feed = true
+
+[translations]
+no_posts = "No posts yet"
+remove_filter = "Remove filter"
+filtering_for = "Filtering for"
+made_with = "Made with"
 
 [markdown]
 # Whether to do syntax highlighting
@@ -21,7 +33,11 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
-links = [
-    { title = "RSS", href = "atom.xml" },
-    { title = "GitHub", href = "https://github.com/arunkd13" }
+main_menu = [
+    { name = "Blog", url = "@/blog/_index.md" },
+    { name = "RSS", url = "atom.xml"},
+    { name = "GitHub", url = "https://github.com/arunkd13" },
+    { name = "Desktop and Mobile Setup", url = "@/desktop-setup.md" },
+    { name = "Projects", url = "@/projects.md" },
+    { name = "Links", url = "@/links.md" }
 ]

@@ -1,5 +1,6 @@
 +++
 title = "Visualizing historical rainfall data"
+taxonomies.tags = ["earth", "farming"]
 date = 2023-03-11
 updated = 2023-12-07
 +++

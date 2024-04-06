@@ -1,5 +1,6 @@
 +++
 title = "Search for Mucuna"
+taxonomies.tags = ["farming"]
 date = 2023-03-04
 updated = 2024-02-04
 +++

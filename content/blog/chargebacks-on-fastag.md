@@ -1,6 +1,7 @@
 
 +++
 title = "Fastag chargebacks"
+taxonomies.tags = ["life"]
 date = 2023-12-09
 +++
 

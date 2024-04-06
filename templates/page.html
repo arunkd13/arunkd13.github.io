@@ -1,18 +1,37 @@
-{% extends "hook/templates/page.html" %}
-{% block content %}
-<main>
+{% extends "zola-bearblog/templates/page.html" %}
+
+{% block main %}
+  {%- if not page.extra.menu %}
     <h1>{{ page.title }}</h1>
-    {% if page.date %}
-    <p class="secondary">{{ page.date | date(format="%-d %B, %Y") }}</p>
-    {% endif %}
-    <div class="space"></div>
+    {%- if page.date %}
+      <p>
+        <i>
+          <time datetime='{{ page.date | date(format='%+') }}' pubdate>
+            {{- page.date | date(format=config.extra.date_format) -}}
+          </time>
+        </i>
+      </p>
+    {%- endif %}
+  {%- endif %}
+  <main>
     {{ page.content | safe }}
-    <script src="https://utteranc.es/client.js"
+  </main>
+  <p>
+    {%- if page.taxonomies %}
+      {%- for name, taxon in page.taxonomies %}
+        {{ name | capitalize }}:
+        {%- for item in taxon %}
+          <a href="{{ get_taxonomy_url(kind=name, name=item, lang=lang) }}">#{{ item }}</a>
+        {%- endfor %}
+      {%- endfor %}
+    {%- endif %}
+  </p>
+<script src="https://utteranc.es/client.js"
         repo="arunkd13/arunkd13.github.io"
         issue-term="pathname"
         theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
-</main>
-{% endblock content %}
+{% endblock %}
+

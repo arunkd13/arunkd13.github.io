@@ -1,5 +1,6 @@
 +++
 title = "Datastructures on Hypercore - Stack"
+taxonomies.tags = ["tech"]
 date = 2023-12-01
 +++
 

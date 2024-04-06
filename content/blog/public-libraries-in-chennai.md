@@ -1,5 +1,6 @@
 +++
 title = "Public Libraries in Chennai"
+taxonomies.tags = ["life"]
 date = 2024-04-01
 updated = 2024-04-02
 +++

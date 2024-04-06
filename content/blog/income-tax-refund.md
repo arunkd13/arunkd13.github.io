@@ -1,5 +1,6 @@
 +++
 title = "Check status of income tax refund"
+taxonomies.tags = ["life"]
 date = 2023-04-11
 +++
 

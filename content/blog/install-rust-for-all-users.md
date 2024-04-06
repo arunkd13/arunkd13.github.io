@@ -1,5 +1,6 @@
 +++
 title = "Install Rust for all users"
+taxonomies.tags = ["tech"]
 date = 2022-11-22
 +++
 

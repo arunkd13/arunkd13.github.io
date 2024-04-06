@@ -1,5 +1,6 @@
 +++
 title = "Access raw.githubusercontent.com files in India"
+taxonomies.tags = ["tech"]
 date = 2023-01-18
 updated = 2023-10-05
 +++

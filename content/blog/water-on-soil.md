@@ -1,5 +1,6 @@
 +++
 title = "Water on soil"
+taxonomies.tags = ["farming"]
 draft = true
 +++
 

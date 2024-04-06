@@ -1,5 +1,6 @@
 +++
 title = "Climate Spiral"
+taxonomies.tags = ["earth"]
 date = 2023-03-05
 +++
 

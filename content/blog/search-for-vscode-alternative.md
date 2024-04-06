@@ -1,5 +1,6 @@
 +++
 title = "Search for Visual Studio Code alternative"
+taxonomies.tags = ["tech"]
 date = 2023-09-19
 updated = 2023-09-29
 +++

@@ -1,6 +1,7 @@
 
 +++
 title = "Running Hypercore on Android"
+taxonomies.tags = ["tech"]
 date = 2023-12-07
 draft = true
 +++

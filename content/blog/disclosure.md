@@ -1,6 +1,7 @@
 
 +++
 title = "Risk Disclosure on Derivatives"
+taxonomies.tags = ["life"]
 date = 2024-04-02
 +++
 

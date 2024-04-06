@@ -1,5 +1,6 @@
 +++
 title = "Trusted Amazon brands and sellers"
+taxonomies.tags = ["diy"]
 date = 2024-01-05
 updated = 2024-03-26
 +++
