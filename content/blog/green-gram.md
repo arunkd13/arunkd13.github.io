@@ -1,10 +1,10 @@
 +++
-title = "Greengram"
+title = "Green Gram"
 date = 2024-04-05
 updated = 2024-04-06
 +++
 
-[Greengram](https://www.echocommunity.org/en/search?q=green+gram), aka _Pacchai Payaru_ or _Paasi Payaru_ in Tamil, and _Mung_ in Hindi, was the first crop I had planted, around January 2023. Till date this has also been the easist and one of the bountiful crops for me.
+[Green gram](https://www.echocommunity.org/en/search?q=green+gram), aka _Pacchai Payaru_ or _Paasi Payaru_ in Tamil, and _Mung_ in Hindi, was the first crop I had planted, around January 2023. Till date this has also been the easist and one of the bountiful crops for me.
 
 ## Planting Season
 
