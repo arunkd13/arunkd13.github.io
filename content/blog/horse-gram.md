@@ -4,7 +4,7 @@ taxonomies.tags = ["farming"]
 date = 2024-04-06
 +++
 
-[Horse gram](https://www.echocommunity.org/en/search?q=horse+gram), aka _Kollu_ in Tamil, has been the most difficult crop for me. It does not tolerate water logging and the seeds are difficult to separate from the pods. The growing period is 4 months which also increases the risk of unfavourable weather. In spite of this, it is supposedly a super food given to race horses and is something we should add in our diet.
+[Horse gram](https://www.echocommunity.org/en/search?q=horse+gram), aka _Kollu_ in Tamil, has been the most difficult crop for me. It does not tolerate water logging and the seeds are difficult to separate from the pods. The growing period is 4 months which also increases the risk of unfavourable weather. In spite of this, it is worth growing, as it is a super food that we should add in our diet. Hopefully you get the strength of a horse after eating it.
 
 ## Planting Season
 
