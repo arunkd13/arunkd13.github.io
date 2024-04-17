@@ -1,8 +1,8 @@
 +++
-title = "Visualizing historical rainfall data"
+title = "Visualizing historical rainfall"
 taxonomies.tags = ["earth", "farming"]
 date = 2023-03-11
-updated = 2023-12-07
+updated = 2024-04-17
 +++
 
 With the limited water capacity in my well, I have to depend mostly on rainfall
@@ -28,8 +28,12 @@ Here is the result of the visualization showing rainfall over Tindivanam from
 January 2000 to February 2023. Rainfall data was taken from
 [Open-Meteo](https://open-meteo.com/en/docs/historical-weather-api#latitude=12.23&longitude=79.66&start_date=2000-01-01&end_date=2023-02-28&daily=precipitation_sum&timezone=auto)
 
-<iframe width="100%" height="1430" frameborder="0"
+<iframe width="100%" height="800" frameborder="0"
   src="https://observablehq.com/embed/f650972998319078?cells=chart"></iframe>
 
-## History
+In 2024, I have created [another take on this visualization](../visualizing-historical-rainfall-2) using the Observable Framework.
+
+
+## Edits
 * 2023-12-07: Updated rainfall data up to Dec 2023
+* 2023-04-17: Shortened the title of this post
