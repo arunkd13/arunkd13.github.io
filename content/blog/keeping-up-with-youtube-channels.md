@@ -4,7 +4,7 @@ taxonomies.tags = ["tech"]
 date = 2024-04-17
 +++
 
-All Youtube channels have a subscribe button, but there is no good way to consume the videos from the channels once you have clicked on it.
+All [Youtube](https://www.youtube.com/) channels have a subscribe button, but there is no good way to consume the videos from the channels once you have clicked on it.
 
 Youtube does show a list of all the subscribed channels on the left side bar. It also shows a big list of all the videos from all your subscribed channels sorted with the most recent at the top. But these become unweildy, once you have more than a couple of subscriptions. The main reason is, your subscription contains channels pertaining to more than one of your interests, but at a certain time, you are in the mood to watch videos only from a specific interest. Also, the big list of videos is not grouped by channel and so is cluttered by the ones that release videos more frequently.
 
