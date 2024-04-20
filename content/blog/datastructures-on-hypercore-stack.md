@@ -2,6 +2,7 @@
 title = "Datastructures on Hypercore - Stack"
 taxonomies.tags = ["tech"]
 date = 2023-12-01
+updated = 2024-04-20
 +++
 
 [Hypercore](https://docs.holepunch.to/building-blocks/hypercore) is a secure,
@@ -95,7 +96,7 @@ the stack has been emptied.
 ![Stack on Hypercore - Step 7 - Pop](hypercore-stack-7.excalidraw.png)
 
 I hope this figure is now self explanatory. You can find the code I
-have used at [experiment-hyperstack](https://github.com/arunkd13/experiment-hypercore/tree/main/stack.js)
+have used at [experiment-hypercore/stack.js](https://github.com/arunkd13/experiment-hypercore/tree/main/stack.js)
 
 In this [next post](../datastructures-on-hypercore-queue), I explore
 how we can implement a queue on a hypercore.
