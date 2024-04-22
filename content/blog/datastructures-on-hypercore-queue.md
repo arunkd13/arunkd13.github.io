@@ -2,7 +2,7 @@
 title = "Datastructures on Hypercore - Queue"
 taxonomies.tags = ["tech"]
 date = 2023-12-01
-updated = 2024-04-20
+updated = 2024-04-22
 +++
 
 In the [previous post](../datastructures-on-hypercore-stack) we saw how we can
@@ -54,4 +54,5 @@ We update the front of the hypercoreo only in case of a dequeue operation.
 Now that is simple!
 
 ## Code
-* [experiment-hypercore/queue-1](https://github.com/arunkd13/experiment-hypercore/tree/main/queue-1.js): Take #1
+* [Take #1](https://github.com/arunkd13/experiment-hypercore/tree/main/queue-1.js)
+* [Take #2](https://github.com/arunkd13/experiment-hypercore/blob/main/queue-2.js)
