@@ -1,5 +1,5 @@
 +++
-title = "Links"
+title = "Friends & Folks"
 +++
 
 Links to people, blogs and websites I follow:
@@ -24,4 +24,4 @@ Links to people, blogs and websites I follow:
 * Entertainment
   * [Crispy Fried Opinions](https://crispyfriedopinions.com/)
   
-Other useful [bookmarks](/bookmarks)
+Here are more links to valuable resources I have collected over the years: [bookmarks](/bookmarks)

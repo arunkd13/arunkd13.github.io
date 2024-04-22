@@ -1,10 +1,15 @@
 +++
 title = "Desktop and Mobile Setup"
-extra.in_header = true
-updated = 2024-02-23
+date = 2024-04-22
+updated = 2024-04-22
 +++
 
-Following is my preferred computer desktop setup which I replicate on any new machine I use:
+Setting up a new computer is always exciting, but when you have a number of
+ongoing projects and work that quickly needs to be resumed without downtime, it
+is worth standardizing and documenting the process.
+
+Following is my preferred computer desktop setup which I replicate on any new
+machine I use:
 
 * OS: Debian stable
   * To enable higher resolutions on my Acer EL220Q monitor:
