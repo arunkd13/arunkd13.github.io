@@ -17,7 +17,7 @@ succumbing to greed. The thread that most struck me was something that many
 people were surprised when I first mentioned it to them.
 
 The Osage people, as with all socities that did not use fossil fuels, had to
-depend on human and animal labour for the survival. Both agriculture and hunting
+depend on human and animal labour for their survival. Both agriculture and hunting
 provided an active lifestyle and kept them healthy. When oil was found on their
 land, they were given royalties which they spent on cars, servants and other
 riches which changed their lifestyle suddenly. Soon there was an epidemic of
