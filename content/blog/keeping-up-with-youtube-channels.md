@@ -28,23 +28,24 @@ never match how I want to group them.
 Does Youtube know about these problems? Most likely. But I guess none of the
 Product Managers and UX Designers at Youtube would dare to do anything about them.
 Fixing them would basically mean giving more control to the viewers and power to
-the channels through direct connection it provides. Youtube as an intermediary
-would lose its ability to monopolize the
-video streaming market. 
+the channels through the direct connection it provides. Youtube as an intermediary,
+would lose its ability to monopolize the video streaming market. 
 
 The power that Youtube gets is turned directly into quarterly revenue. The
-AI that decdes what videos I can watch next
-hyper-optimizes for the hours that I spend on watching videos rather than what is good
-for my life. Youtube as a company would rather kill its customers and themselves
-in the long run, rather than lose some revenue in the short term.
+AI that decdes what videos I can watch next hyper-optimizes for the hours that I
+spend on watching videos rather than what is good for my life. Google, Youtube's
+parent would care less. Google as a company would rather [kill its customers and
+themselves in the long run, rather
+than leave some revenue on the table in the short
+term](https://www.wheresyoured.at/the-men-who-killed-google/).
 
 The side effect of this power is the addiction that it afflicts on the viewers
 and the arbitrary censorship that it ends up doing as it editorializes the home
 screen. This has been the pattern not just for Youtube, but Facebook and Twitter
-too. Newer video platforms like TikTok have simply foregone even the
+too. I hear, newer video platforms like TikTok have simply foregone even the
 illusion of a subscription mechanism.
 
-Google, the owner of Youtube once had this motto called ["Don't be
+Google once had this motto called ["Don't be
 evil"](https://en.wikipedia.org/wiki/Don%27t_be_evil) which looks like has long
 been officially removed. The trust and good will that Google had in its initial
 days has been sold to the highest bidders. Products like the [Google
@@ -56,7 +57,7 @@ In such a hostile environment, there are still some places of refuge.
 
 One of them which I have personally used and like is the
 [NewPipe](https://newpipe.net/) Android app. This allows to search and browse
-videos from channels and also group your subscription based on topics, so that,
+videos from channels and also group your subscriptions based on topics, so that,
 you can have a more focussed video session catching up on a specific topic. I
 still would like a few improvements on the video feed screen, but since it is
 open source, I should be able to add them myself. Or I could even create my own
@@ -90,4 +91,6 @@ Here is my attempt at the UX for catching up with my subscriptions:
 ![UX for mobiles](mobile.excalidraw.png)
 
 ## Edits
-* 2024-04-23: Paraphrased text and added UX mockups
+* 2024-04-26: Added link to the article on the degradation of Google Search to
+  increase ad revenue.
+* 2024-04-23: Paraphrased text and added UX mockups.
