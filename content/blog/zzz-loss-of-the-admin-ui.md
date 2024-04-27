@@ -2,6 +2,7 @@
 title = "Loss of the admin UI"
 taxonomies.tags = ["tech"]
 date = 2024-04-11
+draft = true
 +++
 
 Surprised how much control is retained without being given to the user. Obvious who owns the device.
