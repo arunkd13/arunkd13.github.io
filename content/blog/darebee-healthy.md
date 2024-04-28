@@ -1,6 +1,7 @@
 +++
 title = "Darebee healthy"
 date = 2024-04-28
+taxonomies.tags = ["health"]
 +++
 
 After an acute spike in my blood sugar in November 2020, I embarked on a strict
