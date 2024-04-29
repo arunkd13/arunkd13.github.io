@@ -5,7 +5,15 @@ updated = 2024-04-22
 draft = true
 +++
 
-https://apcnf.in/ - The only government run natural farming program I could find in India.
+The [Andhra Pradesh Community managed Natural Farming](https://apcnf.in/) or
+APCNF project is the only government run natural farming program I could find in
+India. They have a [Youtube channel](https://www.youtube.com/@APZBNF) that has a
+large number of videos showing the principles and practices that are recommended
+to the farmers, but most of them are in Telugu. Even though I follow a bit of
+it, I was not able to get the full details of specific procedure they recommend
+to the farmers.
+
+Fortunately a few of them are in English and there are excellent videos where research doctors in soil science explain the mechanisms of soil, hydrology and also how resotring the soil can have a material impact in reducing global warming.
 
 * 365 days ground cover - totally agree. maximize productivity of solar energy to soil carbon conversion and soil life activity
 * pre-monsoon dry seeding - fukuoka's seed balls. haven't been able to make good seed balls or pellets was not able to get good clay for coating. Trying to make clay from the best clayey soil I could find in my farm.
