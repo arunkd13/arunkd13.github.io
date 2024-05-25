@@ -11,7 +11,7 @@ India. They have a [Youtube channel](https://www.youtube.com/@APZBNF) that has a
 large number of videos showing the principles and practices that are recommended
 to the farmers, but most of them are in Telugu. Even though I follow a bit of
 it, I was not able to get the full details of specific procedure they recommend
-to the farmers.
+to the farmers. Mr. https://nfcoalition.in/people/t-vijay-kumar/
 
 One of the most valuable find from APCNF channel was the lecture by Walter
 Jehne, an Australian microbiologist and cliamtologist on [Regenerative
