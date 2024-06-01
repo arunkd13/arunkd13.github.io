@@ -1,5 +1,6 @@
 +++
 title = "Andhra Pradesh Community managed Natural Farming"
+taxonomies.tags = ["farming"]
 date = 2024-06-01
 updated = 2024-06-01
 +++
