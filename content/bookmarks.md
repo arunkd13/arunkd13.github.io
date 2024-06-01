@@ -17,5 +17,13 @@ title = "Bookmarks"
   * [OSDev wiki](https://wiki.osdev.org/Main_Page)
 * DIY
   * [Simplifier](https://simplifier.neocities.org/)
+  * [Oriparts](https://oriparts.com/) - Car parts catalog with part numbers
+  * [i10 Forum](https://www.hyundai-forums.com/forums/i10-1st-generation-2007-2014.369/)
+  * [Concrete lathe](http://opensourcemachinetools.org/wordpress/)
+  * [Passive cooling](https://www.builditsolar.com/Projects/Cooling/passive_cooling.htm)
 * Mathematics
   * [Tom Körner's Home Page](https://www.dpmms.cam.ac.uk/~twk/)
+* K-12
+  * [Indian Computing Olympiad](https://www.iarcs.org.in/inoi/)
+* Online Shopping
+  * [Tools Direct](https://toolsdirect.in/)
