@@ -2,7 +2,7 @@
 title = "Andhra Pradesh Community managed Natural Farming"
 taxonomies.tags = ["farming"]
 date = 2024-06-01
-updated = 2024-06-01
+updated = 2024-06-05
 +++
 
 The [Andhra Pradesh Community managed Natural Farming](https://apcnf.in/) or
@@ -16,14 +16,14 @@ heads the APCNF organization, has promised in one of the webinars held recently,
 that the content will be translated to
 English for the benefit of people from the other states of India. 
 
-One of the most valuable find from APCNF channel was the lecture by Walter
-Jehne, an Australian microbiologist and cliamtologist on [Regenerative
+One of the most valuable finds from the APCNF channel was the lecture by Walter
+Jehne, an Australian microbiologist and cliamtologist, on [Regenerative
 Agriculture](https://www.youtube.com/watch?v=GaXR3zLIM1U). His theory is that the
 natural systems like soil and forests have kept the climate in a steady state
 through millions of years through the natural process of rainfall and
 transpiration. The destruction of forests and soil to acquire land for modern
 industrial scale agriculture has had more impact on global temperatures than
-increase on CO<sub>2</sub>. By restoring these systems, we can bring down global
+increase in CO<sub>2</sub>. By restoring these systems, we can bring down global
 temeperatures. Also restoring the soil goes a longer way in capturing rainfall
 than building dams and other irrigation projects. 
 
@@ -54,8 +54,8 @@ growing plants capture more of the rain water than barren soil.
     The main challenge in my land is supplying the required soil moisture for
 growing crops througout the year. The well on my farm has sufficient water for
 irrigation only during January to March, which is after the heavy North East
-monsoon during the months from October to December. There a few scattered
-showers during the months April and May, but they are not sufficient to
+monsoon during the months from October to December. There are a few scattered
+showers during the months of April and May, but they are not sufficient to
 establish any new crop. The South East monsoon which starts in June, brings
 intermittent rainfall, but I haven't been able to retain enough moisture for a
 successful crop in 2023 without additional irrigation. During the NE monsoon
@@ -68,7 +68,7 @@ periods. The sequence of crops is also important, for example, it is better to
 grow a grain of food crop after [Mucuna](../search-for-mucuna) as it leaves the
 field rich with nitrogen and reduced weed growth. Also, I am hoping that as the
 soil structure improves, it can percolate
-more of the rain water which can allow growth of crops without irrigation.
+more of the rain water allowing plant growth during the dry spells.
 
 2. **Diverse crops including trees**
 
@@ -77,7 +77,9 @@ of APCNF's recommendation. This is not just a legume and a grain intercopped,
 but 8 to 12 species grown together.
 
     It is surely a challenge to grow so many varied crops in the same field close
-together, even though I do everything with just manual labour. Some crops like
+together, even though I do everything with just manual labour. Harvesting
+becomes more complex and I have to go through multiple passes, picking each of
+the crop separately. Some crops like
 Mucuna cannot be grown together with other crops as they grow aggresively and
 bury other plants below their lush growth, if there is sufficient water for them
 to grow. Similarly, I have seen [Horsegram](../horse-gram) also smother other plants.
@@ -89,13 +91,13 @@ The trees supposedly provides shade and reduces evaporization of moisture
 content on the top layers of the soil. This would be useful especially during
 the months from March to May when it might not be possible to have field crops
 growing due to lack of water, whereas the trees with deeper roots would continue
-to be growing.
+to be growing. The trees can be pruned before establishing the next crop in June
+or July to provide adequete sunshine for the field crop. The leaves and small
+branches from the pruned trees can be used as mulch.
 
-    Alley cropping i.e. growing field crops between rows of trees is a well
-established practice and I intend to follow it in my farm. The idea is to have
-the trees shade the soil when we are not able establish a field crop, and prune
-them once field crops can be started. We also use the leaves and small branches
-from the pruned trees as mulch.
+    This technique is also called Alley cropping i.e. growing field crops
+    between rows of trees and is a well
+established practice and I intend to follow it in my farm.
 
     I think it might be difficult to grow fruit trees in this manner as the field
 crop is going to get the higher priority in terms of when the tree will be
@@ -106,14 +108,14 @@ I plan to expriment with trees that are naturally dispersed in my field like the
 [Neem tree](https://en.wikipedia.org/wiki/Azadirachta_indica), _Pencil Maram_
 ([Acacia auriculiformis](https://en.wikipedia.org/wiki/Acacia_auriculiformis))
 and the [Palm tree](https://en.wikipedia.org/wiki/Borassus_flabellifer). Timber
-trees like [Teak](https://en.wikipedia.org/wiki/Teak) would also be a good
+trees like [Teak](https://en.wikipedia.org/wiki/Teak) are also be a good
 option.
 
 3. **No/low till**
 
     This was one of the key principles of Fukuoka and the primary technique which
 pulled me into farming. I have clearly seen in my experience, how tilling breaks
-down the soil structure that nature had tirelessly built.
+down [the soil structure that nature had tirelessly built](../hello-earthworm).
 
     But starting from a compacted soil, it is very difficult to grow the first few
 years of crop. Usually it is recommended to start with a well tilled field
@@ -121,18 +123,21 @@ without grass or weeds and follow no till from the second year onwards. For some
 reason, I was not inclined to do it. I wanted to see nature restore even a
 compacted degraded soil without fossil fuel inputs.
 
-    The only disturbance I am doing is dig a 1 feet wide trench every 1.5 meters
+    The only disturbance I am doing is to dig a 1 feet wide trench every 1.5 meters
 which I use for irrigation and also would act as a drainage mechanism durign
-rains. This also can be used to hold excess biomass after laying out as mulch on
-the beds. It also provides a safe way to move within the field for inspection
+rains. I use the soil from the trenches to form the tall bunds which demarcate
+the fields and retain the water. The trenches can also be used to hold excess biomass
+after laying out as mulch on
+the beds. It also provides a path to walk within the field for inspection
 and harvesting.
 
     I also have been hoeing down grass when sowing my crop which disturbs an inch or
 two of top of the soil. Without this, the competion from them affects the crop
-greatly.
-
-    I plan to grow Mucuna once a year to smother the grass, which can greatly reduce
-the grass and weeds over the years.
+greatly. This is a back breaking work and is not scalable. The technique of
+growing Mucuna, greatly reduces the grass weeds for the next crop and is the
+technique I intend to perfect as a scalable mechanism. Also, over the years, the
+weed pressure should reduce allowng more than one crops after the Mucuna before
+the grasses start to become a problem. 
 
 4. **Integrate animals into farming**
 
@@ -150,7 +155,7 @@ collect some for myself and have experimented with making crude _Jeevamurtham_
 that I add to the irrigation water. I still need more time to observe the
 effects and determine if it is truly worth the effort.
 
-    _Manavari Velanmai_ is a traditional agriculture practice, where the farm tills
+    _Manavari Velanmai_ is a traditional agriculture practice, where the farmer tills
 the soil and sows the seeds before the rain and comes back to the field only to
 harvest. So, there are precedences for avoiding constant presence in the farm.
 
@@ -164,8 +169,9 @@ benefits.
     A big part of Fukuoka's practice is making [seed balls or pellets, which APCNF
 also recommends](https://www.youtube.com/watch?v=X0cxJ9shbcI). Getting good
 quantity of clay for making the pellets has been a challenge. I have made small
-quantities of clay by [extracting it from the dirt on my farm using this
-method](https://www.youtube.com/watch?v=ca20JkKFAcE). I need to find a good way
+quantities of clay by [dissolving the soil from my farm in water and letting the
+water drip out of the solution through something like a cheese
+cloth](https://www.youtube.com/watch?v=ca20JkKFAcE). I need to find a good way
 to grind the processed dry clay and expriment with pelletization, atleast on a
 small scale.
 
@@ -185,15 +191,20 @@ production, although I don't have any other uses for them.
 
     This is very import to make farming self reliant without any external input,
 but, having sufficient quantity of seed stock of the right variety needed for
-the season is difficult. There are a number laws that purport to maintain seed
-quality which prevent farmers from selling their own seeds locally. Seed
+the season is difficult. There are a number of laws that purport to maintain seed
+quality, but actually makes it difficult for farmers to sell their own seeds
+even, locally, because of legal concerns. Seed
 vialbility also reduces when stored for multiple years, along with insects
-attacking the seeds.
+attacking the seeds. So a robust seed infrastructure is needed at the individual
+farmer or the local village level.
 
     I have been using my own seeds for Mucuna and Sunn Hemp, but doing it for the
 food crops like, green gram, cow pea etc. has been difficult as I end up storing
 the seeds incorrectly leading to insect atack. I need a more disciplined storage
 method and a way to track their age.
+
+    I have been buying my seeds from the local agricultural supply stores around
+Tindivanam and haven't tried hierloom seeds yet.
 
 
 8. **Pest & disease management through botanical ingredients**
@@ -210,7 +221,11 @@ healthy crops which can naturally repel insects.
 
     Obviously this is the easist principles to follow if you aren't constrained by
 needing high yields. In addition to saving money, chemicals like Glyphosate
-which is used as a weedicide, is still not provien conclusively as harmless.
+which is used as a weedicide, pose a risk to human health. Here I prefer using
+the [precautionary
+principle](https://en.wikipedia.org/wiki/Precautionary_principle) of not using a
+technique that has a risk of damaging
+human health than waiting for it to be proven.
 
 I have learnt a lot from APCNF and it surely gives me more confidence that what
 I set out to do i.e. grow food without using fossil fuels, can be achieved.
