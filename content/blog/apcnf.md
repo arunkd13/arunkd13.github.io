@@ -63,12 +63,19 @@ season of 2023, I had the reverse
 problem of water stagnation on my bunded field. I had missed to promptly drain
 the fields after the bouts of heavy rains.
 
-    To address these, I need to identify crops that are suitable for each of these
-periods. The sequence of crops is also important, for example, it is better to
-grow a grain of food crop after [Mucuna](../search-for-mucuna) as it leaves the
+    To address these,
+    1. I need to identify crops that are suitable for each of these
+seasons. A crop that is already established during during January and February
+can withstand the hot and dry months of March to May. So intercropping a short
+duration crop and a longer duration crop could be a solution.
+    2. The sequence of crops is also important. For example, it is better to
+grow a grain or food crop after [Mucuna](../search-for-mucuna) as it leaves the
 field rich with nitrogen and reduced weed growth. Also, I am hoping that as the
-soil structure improves, it can percolate
-more of the rain water allowing plant growth during the dry spells.
+soil structure improves, it can percolate more of the rain water allowing plant
+growth during the dry spells.
+    3. I also need to find an alternative to Mucuna which
+requires lesser water, as I will not have sufficient water for irrigation if I
+increase the land under cultivation.
 
 2. **Diverse crops including trees**
 
@@ -82,34 +89,46 @@ becomes more complex and I have to go through multiple passes, picking each of
 the crop separately. Some crops like
 Mucuna cannot be grown together with other crops as they grow aggresively and
 bury other plants below their lush growth, if there is sufficient water for them
-to grow. Similarly, I have seen [Horsegram](../horse-gram) also smother other plants.
-
-    Finding the compatible crop mix and the mix for each season is going to be interesting.
+to grow. Similarly, I have seen [Horsegram](../horse-gram) also smother other
+plants.
 
     Another big part of this recommendation is growing trees along with field crops.
-The trees supposedly provides shade and reduces evaporization of moisture
-content on the top layers of the soil. This would be useful especially during
+The trees supposedly provides shade and reduces evaporation of moisture
+from the top layers of the soil. This would be useful especially during
 the months from March to May when it might not be possible to have field crops
 growing due to lack of water, whereas the trees with deeper roots would continue
 to be growing. The trees can be pruned before establishing the next crop in June
 or July to provide adequete sunshine for the field crop. The leaves and small
-branches from the pruned trees can be used as mulch.
+branches from the pruned trees can be used as mulch. This technique is also
+called Alley cropping i.e. growing field crops between hedged rows of trees and is a
+well established practice.
 
-    This technique is also called Alley cropping i.e. growing field crops
-    between rows of trees and is a well
-established practice and I intend to follow it in my farm.
-
-    I think it might be difficult to grow fruit trees in this manner as the field
-crop is going to get the higher priority in terms of when the tree will be
-pruned. Leguminous trees like _Agathi_([Sesbania
-grandiflora](https://en.wikipedia.org/wiki/Sesbania_grandiflora)) and
-[Gliricidia](https://en.wikipedia.org/wiki/Gliricidia) are a good option. Also,
-I plan to expriment with trees that are naturally dispersed in my field like the
-[Neem tree](https://en.wikipedia.org/wiki/Azadirachta_indica), _Pencil Maram_
-([Acacia auriculiformis](https://en.wikipedia.org/wiki/Acacia_auriculiformis))
-and the [Palm tree](https://en.wikipedia.org/wiki/Borassus_flabellifer). Timber
-trees like [Teak](https://en.wikipedia.org/wiki/Teak) are also be a good
-option.
+    Based on this,
+    1. I need to determine compatibility matrix of each crop with the others.
+    From this, I need to create guilds of crops that can be grown together.
+    Combining this with the seasonal elements is going to be interesting.
+    2. I need to find the perennial trees and long duration plants that can be
+    grown on the hedge rows. I think it might be difficult to grow fruit trees in this manner as the field
+    crop is going to get the higher priority in terms of when the tree will be
+    pruned. Leguminous trees like _Agathi_([Sesbania
+    grandiflora](https://en.wikipedia.org/wiki/Sesbania_grandiflora)) and
+    [Gliricidia](https://en.wikipedia.org/wiki/Gliricidia) are a good option.
+    I also plan to expriment with trees that are naturally dispersed in my field like the
+    [Neem tree](https://en.wikipedia.org/wiki/Azadirachta_indica), _Pencil Maram_
+    ([Acacia auriculiformis](https://en.wikipedia.org/wiki/Acacia_auriculiformis))
+    and the [Palm tree](https://en.wikipedia.org/wiki/Borassus_flabellifer). Timber
+    trees like [Teak](https://en.wikipedia.org/wiki/Teak) are also be a good
+    option.
+    3. Another intersting technique I intend to follow is called [Farmer Managed
+    Natural
+    Regeneration](https://www.echocommunity.org/en/resources/bb74e905-3feb-4c87-9638-1b4f028cd778).
+    This is the technique where the farmer nurtures and grows the tree saplings
+    that naturally popup every year all over the field. These seeds were disperesed by
+    birds, squirrels and other animals. We basically let nature do the planting
+    for us. If let to nature, it is very much capable of turning the land into
+    robust forest in a couple of decades, but we then lose our ability to grow
+    field crops. So there is till work that we need to do, in terms of deciding
+    which saplings and how many, we nurture and which we destroy. This technique doesn't create a neat rows of trees like in alley cropping, but the trees end up disperesed all over the field, but the utility should still be the same with no major disadvantages.
 
 3. **No/low till**
 
@@ -120,11 +139,11 @@ down [the soil structure that nature had tirelessly built](../hello-earthworm).
     But starting from a compacted soil, it is very difficult to grow the first few
 years of crop. Usually it is recommended to start with a well tilled field
 without grass or weeds and follow no till from the second year onwards. For some
-reason, I was not inclined to do it. I wanted to see nature restore even a
+reason, I was not inclined to do it. I wanted to prove the power of nature in restoring even a
 compacted degraded soil without fossil fuel inputs.
 
     The only disturbance I am doing is to dig a 1 feet wide trench every 1.5 meters
-which I use for irrigation and also would act as a drainage mechanism durign
+which I use for irrigation and also would act as a drainage mechanism during
 rains. I use the soil from the trenches to form the tall bunds which demarcate
 the fields and retain the water. The trenches can also be used to hold excess biomass
 after laying out as mulch on
@@ -132,8 +151,10 @@ the beds. It also provides a path to walk within the field for inspection
 and harvesting.
 
     I also have been hoeing down grass when sowing my crop which disturbs an inch or
-two of top of the soil. Without this, the competion from them affects the crop
-greatly. This is a back breaking work and is not scalable. The technique of
+two of the soil. Without this, the competition from them affects the crop
+greatly. This is a back breaking work and is not scalable.
+
+The technique of
 growing Mucuna, greatly reduces the grass weeds for the next crop and is the
 technique I intend to perfect as a scalable mechanism. Also, over the years, the
 weed pressure should reduce allowng more than one crops after the Mucuna before
