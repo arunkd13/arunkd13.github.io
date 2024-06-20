@@ -2,7 +2,7 @@
 title = "Andhra Pradesh Community managed Natural Farming"
 taxonomies.tags = ["farming"]
 date = 2024-06-01
-updated = 2024-06-05
+updated = 2024-06-20
 +++
 
 The [Andhra Pradesh Community managed Natural Farming](https://apcnf.in/) or
@@ -10,7 +10,7 @@ APCNF project is the only active government run natural farming program I could 
 India. They have a [Youtube channel](https://www.youtube.com/@APZBNF) that has a
 large number of videos showing the principles and practices that are recommended
 to farmers, but most of them are in Telugu. Even though I follow a bit of
-it, I was not able to get the full details of specific procedure they recommend
+it, I was not able to get the full details of specific procedures they recommend
 to the farmers. [Vijay Kumar](https://nfcoalition.in/people/t-vijay-kumar/) who
 heads the APCNF organization, has promised in one of the webinars held recently,
 that the content will be translated to
@@ -38,7 +38,7 @@ My own journey in farming has been influenced till now by [Masanobu
 Fukuoka](https://en.wikipedia.org/wiki/Masanobu_Fukuoka),
 [Nammazhvar](https://en.wikipedia.org/wiki/G._Nammalvar), [Roland
 Bunch](https://www.echocommunity.org/en/resources/a045e67c-53fa-4ff9-be2a-f24707d41b58)
-and my own experience battling the _Arugampul_ (Cynodon dactylon) ridden
+and my own experience battling the _arugampul_ (Cynodon dactylon) ridden
 compacted soil for the past 1.5 years (since January 2023).
 
 Below, I have collected my thoughts on the APCNF principles and how I can
@@ -69,11 +69,11 @@ seasons. A crop that is already established during during January and February
 can withstand the hot and dry months of March to May. So intercropping a short
 duration crop and a longer duration crop could be a solution.
     2. The sequence of crops is also important. For example, it is better to
-grow a grain or food crop after [Mucuna](../search-for-mucuna) as it leaves the
+grow a grain or food crop after [mucuna](../search-for-mucuna) as it leaves the
 field rich with nitrogen and reduced weed growth. Also, I am hoping that as the
 soil structure improves, it can percolate more of the rain water allowing plant
 growth during the dry spells.
-    3. I also need to find an alternative to Mucuna which
+    3. I also need to find an alternative to mucuna which
 requires lesser water, as I will not have sufficient water for irrigation if I
 increase the land under cultivation.
 
@@ -87,7 +87,7 @@ but 8 to 12 species grown together.
 together, even though I do everything with just manual labour. Harvesting
 becomes more complex and I have to go through multiple passes, picking each of
 the crop separately. Some crops like
-Mucuna cannot be grown together with other crops as they grow aggresively and
+mucuna cannot be grown together with other crops as they grow aggresively and
 bury other plants below their lush growth, if there is sufficient water for them
 to grow. Similarly, I have seen [Horsegram](../horse-gram) also smother other
 plants.
@@ -119,46 +119,78 @@ well established practice.
     and the [Palm tree](https://en.wikipedia.org/wiki/Borassus_flabellifer). Timber
     trees like [Teak](https://en.wikipedia.org/wiki/Teak) are also be a good
     option.
-    3. Another intersting technique I intend to follow is called [Farmer Managed
+    3. Another interesting technique I intend to follow is called [Farmer Managed
     Natural
     Regeneration](https://www.echocommunity.org/en/resources/bb74e905-3feb-4c87-9638-1b4f028cd778).
     This is the technique where the farmer nurtures and grows the tree saplings
-    that naturally popup every year all over the field. These seeds were disperesed by
-    birds, squirrels and other animals. We basically let nature do the planting
-    for us. If let to nature, it is very much capable of turning the land into
+    that naturally popup every year all over the field and were sown by birds,
+    squirrels and other animals. What a joy it is, to work with nature! 
+    If let to nature, it is very much capable of turning the land into
     robust forest in a couple of decades, but we then lose our ability to grow
-    field crops. So there is till work that we need to do, in terms of deciding
-    which saplings and how many, we nurture and which we destroy. This technique doesn't create a neat rows of trees like in alley cropping, but the trees end up disperesed all over the field, but the utility should still be the same with no major disadvantages.
+    field crops. So we still need to decide
+    which saplings and how many, we nurture and which ones we destroy. This
+    technique doesn't create neat rows of trees like in alley cropping, but
+    the trees end up disperesed all over the field. Nevertheless, the utility
+    should still be the same with no major disadvantages.
 
 3. **No/low till**
 
     This was one of the key principles of Fukuoka and the primary technique which
-pulled me into farming. I have clearly seen in my experience, how tilling breaks
-down [the soil structure that nature had tirelessly built](../hello-earthworm).
+pulled me into farming. I have clearly seen, from my experience, how tilling destroys
+[the soil structure that nature had tirelessly built](../hello-earthworm).
 
     But starting from a compacted soil, it is very difficult to grow the first few
 years of crop. Usually it is recommended to start with a well tilled field
 without grass or weeds and follow no till from the second year onwards. For some
-reason, I was not inclined to do it. I wanted to prove the power of nature in restoring even a
+reason, I am not inclined to do it. I want to prove the power of nature in restoring even a
 compacted degraded soil without fossil fuel inputs.
 
     The only disturbance I am doing is to dig a 1 feet wide trench every 1.5 meters
-which I use for irrigation and also would act as a drainage mechanism during
+which I use for irrigation and also as a drainage mechanism during
 rains. I use the soil from the trenches to form the tall bunds which demarcate
 the fields and retain the water. The trenches can also be used to hold excess biomass
-after laying out as mulch on
-the beds. It also provides a path to walk within the field for inspection
-and harvesting.
+after laying out as mulch on the beds. The trenches are dug perpendicular to the
+slope of the land and slows down the flow of water and helps in percolation.
+It also provides a path to walk within the field for inspection
+and harvesting. In effect the field looks like parallel rows of raised beds, which
+makes the job of sowing a lot more cumbersome than broadcasting on flat
+rectangular field.
 
-    I also have been hoeing down grass when sowing my crop which disturbs an inch or
-two of the soil. Without this, the competition from them affects the crop
-greatly. This is a back breaking work and is not scalable.
+    I have not been able to perform a true Fukuoka style broadcast sowing using
+    seed balls. I am forced to hoe down the grass atleast an inch or two after I
+    broadcast, without which the seeds do not have sufficient contact with the
+    soil and are likely to be eaten away. Also hoeing kills the weeds and
+    without which there is too much competition for the crop to get established.
+    This is a back breaking work and is not scalable.
 
-The technique of
-growing Mucuna, greatly reduces the grass weeds for the next crop and is the
-technique I intend to perfect as a scalable mechanism. Also, over the years, the
-weed pressure should reduce allowng more than one crops after the Mucuna before
-the grasses start to become a problem. 
+    I have been fascinated by Krishna McKenzie's technique of [sowing rice
+    over a cover crop of mucuna](https://www.youtube.com/watch?v=y0xmEDq3NIs).
+    Mucuna forms a dense layer of vegetation which suppresses grass and other
+    weeds and the crop grown after is able to establish quickly without much
+    competition. The effort in preparing the soil by hoeing and drilling the seeds is greatly reduced.
+    We simply broadcast the seeds over the growing mucuna plants and then we enter the field to
+    cut the vines and shake it to ensure the seeds reach the soil and lay the cut vines over it. There is
+    sufficient disturbance when pulling at the vines and stepping on the soil, to lightly bury
+the seeds. The leaf litter and vines also cover the seeds to hide them
+from birds and also decay quickly to form an additional layer of rich soil over the seeds.
+    Also the crop gets to use the nitrogen fixed by mucuna,
+    in addition to the nitrogen from the decaying green leaves.
+    
+    I have already tried this over one season, but had to still hoe down to
+    remove the weeds that refused to be suppressed. I was also not confident that the
+    seeds would get buried enough to have proper germination. I think over the
+    years, the weed pressure should reduce so that I can skip the hoeing.
+
+    Going forward
+    1. I need to monitor the effort needed to sow on these raised beds vs a flat
+    field. There are tradeoffs between sowing effort and the better irrigation
+    between the two.
+    2. I need to perfect the technique of sowing over a cover crop of mucuna as a scalable
+    mechanism for planting and weed control. I should try this out with other
+    grains like bajra and ragi too.
+    2. I need to really evaluate if making seed pellets is worth the effort
+    compared to sowing over mucuna. This will allow me to have two continous crops
+    instead of having to reserve one crop for mucuna.
 
 4. **Integrate animals into farming**
 
@@ -169,33 +201,41 @@ needs to stay with the animals 24/7. This complicates the whole model. This
 might be something I might consider later, but I decided to avoid using animals
 for now.
 
-    But I still get cow dung from cows that the villagers graze on the uncultivated
+    I still get dung from cows that the villagers graze on the uncultivated
 parts of my land and also the adjacent land. The villagers do collect the manure
 dropped and take it with them to their own fields, but, I have been able to
 collect some for myself and have experimented with making crude _Jeevamurtham_
-that I add to the irrigation water. I still need more time to observe the
-effects and determine if it is truly worth the effort.
+that I add to the irrigation water.
 
     _Manavari Velanmai_ is a traditional agriculture practice, where the farmer tills
 the soil and sows the seeds before the rain and comes back to the field only to
 harvest. So, there are precedences for avoiding constant presence in the farm.
 
+    I do fancy growing hens, but it needs to wait until I have the food grain
+    business going sustainably.
+
 5. **Use of bio stimulants**
 
     APCNF recommends adding solid and liquid bio-stimulants made from manure and
-plant carbohydrates and also treating the seeds with the same before planting. I
-have not yet become sophistacated enough to perform these or even see their
-benefits.
+plant carbohydrates and also making Fukuoka style [seed
+pellets](https://www.youtube.com/watch?v=X0cxJ9shbcI) treated with the same.
 
-    A big part of Fukuoka's practice is making [seed balls or pellets, which APCNF
-also recommends](https://www.youtube.com/watch?v=X0cxJ9shbcI). Getting good
-quantity of clay for making the pellets has been a challenge. I have made small
+    As mentioned above, I have made a bit of crude Jeevamrutham, but could not see visible impact.
+
+    Getting good quantity of clay for making the pellets has been a challenge. I have made small
 quantities of clay by [dissolving the soil from my farm in water and letting the
 water drip out of the solution through something like a cheese
-cloth](https://www.youtube.com/watch?v=ca20JkKFAcE). I need to find a good way
-to grind the processed dry clay and expriment with pelletization, atleast on a
-small scale.
+cloth](https://www.youtube.com/watch?v=ca20JkKFAcE). But could not find an easy
+way to grind the dried clay blocks to a powder to use in the pelletization
+process.
 
+    Taking this forward,
+    1. I need to find a good way
+        to grind the processed dry clay and expriment with pelletization, atleast on a
+        small scale.
+    2. I need to evaluate the effectiveness of these bio stimulants in a more
+    appropriate scenario. I also need to experiment using the palm fruit as a free 
+    sugar source for making these bio stimulants.
 
 6. **Crop residue and mulch**
 
@@ -205,42 +245,51 @@ moisture better than the bare soil. This is also a key part of the Green Manure
 Cover Crop practice advocated by Roland Bunch.
 
     Maximizing the organic matter production is a key requirement for this. I am
-using cover crops like Mucuna and Sunn Hemp purely for organic matter
+using cover crops like mucuna and sunn hemp purely for organic matter
 production, although I don't have any other uses for them.
+
+    1. I need to evaluate more dual purpose crops, which produce food in
+    addition to large amount of bio mass. Some crops to try, include, Canavalia
+    (_thamattai avarai_ in Tamil) which looks to be bit more palatable than
+    mucuna and pigeon pea (_tuvarai_ in Tamil) which is similar to sunn hemp in
+    growing in poor soil and withstanding drought.
 
 7. **Farmer's own seed or local seeds**
 
     This is very import to make farming self reliant without any external input,
 but, having sufficient quantity of seed stock of the right variety needed for
-the season is difficult. There are a number of laws that purport to maintain seed
-quality, but actually makes it difficult for farmers to sell their own seeds
-even, locally, because of legal concerns. Seed
-vialbility also reduces when stored for multiple years, along with insects
-attacking the seeds. So a robust seed infrastructure is needed at the individual
-farmer or the local village level.
+the season is difficult. Selling seeds on a small scale is made more difficult
+by a number of laws that purport to maintain seed
+quality. So the farmer needs to maintain their own robust seed bank. Vialbility
+also reduces when stored for multiple years, along with insects
+attacking the seeds. So the seeds need to be regularly replaced with freshly
+seeds from growing crops.
 
-    I have been using my own seeds for Mucuna and Sunn Hemp, but doing it for the
+    I have started out with buying most of my seeds from the local agricultural supply stores around Tindivanam. These are likely commercial varieties that might be bread to take advantage of chemical inputs. I haven't tried heirloom seeds yet.
+
+    I have been able to replenish my seed bank with my own seeds for mucuna and sunn hemp, but doing it for the
 food crops like, green gram, cow pea etc. has been difficult as I end up storing
-the seeds incorrectly leading to insect atack. I need a more disciplined storage
-method and a way to track their age.
+the seeds incorrectly leading to insect atack.
 
-    I have been buying my seeds from the local agricultural supply stores around
-Tindivanam and haven't tried hierloom seeds yet.
-
+    Going forward,
+    1. I need a more disciplined storage method and a way to track their age.
+    2. I need to study the characterstics of different varities of the same crop
+    to select seeds suited for my climate, soil and the style of natural farming
+    that I perform.
 
 8. **Pest & disease management through botanical ingredients**
 
     I have not faced any significant crop loss due to pest attack, likely because,
 the yield is already low due to other reasons. Also, it is said that, the pests
-attack only weak crops and usually pest attack is higher, when external
-fertilizers either manure or artificial is added, which I do not do.
+attack only weak crops and when external
+fertilizers, either manure or artificial, is added, weak crops crowd out the field and end up getting attacked by pests.
 
-    Hopefully I would be able to maintain the balance between fertility and growing
-healthy crops which can naturally repel insects.
+    Hopefully I would be able to maintain the balance between yield and growing
+hardy crops which can naturally repel insects and other diseases.
 
 9. **Strict NO to chemical inputs**
 
-    Obviously this is the easist principles to follow if you aren't constrained by
+    Obviously this is the easist principle to follow if you aren't constrained by
 needing high yields. In addition to saving money, chemicals like Glyphosate
 which is used as a weedicide, pose a risk to human health. Here I prefer using
 the [precautionary
@@ -248,5 +297,8 @@ principle](https://en.wikipedia.org/wiki/Precautionary_principle) of not using a
 technique that has a risk of damaging
 human health than waiting for it to be proven.
 
-I have learnt a lot from APCNF and it surely gives me more confidence that what
-I set out to do i.e. grow food without using fossil fuels, can be achieved.
+I have learnt a lot from APCNF and using it as a framework for evaluating my
+current practice has given me a confidence that I am going in the right path and
+number of new things that I can try out and improve on. I now have a better
+picture of what my end goal looks like in my journey to grow food without using
+fossil fuels.

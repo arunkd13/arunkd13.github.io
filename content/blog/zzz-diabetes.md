@@ -1,5 +1,5 @@
 +++
-title = "Diabetes"
+title = "Friends don't let friends start on diabetes medicine"
 draft = true
 date = 2024-05-15
 +++
