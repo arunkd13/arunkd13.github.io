@@ -2,7 +2,7 @@
 title = "Andhra Pradesh Community managed Natural Farming"
 taxonomies.tags = ["farming"]
 date = 2024-06-01
-updated = 2024-06-20
+updated = 2024-06-21
 +++
 
 The [Andhra Pradesh Community managed Natural Farming](https://apcnf.in/) or
@@ -11,9 +11,9 @@ India. They have a [Youtube channel](https://www.youtube.com/@APZBNF) that has a
 large number of videos showing the principles and practices that are recommended
 to farmers, but most of them are in Telugu. Even though I follow a bit of
 it, I was not able to get the full details of specific procedures they recommend
-to the farmers. [Vijay Kumar](https://nfcoalition.in/people/t-vijay-kumar/) who
-heads the APCNF organization, has promised in one of the webinars held recently,
-that the content will be translated to
+to the farmers. [Vijay Kumar](https://nfcoalition.in/people/t-vijay-kumar/), who
+heads the APCNF organization, has promised in one of the webinars held recently, that,
+the content will soon be translated to
 English for the benefit of people from the other states of India. 
 
 One of the most valuable finds from the APCNF channel was the lecture by Walter
@@ -51,12 +51,13 @@ capture of solar energy and adds more biomass to the soil. But this is also
 important for keeping the soil life alive and ready for the next crop. Also, soil with
 growing plants capture more of the rain water than barren soil.
 
-    The main challenge in my land is supplying the required soil moisture for
+    The main challenge in my land is [supplying the required soil
+    moisture](https://arunkd13-public.observablehq.cloud/climate/) for
 growing crops througout the year. The well on my farm has sufficient water for
 irrigation only during January to March, which is after the heavy North East
 monsoon during the months from October to December. There are a few scattered
 showers during the months of April and May, but they are not sufficient to
-establish any new crop. The South East monsoon which starts in June, brings
+establish any new crop. The South West monsoon which starts in June, brings
 intermittent rainfall, but I haven't been able to retain enough moisture for a
 successful crop in 2023 without additional irrigation. During the NE monsoon
 season of 2023, I had the reverse
@@ -75,7 +76,8 @@ soil structure improves, it can percolate more of the rain water allowing plant
 growth during the dry spells.
     3. I also need to find an alternative to mucuna which
 requires lesser water, as I will not have sufficient water for irrigation if I
-increase the land under cultivation.
+increase the land under cultivation. Canavalia (_thamattai avarai_ in Tamil), is
+supposed to be more drought tolerant than mucuna.
 
 2. **Diverse crops including trees**
 
@@ -93,7 +95,7 @@ to grow. Similarly, I have seen [Horsegram](../horse-gram) also smother other
 plants.
 
     Another big part of this recommendation is growing trees along with field crops.
-The trees supposedly provides shade and reduces evaporation of moisture
+The trees supposedly provide shade and reduce evaporation of moisture
 from the top layers of the soil. This would be useful especially during
 the months from March to May when it might not be possible to have field crops
 growing due to lack of water, whereas the trees with deeper roots would continue
@@ -125,8 +127,8 @@ well established practice.
     This is the technique where the farmer nurtures and grows the tree saplings
     that naturally popup every year all over the field and were sown by birds,
     squirrels and other animals. What a joy it is, to work with nature! 
-    If let to nature, it is very much capable of turning the land into
-    robust forest in a couple of decades, but we then lose our ability to grow
+    If left to nature, it is very much capable of turning the land into
+    robust forest in a decade, but we then lose our ability to grow
     field crops. So we still need to decide
     which saplings and how many, we nurture and which ones we destroy. This
     technique doesn't create neat rows of trees like in alley cropping, but
@@ -142,7 +144,7 @@ pulled me into farming. I have clearly seen, from my experience, how tilling des
     But starting from a compacted soil, it is very difficult to grow the first few
 years of crop. Usually it is recommended to start with a well tilled field
 without grass or weeds and follow no till from the second year onwards. For some
-reason, I am not inclined to do it. I want to prove the power of nature in restoring even a
+reason, I am not inclined to do it. Maybe, I want to prove the power of nature in restoring even a
 compacted degraded soil without fossil fuel inputs.
 
     The only disturbance I am doing is to dig a 1 feet wide trench every 1.5 meters
@@ -166,7 +168,7 @@ rectangular field.
     I have been fascinated by Krishna McKenzie's technique of [sowing rice
     over a cover crop of mucuna](https://www.youtube.com/watch?v=y0xmEDq3NIs).
     Mucuna forms a dense layer of vegetation which suppresses grass and other
-    weeds and the crop grown after is able to establish quickly without much
+    weeds and the crop grown after, is able to establish quickly without much
     competition. The effort in preparing the soil by hoeing and drilling the seeds is greatly reduced.
     We simply broadcast the seeds over the growing mucuna plants and then we enter the field to
     cut the vines and shake it to ensure the seeds reach the soil and lay the cut vines over it. There is
@@ -176,7 +178,7 @@ from birds and also decay quickly to form an additional layer of rich soil over 
     Also the crop gets to use the nitrogen fixed by mucuna,
     in addition to the nitrogen from the decaying green leaves.
     
-    I have already tried this over one season, but had to still hoe down to
+    I have already tried this over one season, but had to still hoe to
     remove the weeds that refused to be suppressed. I was also not confident that the
     seeds would get buried enough to have proper germination. I think over the
     years, the weed pressure should reduce so that I can skip the hoeing.
@@ -187,7 +189,8 @@ from birds and also decay quickly to form an additional layer of rich soil over 
     between the two.
     2. I need to perfect the technique of sowing over a cover crop of mucuna as a scalable
     mechanism for planting and weed control. I should try this out with other
-    grains like bajra and ragi too.
+    grains like bajra and ragi and also experiment with other cover crops like
+    canavalia, instead of mucuna.
     2. I need to really evaluate if making seed pellets is worth the effort
     compared to sowing over mucuna. This will allow me to have two continous crops
     instead of having to reserve one crop for mucuna.
@@ -262,10 +265,13 @@ the season is difficult. Selling seeds on a small scale is made more difficult
 by a number of laws that purport to maintain seed
 quality. So the farmer needs to maintain their own robust seed bank. Vialbility
 also reduces when stored for multiple years, along with insects
-attacking the seeds. So the seeds need to be regularly replaced with freshly
+attacking the seeds. So the seeds need to be regularly replaced with fresh
 seeds from growing crops.
 
-    I have started out with buying most of my seeds from the local agricultural supply stores around Tindivanam. These are likely commercial varieties that might be bread to take advantage of chemical inputs. I haven't tried heirloom seeds yet.
+    I have started out with buying most of my seeds from the local agricultural
+    supply stores around Tindivanam. These are likely commercial varieties that
+    might be bred to take advantage of chemical inputs. I haven't tried
+    heirloom seeds yet.
 
     I have been able to replenish my seed bank with my own seeds for mucuna and sunn hemp, but doing it for the
 food crops like, green gram, cow pea etc. has been difficult as I end up storing
@@ -282,10 +288,12 @@ the seeds incorrectly leading to insect atack.
     I have not faced any significant crop loss due to pest attack, likely because,
 the yield is already low due to other reasons. Also, it is said that, the pests
 attack only weak crops and when external
-fertilizers, either manure or artificial, is added, weak crops crowd out the field and end up getting attacked by pests.
+fertilizers, either manure or artificial, is added, weak crops crowd out the
+field over the hardy ones and later end up getting attacked by pests. This leads
+to significant crop loss compared to just letting these weak crops die early and
+letting the hardy crops provide a lower yield.
 
-    Hopefully I would be able to maintain the balance between yield and growing
-hardy crops which can naturally repel insects and other diseases.
+    Hopefully I would be able to find right balance between the two.
 
 9. **Strict NO to chemical inputs**
 
@@ -297,8 +305,8 @@ principle](https://en.wikipedia.org/wiki/Precautionary_principle) of not using a
 technique that has a risk of damaging
 human health than waiting for it to be proven.
 
-I have learnt a lot from APCNF and using it as a framework for evaluating my
+I have learnt a lot from studying APCNF. Using it as a framework for evaluating my
 current practice has given me a confidence that I am going in the right path and
-number of new things that I can try out and improve on. I now have a better
+given me a number of new ideas that I can try out and improve on. I now have a better
 picture of what my end goal looks like in my journey to grow food without using
 fossil fuels.
