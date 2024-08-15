@@ -87,5 +87,5 @@ advertised. Antibiotics, paracetamol, sugar, fertilizers, the over-used-products
 I still fancy myself thinking, the marketing team of Procter and Gamble got word
 of my findings and has spent crores of rupees [on this
 ad](https://www.youtube.com/watch?v=TMGQXeN6iqg) to shame me back into using their
-product. "Dandruff thirumba varave varathu", they plead, with the sincerity of a
+product. _"Dandruff thirumba varave varathu"_, they plead, with the sincerity of a
 car salesman.
