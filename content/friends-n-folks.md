@@ -21,7 +21,10 @@ Links to people, blogs and websites I follow:
 * Lifestyle
   * [Kirsten Dirksen](https://www.youtube.com/@kirstendirksen)
   * [Team-BHP.com](https://www.team-bhp.com/)
+  * [Destination Infinity](https://destinationinfinity.org/)
 * Entertainment
   * [Crispy Fried Opinions](https://crispyfriedopinions.com/)
+* Books
+  * [Standard Ebooks](https://standardebooks.org/)
   
 Here are more links to valuable resources I have collected over the years: [bookmarks](/bookmarks)
