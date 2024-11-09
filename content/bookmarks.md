@@ -10,9 +10,12 @@ title = "Bookmarks"
 * Electrical / Electronics
   * [sci.electronics.repair FAQ](https://www.repairfaq.org/) - I fondly remember my days, pouring through this, in an attempt to repair my CRT monitor.
 * Programming
-  * [Understanding Windows x64 Assembly](https://sonictk.github.io/asm_tutorial/)
+  * Assembly Language
+    * [Understanding Windows x64 Assembly](https://sonictk.github.io/asm_tutorial/)
+    * [Learn Assembly Language](https://asmtutor.com/) - x86 (32-bit) assembly language on Linux
+  * Rust
+    * [Rustlings](https://rustlings.cool/) - Small exercises in Rust
   * [What Every Programmer Should Know About Memory](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf)
-  * [Learn Assembly Language](https://asmtutor.com/)
   * [Tumble Forth](https://tumbleforth.hardcoded.net/)
   * [OSDev wiki](https://wiki.osdev.org/Main_Page)
 * DIY
