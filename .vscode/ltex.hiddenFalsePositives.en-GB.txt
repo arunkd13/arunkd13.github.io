@@ -1,2 +1,3 @@
 {"rule":"LC_AFTER_PERIOD","sentence":"^\\Q+++ title = \"Trouble with Sarathi\" taxonomies.tags = \"life\" date = 2024-09-22 +++\\E$"}
 {"rule":"WONT_CONTRACTION","sentence":"^\\QI visited the RTO in person and the letter receiving clerk asked to write a letter as he is wont.\\E$"}
+{"rule":"LC_AFTER_PERIOD","sentence":"^\\Q+++ title = \"Vacant Land Tax\" taxonomies.tags = \"life\" date = 2024-11-11 draft=true +++\\E$"}
