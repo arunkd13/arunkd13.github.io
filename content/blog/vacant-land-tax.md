@@ -2,20 +2,24 @@
 title = "Vacant Land Tax"
 taxonomies.tags = ["life"]
 date = 2024-11-11
+updated = 2024-11-14
 +++
 
 In the year 2017, the Chennai Corporation (later called Greater Chennai
 Corporation or GCC), started imposing a tax on vacant land within its
-boundaries, to discourage land hoarders—and more importantly, to increase their
-revenue.  Another simple way accessible to the common man, to pass on
-generational wealth, became less economical. But I do think it is overall, a
-positive initiative for the society. The vacant land tax seems to have been
-initiated by other urban bodies in Tamil Nadu, and the other states too, around
-the same time.
+boundaries. This was to discourage land hoarders—and more importantly, to
+increase their revenue.
 
+A simple way to pass on generational wealth that was accessible to the common
+man, became less economical. It might be justified if the government did a
+better job of enforcing land grabbing cases in the city, but it is not the case.
+Police still, in cahoots with the politicians impose their own tax.
+
+The vacant land tax seems to have been initiated by other urban bodies in Tamil
+Nadu, and the other states too, around the same time.
 
 I had inherited one such parcel of land in 2008 and had to pay my dues, before I
-could exercise my rights to develop it now. But as usual, this straight forward
+could exercise my rights to develop it. But as usual, this straight forward
 task was made needlessly tedious, by our government officers and politicians,
 and an opportunity for them to profit.
 
@@ -79,10 +83,10 @@ addressed to. I went through documents that I had, and the SOP mentioned the
 _Assistant Revenue Officer_ in a number of places—I decided he was my man.
 
 > [Here is the format of the letter I had
-used](request-for-property-tax-assessment.odt). Use
+used](request-for-property-tax-assessment.odt), in case you find it useful. Use
 [LibreOffice](https://www.libreoffice.org/) to open and edit.
 
-I put all the documents in a green cloth lined envelope and carried an
+I put all the documents in a green, cloth-lined envelope and carried an
 additional copy of the letter that I could get dated, stamped and signed by the
 clerk as an acknowledgement. This is the SOP that needs to be followed when
 submitting documents to the government—I had learnt this from my father.
@@ -97,14 +101,14 @@ acknowledgement copy. "Sir, when will it be ready?" I asked sheepishly. "Sir, is
 in a meeting. He will call you", he replied.
 
 After submitting the letter, I waited for 2 more weeks. I did not have much hope
-for any SMS as mentioned in the SOP, but I wanted at least half of the SLA to be
+for any SMS as mentioned in the SOP, but I wanted at least, half of the SLA to be
 past.  I went to the Zonal office once again and enquired with the letter clerk.
 "Sir, just left now. All the officers are having a meeting in the Ripon
 building. You do one thing. Call this number. He is the assessor. He will tell
 you the amount", he replied.
 
 I called the assessor, and he asked to come by the local corporation office at
-Brindavan Nagar Main Road the next day. When I reached there only his assistant
+Brindavan Nagar Main Road the next day. When I reached there, only his assistant
 was present.
 
 The assistant helpfully calculated the approximate amount of tax and said, "You
@@ -114,7 +118,7 @@ the system. Call Sir, and he will tell you the exact amount."
 I called the assessor. "Did you send the letter by post?", he asked. "Ah… I
 haven't received the documents yet from Adyar. I will call you once I get it."
 
-I went back home nervously waiting for the call. The assessor called after a few
+I went back home, nervously waiting for the call. The assessor called after a few
 days, "What is the plot number? Where does the Sri Krishna Nagar come?".
 
 "Sir, it is an unapproved layout and your department is no longer using the
@@ -127,43 +131,44 @@ mentioned?"
 
 The day after, I took the document copies to the Brindavan Nagar Main Road
 office and gave it to the assistant. "Sir, is in Velachery office. I will give
-it to him when he comes by", he said. After some chit-chat, he said, "I don't
-know when the assessor will come."
+it to him, when he comes by", he said.
 
-"If you want, I can go and give the documents in Velachery today itself", he
-hinted.
+After some chit-chat, he hinted, "I don't know when the assessor will come. If
+you want, I can go and give the documents in Velachery today itself."
 
 I sensed in his voice, the hope of making a few hundred rupees to indulge in his
-favourite vice. I was not going to fall for his sweet talk. "Sir, said, he will
+favourite vice. I was not going to fall for his sweet talk. "Sir said, he will
 collect it when he comes by", I replied firmly.
 
-In a few days, he called me with the assessed amount which came out to the same
-that the clerk mentioned. I had not given any bribe amount till now, and the
-assessor also did not ask anything, but I was able to sense that expectation
-from both the assessor and the clerk.
+In a few days, the assessor called me with the assessed amount which came out to
+the same that the clerk mentioned. I had not given any bribe amount till now,
+and the assessor also did not ask anything, but I was able to sense that
+expectation from the assessor as from the clerk.
 
-"Your tax will be Rs. 23,200", the assessor finally called one evening, around a
-week later. "…bring a DD for the amount tomorrow.", he said.
+"Your tax will be Rs. 23,200", the assessor finally called around a week later,
+quite late in the evening. "…bring a DD for the amount tomorrow.", he reminded.
 
 I was thinking through, why he was requiring a DD, when the SOP clearly said
 that the assessor would raise the notice for tax with the bill number, and we
 could pay it through a number of channels including, online payment or swipe a
 card at one of the ward offices. The amount that I had to pay was significant
-and once I gave the DD to the assessor, he had the upper hand.
+and once I gave the DD to the assessor, I was afraid, he would misuse it or
+delay.
 
 I asked my mom, if in her experience, giving a DD is a reasonable thing to do at
 this point. She assured me that government officers will not do such things.
 This sounded very naive. Then she said, he will write your name and the bill
 number in the back of the DD and that should ensure that, the DD cannot be
-misused to pay tax for someone else. This sounded like a better advice.
+misused to pay tax for someone else, using it. This sounded like a better
+advice.
 
-The assessor could simply raise the bill and say I never gave him the DD, but he
-could not personally profit from it. It would only be a mechanism to spite me. I
-decided to play along.
+Now, the assessor could simply raise the bill and say I never gave him the DD.
+But he could not personally profit from it. If he did, it would only be a
+mechanism to spite me. I decided to play along.
 
-I also decided to take a photo copy and also write my name myself on the back of
+I also decided to take a photo copy of the DD and also write my name myself on the back of
 the DD. The next day when I took the DD, I hurried to the corporation office and
-had forgotten to take a photo copy nor write my details in the back of the DD.
+forgot to take a photo copy and also to write my details in the back of the DD.
 How stupid of me.
 
 The assessor took the DD, wrote my name and phone number in the back and put it
@@ -175,23 +180,25 @@ He did not hint on any bribe, but his demeanour was cold and impersonal.
 I was still cursing myself for not having taken a photo copy and was a little
 worried. But decided to leave it at this and call the assessor only after a
 couple of days. Soon, I got busy with other work and on the second day, I got a
-call from the assessor, "Your bill is read. Collect it from the Velachery
+call from the assessor, "Your bill is ready. Collect it from the Velachery
 corporation office."
 
-"Yes, it is near the Dhandeeswaram temple in Velachery."
+"Yes, it is near the Dhandeeswaram temple in Velachery.", he further directed.
 
 I was familiar with the place but never knew that a corporation office existed
 there. I asked a local person on reaching the place, and he pointed to the
-building, which is not easy to miss, once you start to look for it.
+building, which is not easy to miss, once you start looking for it.
 
-The assessor was sitting behind a counter with a computer, when I went inside
-the building, past the trees and junk scattered around. It looked like his
-primary work location was this office. He was on the phone with someone, but on
-seeing me, he took a printout of the bill copy, stamped and signed it while
+Going inside the building, past the trees, I saw a typical government office,
+with a faded yellow paint and a shed being repaired on the front.
+
+The assessor was sitting behind a counter with a computer. "This must be his
+primary work location", I said to myself. He was on the phone with someone, but
+on seeing me, he took a printout of the bill copy, stamped and signed it while
 still multitasking on the phone.
 
-He finished the phone call, "I missed adding the late fee. You need to pay that
-also". It amounted to a few hundred rupees.
+"I missed adding the late fee. You need to pay that also", he said after
+finishing the phone call. It amounted to a few hundred rupees.
 
 "Can I pay it by cash?", I asked.
 
@@ -204,15 +211,15 @@ machine.
 Feeling happy at the turn of events, I thanked the assistant and the assessor
 for their work.
 
-"You come and go so many times for this work, but you never think of giving us
-something for our expenses. Give at least Rs. 1000 to him", the assessor finally
-let frustration out.
+"YOU COME AND GO SO MANY TIMES FOR THIS WORK, but you never think of giving us
+something for our expenses. GIVE AT LEAST 1000 TO HIM", the assessor finally
+let his frustration out.
 
-I was ashamed on hearing it.
+I was feeling ashamed on hearing it.
 
-I asked the person to come outside the office. There I took two Rs. 500 rupees
-notes and gave it to him. Emotions of shame, pity and thankfulness suppressed
-the analytical side of my brain.
+I asked the person to come outside the office. There I took two Rs. 500 notes
+and gave it to him. Emotions of shame, pity and thankfulness suppressed the
+analytical side of my brain.
 
 Thinking through this episode, I could have saved myself a lot of work and money
 by going directly to the assessor, dropping the letter along with a Rs. 500
@@ -220,16 +227,14 @@ note.
 
 But would that would not improve things.
 
-I still would give the application in the Zonal office, where I get an
+I should still would give the application in the Zonal office, where I get an
 acknowledgement with the date of submission. It is likely that the SLA of 30
 days is being tracked which is why the assessor finished the work without me
-pushing for it. A likely change to try is to ask for online payment instead of
-the DD.
+pushing for it.
 
-At this point he is likely to demand a bribe for the supposed additional work he
-has to do let me pay the entire amount online or through a debit card at the
-counter. But I think it is better to pay the bribe at that point.
+I should also insist on online transfer or card payment instead of the DD. Even
+if it meant bribing the assessor.
 
-Although my mom is likely true in that, government officers do not go to the
-extent of lying at least for such small amounts, I think the DD business is so
-archaic and one which gives more power to the officers.
+Although my mom is likely true in that, government officers do not commit fraud,
+at least for such small amounts, I think the DD business is so archaic and gives
+undue power to the officers. It must be destroyed.
