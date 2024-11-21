@@ -1,6 +1,5 @@
 +++
 title = "Horse Gram"
-taxonomies.tags = ["farming"]
 date = 2024-04-06
 +++
 

@@ -1,6 +1,5 @@
 +++
 title = "Sunn Hemp"
-taxonomies.tags = ["farming"]
 date = 2024-04-08
 updated = 2024-04-11
 +++
