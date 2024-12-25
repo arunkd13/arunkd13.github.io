@@ -1,6 +1,7 @@
 +++
 title = "Arappor Iyakkam"
 date = 2024-12-24
+taxonomies.tags = ["politics"]
 +++
 
 I recently started volunteering with [Arappor Iyakkam](https://arappor.org/),
@@ -29,7 +30,7 @@ and the effort involved.
 
 One gripe was that I did not receive enough visibility of the overall progress
 of the project. There was only one full time employee who coordinated all the
-volunteers through Whatsapp. He was clearly overburdened, and I could not expect
+volunteers through WhatsApp. He was clearly overburdened, and I could not expect
 him to worry about volunteer engagement.
 
 I am hoping to see more information on this campaign in the coming months and
