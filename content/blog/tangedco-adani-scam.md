@@ -117,3 +117,5 @@ social media are sweet lullabies.
 
 I hope, I have convinced you to stand with Arappor Iyakkam on January 5, at
 Valluvar Kottam and make our voices heard.
+
+RSVP: [Register For Adani Protest Event](https://arappor.org/RegisterForAdaniProtestEvent)
