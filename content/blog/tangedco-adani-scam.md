@@ -1,8 +1,21 @@
 +++
 title = "Seeking action against TANGEDCO and the Adani Group"
 date = 2024-12-25
+updated = 2025-01-20
 taxonomies.tags = ["politics"]
 +++
+
+---
+
+**Update:** Late evening of January 3, 2025, a bit more than 24 hours from the
+planned time of protest, Arappor Iyakkam was informed by the Commissioner of
+Police, that their request for permission to protest was denied.
+
+Instead of the protest, we had to [protest against the rejection of permission
+to protest](https://www.youtube.com/watch?v=pTiIMpn80Xo) within the confines of
+the Arappor Iyakkam office.
+
+---
 
 [Arappor Iyakkam](https://arappor.org/) has called for a protest against the
 Central and Tamil Nadu State Governments on January 5, 2025 at [Valluvar Kottam](https://maps.app.goo.gl/iBBSm2h2WBVP6gUH9), seeking
