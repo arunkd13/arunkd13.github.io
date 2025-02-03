@@ -11,3 +11,4 @@ Some of my projects
 * [Crop Notes](@/crops/_index.md) - My attempt to document information on different crops that I have grown.
 * [Sunson Farms](https://arunkd13.github.io/sunsonfarms/) - Data from running my natural, minimal fossil fuel, farming practice
 * [Precalculus](https://github.com/arunkd13/precalculus) - LaTeX source of the book by Stitz Zeager, formatted for a6 paper that can be read on small screen ereaders.
+* [Markets Dash](https://arunkd13.github.io/markets-dash) - Dashboard to track markets or what we incorrectly call the *economy*.
