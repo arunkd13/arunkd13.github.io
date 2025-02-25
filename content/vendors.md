@@ -29,7 +29,9 @@ I would still caution: your mileage may vary. Use your own due diligence.
 * [Nachiappa Stickers](https://maps.app.goo.gl/net8JSx45uy2g2oh9) - Stickers, number plates, key duplication
 * [Jehangir Glass](https://maps.app.goo.gl/8CaK88WvvdiqYCA36) - Auto glass
 * [Rishab Auto Agency](https://maps.app.goo.gl/6sn6RYT3EsKtuVfg8) - Mobis parts
-* [Calcutta Glass](https://maps.app.goo.gl/teqzKfjepef7NBeJ7) - Auto glass
 
 ## Healthcare
 * [MaxHealth Dental Clinic](https://maps.app.goo.gl/rhLJ83CKqF6TyGYz7) - Dental Clinic in Mogappair.
+
+# Black list
+* [Calcutta Glass](https://calcuttamotorglass.com/) ([location](https://maps.app.goo.gl/teqzKfjepef7NBeJ7)) - Sold me a scratched quarter pane glass.

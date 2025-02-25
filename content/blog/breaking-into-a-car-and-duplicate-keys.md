@@ -249,10 +249,11 @@ vendor closer to home.
 
 [Calcutta Glass in Arumbakkam](https://maps.app.goo.gl/teqzKfjepef7NBeJ7) seemed
 to be the nearest store. I called the shop, and they quoted Rs. 950. This was
-still a better option than boodmo as I didn't have to wait for 10 days. I bought
-it the same day on my way to another errand.
+still a better option than boodmo as I didn't have to wait for 10 days, or so I
+thought. But the guy at the shop sold a piece that had a number of scratches. I
+realize now that I should have followed him when he took piece inside for packing.
 
-Now I could safely replace the glass without fear of locking myself out. I was
-also thankful that I did not have an engine immobilizer that requires the chip
-in the key to be reprogrammed, nor a car costly enough to require an engine
-immobilizer.
+Now I am all set to attempt replacing the glass, without fear of locking myself
+out. I was also thankful that I did not have an engine immobilizer that requires
+the chip in the key to be reprogrammed, nor a car costly enough to require an
+engine immobilizer, all way more pain than necessary.
