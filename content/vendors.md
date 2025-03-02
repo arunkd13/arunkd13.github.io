@@ -45,10 +45,19 @@ Never tried any of the below. Use caution.
 * [Jehangir Glass](https://maps.app.goo.gl/8CaK88WvvdiqYCA36) - Auto glass
 * [Rishab Auto Agency](https://maps.app.goo.gl/6sn6RYT3EsKtuVfg8) - Mobis parts
 
+#### Office
+* [Star Net Xerox & Printing](https://maps.app.goo.gl/u2ffmgRK6hD1Mmr98)
+
 #### Healthcare
 * [MaxHealth Dental Clinic](https://maps.app.goo.gl/rhLJ83CKqF6TyGYz7) - Dental Clinic in Mogappair.
 
+#### Restaurant
+* [Delhi Highway](https://maps.app.goo.gl/bH4nVbmtftLan6mD7)
+
 ### Tindivanam
+#### Automotive
+* [Sasi two wheeler seat cover](https://maps.app.goo.gl/GvDuEJUTnBwQrEEu9)
+
 #### Seeds
 * [Pandian Fertilizer Dealer](https://maps.app.goo.gl/Tm3Qn5bwv1rH7Vm38) - Lots of local seed varieties
 
