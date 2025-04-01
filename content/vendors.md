@@ -57,6 +57,9 @@ Never tried any of the below. Use caution.
 #### Restaurant
 * [Delhi Highway](https://maps.app.goo.gl/bH4nVbmtftLan6mD7)
 
+#### Real Estate
+* Rental Broker Mr. Shamsudeen +9199840319274
+
 ### Tindivanam
 #### Automotive
 * [Sasi two wheeler seat cover](https://maps.app.goo.gl/GvDuEJUTnBwQrEEu9)
