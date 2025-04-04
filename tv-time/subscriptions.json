@@ -1,0 +1,145 @@
+[
+  {
+    "id": "news/tamil",
+    "name": "Tamil News",
+    "channels": [
+      "https://www.youtube.com/@Sunnewstamil",
+      "https://www.youtube.com/@PuthiyaThalaimuraiTV",
+      "https://www.youtube.com/@thanthitv",
+      "https://www.youtube.com/@Arappor",
+      "https://www.youtube.com/@NewsJ",
+      "https://www.youtube.com/@NewsTamil24X7TV",
+      "https://www.youtube.com/@MalaimurasuTv"
+    ]
+  },
+  {
+    "id": "news/india/english",
+    "name": "India News",
+    "channels": [
+      "https://www.youtube.com/@DDIndia",
+      "https://www.youtube.com/@NDTV",
+      "https://www.youtube.com/@cnnnews18",
+      "https://www.youtube.com/@SansadTV",
+      "https://www.youtube.com/@indiatoday",
+      "https://www.youtube.com/@RepublicWorld",
+      "https://www.youtube.com/@TimesNow"
+    ]
+  },
+  {
+    "id": "news/world",
+    "name": "World News",
+    "channels": [
+      "https://www.youtube.com/@CNAInsider",
+      "https://www.youtube.com/@abcaustralia",
+      "https://www.youtube.com/@ABCNewsIndepth",
+      "https://www.youtube.com/@CBCNews",
+      "https://www.youtube.com/@aljazeeraenglish",
+      "https://www.youtube.com/@GBNewsOnline",
+      "https://www.youtube.com/@CGTNEurope",
+      "https://www.youtube.com/@ChinaUncensored"
+    ]
+  },
+  {
+    "id": "news/usa",
+    "name": "US News",
+    "channels": [
+      "https://www.youtube.com/@PBSNewsHour",
+      "https://www.youtube.com/@NPR"
+    ]
+  },
+  {
+    "id": "news/hindi",
+    "name": "Hindi News",
+    "channels": [
+      "https://www.youtube.com/@ABPNEWS",
+      "https://www.youtube.com/@GoodNewsTodayOfficial",
+      "https://www.youtube.com/@zeenews"
+    ]
+  },
+  {
+    "id": "science",
+    "name": "Science",
+    "channels": [
+      "https://www.youtube.com/@NatGeo",
+      "https://www.youtube.com/@3blue1brown",
+      "https://www.youtube.com/@animagraffs",
+      "https://www.youtube.com/@animalogic",
+      "https://www.youtube.com/@novapbs",
+      "https://www.youtube.com/@Asianometry",
+      "https://www.youtube.com/@bbcideas",
+      "https://www.youtube.com/@besmart"
+    ]
+  },
+  {
+    "id": "diy",
+    "name": "DIY / Make",
+    "channels": [
+      "https://www.youtube.com/@AmazingConstructionWorker",
+      "https://www.youtube.com/@ArchitectureAttack",
+      "https://www.youtube.com/@tussik01",
+      "https://www.youtube.com/@arduinoversusevil2025",
+      "https://www.youtube.com/@AVmake",
+      "https://www.youtube.com/@chrisfix",
+      "https://www.youtube.com/@MegaProcess",
+      "https://www.youtube.com/@GrandpaAmu/videos",
+      "https://www.youtube.com/@WowThings"
+    ]
+  },
+  {
+    "id": "farming",
+    "name": "Farming",
+    "channels": [
+      "https://www.youtube.com/@DDKisan",
+      "https://www.youtube.com/@AccessAgriculture",
+      "https://www.youtube.com/@farmaanandaa",
+      "https://www.youtube.com/@AdvancingEcoAgriculture",
+      "https://www.youtube.com/@AnbuThirumagal",
+      "https://www.youtube.com/@amillison/videos",
+      "https://www.youtube.com/@VivasayaNanban",
+      "https://www.youtube.com/@SaveSoil-CauveryCalling"
+    ]
+  },
+  {
+    "id": "lifestyle",
+    "name": "Travel / Lifestyle",
+    "channels": [
+      "https://www.youtube.com/@ddbharati",
+      "https://www.youtube.com/@Afrikleo",
+      "https://www.youtube.com/@ArkansasPBS",
+      "https://www.youtube.com/@ashishkothari5190",
+      "https://www.youtube.com/@AurorasEyeFilms",
+      "https://www.youtube.com/@BestEverFoodReviewShow",
+      "https://www.youtube.com/@birlasparvai"
+    ]
+  },
+  {
+    "id": "comedy/tamil",
+    "name": "Tamil Comedy",
+    "channels": [
+      "https://www.youtube.com/@alexanderbabu"
+    ]
+  },
+  {
+    "id": "comedy/usa",
+    "name": "US Comedy",
+    "channels": [
+      "https://www.youtube.com/@ModernComedian"
+    ]
+  },
+  {
+    "id": "health",
+    "name": "Health",
+    "channels": [
+      "https://www.youtube.com/@hubermanlab",
+      "https://www.youtube.com/@HeroicBrian"
+    ]
+  },
+  {
+    "id": "movies/tamil",
+    "name": "Tamil Movies",
+    "channels": [
+      "https://www.youtube.com/@bravohdmovie",
+      "https://www.youtube.com/@SathyaJyothiFilms"
+    ]
+  }
+]
