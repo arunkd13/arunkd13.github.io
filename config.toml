@@ -9,7 +9,7 @@ description = "My Blog and Projects"
 compile_sass = false
 
 # Whether to build a search index to be used later on by a JavaScript library
-build_search_index = false
+build_search_index = true
 
 theme = "zola-bearblog"
 
@@ -19,6 +19,10 @@ taxonomies = [
 ]
 
 generate_feed = true
+
+[search]
+index_format = "elasticlunr_json"
+include_content = true
 
 [translations]
 no_posts = "No posts yet"
