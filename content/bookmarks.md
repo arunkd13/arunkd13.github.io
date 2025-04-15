@@ -26,6 +26,8 @@ title = "Bookmarks"
   * [Passive cooling](https://www.builditsolar.com/Projects/Cooling/passive_cooling.htm)
 * Mathematics
   * [Tom Körner's Home Page](https://www.dpmms.cam.ac.uk/~twk/)
+  * [Seeing Theory](https://seeing-theory.brown.edu/index.html#firstPage) - A visual introduction to probability and statistics
+  * [Conditional probability](https://setosa.io/conditional/) - A visual explanation
 * K-12
   * [Indian Computing Olympiad](https://www.iarcs.org.in/inoi/)
 * Online Shopping
