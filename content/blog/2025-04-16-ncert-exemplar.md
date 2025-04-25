@@ -1,5 +1,6 @@
 +++
 title = "NCERT Exemplar"
+taxonomies.tags = ["diy"]
 +++
 
 NCERT publishes a series of additional material to their text books called,
@@ -25,8 +26,8 @@ page', so that, all the pages have the standard A4 size, instead of the
 cropped sizes.
 
 I had the final PDF now, which I loaded onto my Kindle. The text was readable,
-but it was still a subpar experience. My [8th Gen
-Kindle](https://www.amazon.in/Kindle-reader-Glare-Free-Touchscreen-Display/dp/B0186FF45G),
+but it was still a subpar experience. My [7th Gen
+Kindle](https://en.wikipedia.org/wiki/Amazon_Kindle),
 bought in 2015 was showing its age.
 
 So I ended up creating A5 size books by
