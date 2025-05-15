@@ -47,7 +47,7 @@ Never tried any of the below. Use caution.
 * [Nachiappa Stickers](https://maps.app.goo.gl/net8JSx45uy2g2oh9) - Stickers, number plates, key duplication
 * [Jehangir Glass](https://maps.app.goo.gl/8CaK88WvvdiqYCA36) - Auto glass
 * [Rishab Auto Agency](https://maps.app.goo.gl/6sn6RYT3EsKtuVfg8) - Mobis parts
-
+* [Sri Muneeswar Pollution Checking Centre](https://maps.app.goo.gl/Y2hdZXuB62q2Vf8r9)
 #### Office
 * [Star Net Xerox & Printing](https://maps.app.goo.gl/u2ffmgRK6hD1Mmr98)
 
@@ -56,6 +56,9 @@ Never tried any of the below. Use caution.
 
 #### Restaurant
 * [Delhi Highway](https://maps.app.goo.gl/bH4nVbmtftLan6mD7)
+* [Flower Drum](https://maps.app.goo.gl/tXUmKJPghhVqavFRA)
+* [Dahlia](https://maps.app.goo.gl/aCu66LqvHLULwwpV7)
+* [Tambaram Star Biriyani](https://maps.app.goo.gl/9QhAzhuw1A3xkpRFA)
 
 #### Real Estate
 * Rental Broker Mr. Shamsudeen +9199840319274
@@ -63,6 +66,10 @@ Never tried any of the below. Use caution.
 ### Tindivanam
 #### Automotive
 * [Sasi two wheeler seat cover](https://maps.app.goo.gl/GvDuEJUTnBwQrEEu9)
+
+#### Restaurant
+* [Hotel Aryas Garden](https://maps.app.goo.gl/bqPJBXHxZe3UL4bK8)
+* [Brother's Pizza](https://maps.app.goo.gl/4igGwVf5b6hqWLnS7)
 
 #### Seeds
 * [Pandian Fertilizer Dealer](https://maps.app.goo.gl/Tm3Qn5bwv1rH7Vm38) - Lots of local seed varieties
