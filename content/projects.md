@@ -13,4 +13,4 @@ Some of my projects
 * [Sophia Publishing](https://sophia-publishing.github.io/) - My attempt to typeset and publish books using LaTeX.
 * [Precalculus](https://github.com/arunkd13/precalculus) - LaTeX source of the book by Stitz Zeager, formatted for a6 paper that can be read on small screen ereaders.
 * [Markets Dash](https://arunkd13.github.io/markets-dash) - Dashboard to track markets or what we incorrectly call the *economy*.
-* [The Unofficial Directory of the Indian Government](https://arunkd13.github.io/directory-gov-in/) - My attempt at collating the contact information and power structure of the people who serve and govern India.
+* [The Unofficial Directory - Government of India](https://tudgoi.github.io/) - My attempt at collating the contact information and power structure of the people who serve and govern India.
