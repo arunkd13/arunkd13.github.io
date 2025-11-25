@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>My Experiments - tech</title>
+	<subtitle>My Blog and Projects</subtitle>
+	<link href="https://arunkd13.github.io/tags/tech/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://arunkd13.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2024-07-11T00:00:00+00:00</updated>
+	<id>https://arunkd13.github.io/tags/tech/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Passwords</title>
+		<published>2024-07-11T00:00:00+00:00</published>
+		<updated>2024-07-11T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://arunkd13.github.io/blog/passwords/" type="text/html"/>
+		<id>https://arunkd13.github.io/blog/passwords/</id>
+		<content type="html">&lt;p&gt;Passwords are the simplest way for remote services to authenticate us and they
+are ubiquitous. With the
+number of online services we use, we try to cope by reusing passwords or making
+them simple enough for us to remember. Both of these are big security risks.&lt;&#x2F;p&gt;
+&lt;p&gt;To mitigate the friction of setting up passwords, many of the online services
+allow to login using your Google or other major service providers. This is
+technically secure, but has the risk that, if for some reason, Google determines
+that you have violated their usage policy, you might end up not only &lt;a href=&quot;https:&#x2F;&#x2F;www.jefftk.com&#x2F;p&#x2F;how-likely-is-losing-a-google-account&quot;&gt;getting
+locked out of your Google
+services&lt;&#x2F;a&gt;, but
+also, the entire Internet. &lt;&#x2F;p&gt;
+&lt;p&gt;Both Google Chrome and Firefox store passwords automatically in the
+browser and sync them with other devices. This also would pretty secure, except
+they don&#x27;t provide explicit control over the files where the passwords are saved
+or an explicit way to back them up.&lt;&#x2F;p&gt;
+&lt;p&gt;Over the years, I have been using the &lt;a href=&quot;https:&#x2F;&#x2F;keepassxc.org&#x2F;&quot;&gt;KeePassXC&lt;&#x2F;a&gt;
+software which saves account passwords and additional information in a single
+encrypted file which is unlocked using a master passwords. You still need to
+remember a strong master password, but remembering a few strong passwords should
+not be very difficult. In fact, it is similar to reusing the same
+passwords across multiple services, in terms of ease of use, but is much more
+secure.&lt;&#x2F;p&gt;
+&lt;p&gt;I also store this file in a &lt;a href=&quot;https:&#x2F;&#x2F;www.dropbox.com&#x2F;&quot;&gt;Dropbox&lt;&#x2F;a&gt; folder which
+allows syncing with my desktop, laptop and my Android phone.&lt;&#x2F;p&gt;
+&lt;p&gt;On the desktop I actually use &lt;a href=&quot;https:&#x2F;&#x2F;apps.gnome.org&#x2F;Secrets&#x2F;&quot;&gt;Secrets&lt;&#x2F;a&gt;, which
+works with the KeePass file format and &lt;a href=&quot;https:&#x2F;&#x2F;www.keepassdx.com&#x2F;&quot;&gt;KeePassDX&lt;&#x2F;a&gt;
+on Android. On iOS you can use
+&lt;a href=&quot;https:&#x2F;&#x2F;apps.apple.com&#x2F;us&#x2F;app&#x2F;strongbox-password-manager&#x2F;id897283731&quot;&gt;Strongbox&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Finally, to ensure that, you don&#x27;t lose your passwords on any accidental
+corruption, I have setup periodic backups of the password file using
+&lt;a href=&quot;https:&#x2F;&#x2F;apps.gnome.org&#x2F;PikaBackup&#x2F;&quot;&gt;Pika&lt;&#x2F;a&gt; on my desktop. The backups are done
+to a Dropbox folder, and so, my backups reside on both my desktop and the
+Dropbox cloud.&lt;&#x2F;p&gt;
+&lt;p&gt;Although this setup may look more tedious than letting the browser store your
+passwords and sync them, it gives me more confidence when I explcitly see where
+things are stored.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Keeping up with Youtube channels</title>
+		<published>2024-04-17T00:00:00+00:00</published>
+		<updated>2024-04-23T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://arunkd13.github.io/blog/keeping-up-with-youtube-channels/" type="text/html"/>
+		<id>https://arunkd13.github.io/blog/keeping-up-with-youtube-channels/</id>
+		<content type="html">&lt;p&gt;All &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;&quot;&gt;Youtube&lt;&#x2F;a&gt; channels have a subscribe button, but
+there is no good way for me to consume the videos from the channels once I have
+subscribed to them.&lt;&#x2F;p&gt;
+&lt;p&gt;Youtube does show a list of all the subscribed channels on the left side bar. It
+also shows a big list of all the videos from all my subscribed channels sorted
+with the most recent at the top. But these become unweildy, once I have more
+than a couple of subscriptions.&lt;&#x2F;p&gt;
+&lt;p&gt;At any time, I am in the mood to watch videos only from a specific topic, while
+the one-big-list has all of them mixed together. Channels that release videos
+more frequently clutter the feed. This totally frustrates me.&lt;&#x2F;p&gt;
+&lt;p&gt;Youtube forces me to use the home screen where an algorithm or more likely an AI
+selects what videos I can watch next. These videos are not just from the
+channels I have subscribed, but a mish mash of videos that may or may not
+contain new videos from my subscriptions. Interestingly, there are automatically
+chosen topics using which I can filter the videos in the home screen, but they
+never match how I want to group them.&lt;&#x2F;p&gt;
+&lt;p&gt;Does Youtube know about these problems? Most likely. But I guess none of the
+Product Managers and UX Designers at Youtube would dare to do anything about them.
+Fixing them would basically mean giving more control to the viewers and power to
+the channels through the direct connection it provides. Youtube as an intermediary,
+would lose its ability to monopolize the video streaming market. &lt;&#x2F;p&gt;
+&lt;p&gt;The power that Youtube gets is turned directly into quarterly revenue. The
+AI that decdes what videos I can watch next hyper-optimizes for the hours that I
+spend on watching videos rather than what is good for my life. Google, Youtube&#x27;s
+parent would care less. Google as a company would rather &lt;a href=&quot;https:&#x2F;&#x2F;www.wheresyoured.at&#x2F;the-men-who-killed-google&#x2F;&quot;&gt;kill its customers and
+themselves in the long run, rather
+than leave some revenue on the table in the short
+term&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;The side effect of this power is the addiction that it afflicts on the viewers
+and the arbitrary censorship that it ends up doing as it editorializes the home
+screen. This has been the pattern not just for Youtube, but Facebook and Twitter
+too. I hear, newer video platforms like TikTok have simply foregone even the
+illusion of a subscription mechanism.&lt;&#x2F;p&gt;
+&lt;p&gt;Google once had this motto called &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Don%27t_be_evil&quot;&gt;&amp;quot;Don&#x27;t be
+evil&amp;quot;&lt;&#x2F;a&gt; which looks like has long
+been officially removed. The trust and good will that Google had in its initial
+days has been sold to the highest bidders. Products like the &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Google_Reader&quot;&gt;Google
+Reader&lt;&#x2F;a&gt; are created and maintained
+to choke other alternatives and suddenly sunset, once they have served their
+purpose. &lt;&#x2F;p&gt;
+&lt;p&gt;In such a hostile environment, there are still some places of refuge.&lt;&#x2F;p&gt;
+&lt;p&gt;One of them which I have personally used and like is the
+&lt;a href=&quot;https:&#x2F;&#x2F;newpipe.net&#x2F;&quot;&gt;NewPipe&lt;&#x2F;a&gt; Android app. This allows to search and browse
+videos from channels and also group your subscriptions based on topics, so that,
+you can have a more focussed video session catching up on a specific topic. I
+still would like a few improvements on the video feed screen, but since it is
+open source, I should be able to add them myself. Or I could even create my own
+app using the
+&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;TeamNewPipe&#x2F;NewPipeExtractor&quot;&gt;NewPipeExtractor&lt;&#x2F;a&gt; library,
+which is part of the same project and used by NewPipe.&lt;&#x2F;p&gt;
+&lt;p&gt;Since NewPipe is not very amenable to Google&#x27;s designs, it is not allowed on the
+official Play store. But you can still install it directly from &lt;a href=&quot;https:&#x2F;&#x2F;newpipe.net&#x2F;&quot;&gt;their
+website&lt;&#x2F;a&gt; or from the &lt;a href=&quot;https:&#x2F;&#x2F;f-droid.org&#x2F;&quot;&gt;F-Droid app
+store&lt;&#x2F;a&gt; as explained in their home page. It might sound
+daunting at first for someone who is not tech savy, but I promise, it is worth
+the effort.&lt;&#x2F;p&gt;
+&lt;p&gt;NewPipe also does not display any ads that you would see with the official
+Youtube app or the website. This obviouly means, the channels lose the potential
+revenue. This may sound like a bad thing, but in the long run, the high quality
+channels will survive as people would be more willing to direcly fund them
+through their website or other means. The low quality ones, might wither away.&lt;&#x2F;p&gt;
+&lt;p&gt;Overall I think these pirate apps keep the ecosystem healthy.&lt;&#x2F;p&gt;
+&lt;p&gt;Here is my attempt at the UX for catching up with my subscriptions:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;UX for TVs&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;arunkd13.github.io&#x2F;blog&#x2F;keeping-up-with-youtube-channels&#x2F;tv.excalidraw.png&quot; alt=&quot;UX for TVs&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;UX for mobile&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;arunkd13.github.io&#x2F;blog&#x2F;keeping-up-with-youtube-channels&#x2F;mobile.excalidraw.png&quot; alt=&quot;UX for mobiles&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;edits&quot;&gt;Edits&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2024-04-26: Added link to the article on the degradation of Google Search to
+increase ad revenue.&lt;&#x2F;li&gt;
+&lt;li&gt;2024-04-23: Paraphrased text and added UX mockups.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Datastructures on Hypercore - Queue</title>
+		<published>2023-12-01T00:00:00+00:00</published>
+		<updated>2024-04-22T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://arunkd13.github.io/blog/datastructures-on-hypercore-queue/" type="text/html"/>
+		<id>https://arunkd13.github.io/blog/datastructures-on-hypercore-queue/</id>
+		<content type="html">&lt;p&gt;In the &lt;a href=&quot;..&#x2F;datastructures-on-hypercore-stack&quot;&gt;previous post&lt;&#x2F;a&gt; we saw how we can
+implement a stack on a hypercore. In this post I explore how to implement a queue
+which turned out to be in some ways, more complex than a stack and also simpler.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;take-1&quot;&gt;Take 1&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;strong&gt;Enqueue and dequeue&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Enqeue adds a new element to the back of the queue which we can do by appending
+a new block to the hypercore.&lt;&#x2F;p&gt;
+&lt;p&gt;To perform a dequeue we need to find the front of
+the queue, which is the first block, before we have done any dequeue operation.
+But the front keeps increasing
+as we perform more dequeues. So to find the front in O(1) time, we add a pointer
+to it along with the new element during the append.&lt;&#x2F;p&gt;
+&lt;p&gt;To record the new position during dequeue, we append a special block
+with just the pointer to the front. Do distinguish the dequeue block, we show
+X where the element used to be for an enqueue block.&lt;&#x2F;p&gt;
+&lt;p&gt;You can see the hypercore state after 2 enqueues and a dequeue below.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;arunkd13.github.io&#x2F;blog&#x2F;datastructures-on-hypercore-queue&#x2F;hypercore-queue-1-3.excalidraw.png&quot; alt=&quot;Queue on Hypercore - Take 1 - Step 3&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Series of dequeues&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This system looks good till now, but is still not O(1) for the dequeue operation as
+the blocks recording the dequeue states need to be skipped to find the new front.
+This can be seen below where in step 7, when we do the dequeue operation, we need to 
+skip blocks 5 and 6 before we find the new front, which is 7, and record it.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;arunkd13.github.io&#x2F;blog&#x2F;datastructures-on-hypercore-queue&#x2F;hypercore-queue-1-long-dequeue.excalidraw.png&quot; alt=&quot;Queue on Hypercore - Take 1 - Long series of deqeues&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;take-2&quot;&gt;Take 2&lt;&#x2F;h2&gt;
+&lt;p&gt;A simple solution for avoiding the clutter of the front pointers is to store it in
+a different hypercore than where the elements of the queue is stored.
+This is shown below&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;arunkd13.github.io&#x2F;blog&#x2F;datastructures-on-hypercore-queue&#x2F;hypercore-queue-2-3.excalidraw.png&quot; alt=&quot;Queue on Hypercore - Take 2&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;We update the front of the hypercoreo only in case of a dequeue operation.&lt;&#x2F;p&gt;
+&lt;p&gt;Now that is simple!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;code&quot;&gt;Code&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;arunkd13&#x2F;experiment-hypercore&#x2F;tree&#x2F;main&#x2F;queue-1.js&quot;&gt;Take #1&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;arunkd13&#x2F;experiment-hypercore&#x2F;blob&#x2F;main&#x2F;queue-2.js&quot;&gt;Take #2&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Datastructures on Hypercore - Stack</title>
+		<published>2023-12-01T00:00:00+00:00</published>
+		<updated>2024-04-20T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://arunkd13.github.io/blog/datastructures-on-hypercore-stack/" type="text/html"/>
+		<id>https://arunkd13.github.io/blog/datastructures-on-hypercore-stack/</id>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;docs.holepunch.to&#x2F;building-blocks&#x2F;hypercore&quot;&gt;Hypercore&lt;&#x2F;a&gt; is a secure,
+distributed append-only log which I have been following since the days of
+&lt;a href=&quot;https:&#x2F;&#x2F;dat-ecosystem.org&#x2F;timeline.html&quot;&gt;Dat&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;I was recently exploring the datastrcutures that can be implemented over
+Hypercore and came up with a few. I will be exploring them in a series of
+posts.&lt;&#x2F;p&gt;
+&lt;p&gt;In this post, we will see the representation of a stack with diagrams
+representing the state after each step of a series of operations.&lt;&#x2F;p&gt;
+&lt;p&gt;Each rectangle represents a block in the Hypercore. The number above it
+represents the block number. Hypercore allows blocks to be only added.
+So the block number increases monotonically. Also, there is no way to
+remove a block. So You will see the total Hypercore size increases as
+we progress.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Step 1&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The initial state is an empty Hypercore which represents an empty stack.&lt;&#x2F;p&gt;
+&lt;p&gt;On pushing an element into the stack, we ad a new block with the element
+added.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;arunkd13.github.io&#x2F;blog&#x2F;datastructures-on-hypercore-stack&#x2F;hypercore-stack-1.excalidraw.png&quot; alt=&quot;Stack on Hypercore - Step 1 - Push A&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Step 2&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Now we push another.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;arunkd13.github.io&#x2F;blog&#x2F;datastructures-on-hypercore-stack&#x2F;hypercore-stack-2.excalidraw.png&quot; alt=&quot;Stack on Hypercore - Step 2 - Push B&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Step 3&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Now we want to pop the top element. Till now, the top element of the stack
+has been the the last block in the Hypercore, but now need to change the
+top of the stack. We do this by writing the block number of the top
+element as a new block.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;arunkd13.github.io&#x2F;blog&#x2F;datastructures-on-hypercore-stack&#x2F;hypercore-stack-3.excalidraw.png&quot; alt=&quot;Stack on Hypercore - Step 3 - Pop&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Till now a block had only the contents of the stack. Now we have an
+additional data type that a block can hold which is the block number
+of the top element or a pointer to the top. So you might need a type
+field as the first byte of the block in your implementation, but we
+skip it for simplicity as our block contents are always an alphabet.&lt;&#x2F;p&gt;
+&lt;p&gt;Also, the block number 2 is shown in gray as any further operations will
+never access block number 2. This enables sparse download of the Hypercore
+for an new comer or garbage collection of unused blocks for an existing
+user.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Step 4&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Next we push a new element C. We once again do this by appending a new
+block with the element.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;arunkd13.github.io&#x2F;blog&#x2F;datastructures-on-hypercore-stack&#x2F;hypercore-stack-4.excalidraw.png&quot; alt=&quot;Stack on Hypercore - Step 4 - Push C&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Step 5&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Now we want to pop an element from the stack. Since the last block
+contains the element directly and is not a pointer we directly read
+the value of the top. Now we need to append a block to the Hypercore
+with the block number of the previous element in the stack. We do this
+by looking at the previous block and if it is an element, we write its
+block number as the new top. If instead it is a pointer we write that
+as the new top. In this case, we write the pointer value 1.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;arunkd13.github.io&#x2F;blog&#x2F;datastructures-on-hypercore-stack&#x2F;hypercore-stack-5.excalidraw.png&quot; alt=&quot;Stack on Hypercore - Step 5 - Pop&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Step 6&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Now a final pop to empty the stack.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;arunkd13.github.io&#x2F;blog&#x2F;datastructures-on-hypercore-stack&#x2F;hypercore-stack-6.excalidraw.png&quot; alt=&quot;Stack on Hypercore - Step 6 - Pop&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;We read the element A using the top pointer in the last block. Since
+there is no previous block, we write the value 0 as the pointer to the
+top by appending a new block. You will see that, now the beginning
+part of the Hypercore never needs to be downloaded by new users
+who are interested only in the latest state.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Step 7&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Now we will see how the stack looks with a new element inserted after
+the stack has been emptied.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;arunkd13.github.io&#x2F;blog&#x2F;datastructures-on-hypercore-stack&#x2F;hypercore-stack-7.excalidraw.png&quot; alt=&quot;Stack on Hypercore - Step 7 - Pop&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I hope this figure is now self explanatory. You can find the code I
+have used at &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;arunkd13&#x2F;experiment-hypercore&#x2F;tree&#x2F;main&#x2F;stack.js&quot;&gt;experiment-hypercore&#x2F;stack.js&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;In this &lt;a href=&quot;..&#x2F;datastructures-on-hypercore-queue&quot;&gt;next post&lt;&#x2F;a&gt;, I explore
+how we can implement a queue on a hypercore.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Search for Visual Studio Code alternative</title>
+		<published>2023-09-19T00:00:00+00:00</published>
+		<updated>2023-09-29T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://arunkd13.github.io/blog/search-for-vscode-alternative/" type="text/html"/>
+		<id>https://arunkd13.github.io/blog/search-for-vscode-alternative/</id>
+		<content type="html">&lt;p&gt;I was looking for an alternative to &lt;a href=&quot;https:&#x2F;&#x2F;code.visualstudio.com&#x2F;&quot;&gt;Visual Studio Code&lt;&#x2F;a&gt;
+for light editing needs alongside of Android Studio. With Visual Studio Code eating up 360 MB
+of RAM when loaded, I can get close to having my entire 8 GB RAM used up.&lt;&#x2F;p&gt;
+&lt;p&gt;After a round of eliminating the alternatives that came up in a Google search, I narrowed
+down on &lt;a href=&quot;https:&#x2F;&#x2F;kate-editor.org&#x2F;&quot;&gt;Kate&lt;&#x2F;a&gt;, which is the text editor by the venerable KDE
+project. It met all my requirements viz. Vim mode, and inbuilt Git support and occupied
+just 86 MB of RAM when running.&lt;&#x2F;p&gt;
+&lt;p&gt;The also-rans where, &lt;a href=&quot;http:&#x2F;&#x2F;lighttable.com&#x2F;&quot;&gt;Lightable&lt;&#x2F;a&gt; with 109 MB of RAM usage, but without
+inbuilt Git support and &lt;a href=&quot;https:&#x2F;&#x2F;www.jetbrains.com&#x2F;fleet&#x2F;&quot;&gt;Fleet&lt;&#x2F;a&gt;, with 895 MB of RAM usage.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Access raw.githubusercontent.com files in India</title>
+		<published>2023-01-18T00:00:00+00:00</published>
+		<updated>2023-10-05T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://arunkd13.github.io/blog/access-raw-githubusercontent/" type="text/html"/>
+		<id>https://arunkd13.github.io/blog/access-raw-githubusercontent/</id>
+		<content type="html">&lt;p&gt;As of January 2023, raw.githubusercontent.com domain is blocked by Jio and
+possibly other ISPs in India. This likely is due to a wise government or court
+order. There is a substantial &lt;a href=&quot;https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=34231553&quot;&gt;Hacker News
+thread&lt;&#x2F;a&gt; discussing this issue,
+but the situation has been the same now, for more than a
+couple of months.&lt;&#x2F;p&gt;
+&lt;p&gt;The block seems to be at the DNS level and I had sucess with using
+&lt;a href=&quot;https:&#x2F;&#x2F;developers.google.com&#x2F;speed&#x2F;public-dns&quot;&gt;Google&#x27;s Public DNS&lt;&#x2F;a&gt; server.&lt;&#x2F;p&gt;
+&lt;p&gt;To change the DNS server I updated the &lt;em&gt;DNS servers&lt;&#x2F;em&gt; setting in the
+Jio broadband router under &lt;em&gt;Network &amp;gt; LAN &amp;gt; DNS servers&lt;&#x2F;em&gt;. Change the option to
+select &lt;em&gt;Use Below&lt;&#x2F;em&gt; and enter Google&#x27;s primary and secondary DNS servers viz.
+&lt;em&gt;8.8.8.8&lt;&#x2F;em&gt; and &lt;em&gt;8.8.4.4.&lt;&#x2F;em&gt;. The &lt;em&gt;DNS Servers&lt;&#x2F;em&gt; setting seems to get reset to
+&lt;em&gt;Use DNS Proxy&lt;&#x2F;em&gt;, every time I reboot the router. So, finally I had to set the
+custom DNS directly on my PC.&lt;&#x2F;p&gt;
+&lt;p&gt;On my Redmi phone, there is no way to set a custom DNS as the setting has been
+removed by Xiaomi. The easiest way to overcome this was to use
+&lt;a href=&quot;https:&#x2F;&#x2F;play.google.com&#x2F;store&#x2F;apps&#x2F;details?id=com.cloudflare.onedotonedotonedotone&amp;amp;hl=en&amp;amp;gl=US&quot;&gt;1.1.1.1 + Warp&lt;&#x2F;a&gt;
+from Cloudflare. This provides a VPN configuration that uses Cloudflare&#x27;s
+free DNS resolver at 1.1.1.1.&lt;&#x2F;p&gt;
+&lt;p&gt;Sometimes the DNS server change didn&#x27;t seem to work on my desktop. In this case, I got
+unblocked by using the &lt;a href=&quot;https:&#x2F;&#x2F;www.torproject.org&#x2F;&quot;&gt;Tor Browser&lt;&#x2F;a&gt;. This doesn&#x27;t
+help with other apps that make a request to &lt;em&gt;raw.githubusercontent.com&lt;&#x2F;em&gt;. I ran into
+this problem again when installing &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;doomemacs&#x2F;doomemacs&quot;&gt;Doom Emacs&lt;&#x2F;a&gt;
+which unfortunately needed to download some files from the cursed github domain.
+After some Googling, I ended up using &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;haad&#x2F;proxychains&quot;&gt;ProxyChains&lt;&#x2F;a&gt;
+to make the Doom Emacs install command to use the local tor connection.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;span&gt; service tor start
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;span&gt; apt install proxychains
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;proxychains ~&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;.config&#x2F;emacs&#x2F;bin&#x2F;doom install
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Yay! I don&#x27;t need to buy a VPN now, just because I cheaped out choosing Jio.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Update:&lt;&#x2F;strong&gt; As of 5 October, 2023, I am still unable to access content from raw.githubusercontent.com
+when using Jio Broadband unless I use one of the above techniques.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Install Rust for all users</title>
+		<published>2022-11-22T00:00:00+00:00</published>
+		<updated>2022-11-22T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://arunkd13.github.io/blog/install-rust-for-all-users/" type="text/html"/>
+		<id>https://arunkd13.github.io/blog/install-rust-for-all-users/</id>
+		<content type="html">&lt;p&gt;So, I wanted a single rust compiler to be installed system wide, but the
+default result of using &lt;a href=&quot;https:&#x2F;&#x2F;rustup.rs&#x2F;&quot;&gt;rustup&lt;&#x2F;a&gt; is, it is installed
+locally in the current user&#x27;s home directory.&lt;&#x2F;p&gt;
+&lt;p&gt;After a bit of searching on the Internet and some dead ends, I stumbled on
+&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;rust-lang&#x2F;rustup&#x2F;issues&#x2F;1085&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;rust-lang&#x2F;rustup&#x2F;issues&#x2F;1085&lt;&#x2F;a&gt; which seems to be mostly working.&lt;&#x2F;p&gt;
+&lt;p&gt;Interesting thing I learned from the above is that, the script that was
+suggested for &#x27;rustc&#x27; can simply be symlinked to other commands like &#x27;cargo&#x27;
+and it still works as it uses some
+&lt;a href=&quot;http:&#x2F;&#x2F;mywiki.wooledge.org&#x2F;BashSheet#Parameter_Operations&quot;&gt;parameter expansion&lt;&#x2F;a&gt;
+magic.&lt;&#x2F;p&gt;
+&lt;p&gt;Also for whatever reason I had to do a &lt;code&gt;sudo rustup component add rust-src&lt;&#x2F;code&gt;
+to make rust-analyzer work with Visual Studio Code.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Hello world</title>
+		<published>2022-11-18T00:00:00+00:00</published>
+		<updated>2022-11-18T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://arunkd13.github.io/blog/hello-world/" type="text/html"/>
+		<id>https://arunkd13.github.io/blog/hello-world/</id>
+		<content type="html">&lt;p&gt;Hello world!&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>

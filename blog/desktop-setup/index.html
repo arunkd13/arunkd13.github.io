@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desktop and Mobile Setup | My Experiments</title>
+  <meta name="title" content="Desktop and Mobile Setup">
+<meta name="description" content="My Blog and Projects" />
+
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <link rel="alternate" type="application/atom+xml" title="My Experiments" href="https://arunkd13.github.io/atom.xml">
+  <style>  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title h1 {
+  font-size: 1.5em;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  .filter {
+    margin-bottom: 0;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  nav active {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  input {
+    font-size: 1rem;
+  }
+
+  main,article {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 0.875rem;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+  /* blog posts */
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+</style>
+  </head>
+<body>
+  <header>
+  
+
+  <a href="https://arunkd13.github.io/" class="title">
+    <h1>My Experiments</h1>
+  </a>
+  <nav>
+    
+
+  
+
+    
+      
+    
+      <a href="https://arunkd13.github.io/blog/">Blog</a>
+    
+      
+    
+      <a href="https://arunkd13.github.io/atom.xml">RSS</a>
+    
+      
+    
+      <a href="https:&#x2F;&#x2F;github.com&#x2F;arunkd13">GitHub</a>
+    
+      
+    
+      <a href="https://arunkd13.github.io/projects/">Projects</a>
+    
+      
+    
+      <a href="https://arunkd13.github.io/friends-n-folks/">Friends &amp; Folks</a>
+    
+      
+    
+      <a href="https://arunkd13.github.io/vendors/">Vendors</a>
+  </nav>
+</header>
+
+    <h1>Desktop and Mobile Setup</h1>
+      <p>
+        <i>
+          <time datetime='2024-04-22T00:00:00+00:00' pubdate>22 Apr, 2024</time>
+        </i>
+      </p>
+  <main>
+    <p>Setting up a new computer is always exciting, but when you have a number of
+ongoing projects and work that quickly needs to be resumed without downtime, it
+is worth standardizing and documenting the process.</p>
+<p>Following is my preferred computer desktop setup which I replicate on any new
+machine I use:</p>
+<ul>
+<li>OS: Debian stable
+<ul>
+<li>To <a href="https://www.reddit.com/r/wayland/comments/14hhath/comment/jpbynnv/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button">enable higher resolutions</a>
+on my Acer EL220Q monitor:
+<ul>
+<li>Edit /etc/default/grub and set GRUB_CMDLINE_LINUX to &quot;video=VGA-1:1920x1080@64.9&quot;. In case this doesn't work, try a lower refresh rate like @49.9.</li>
+<li>Run 'sudo update-grub' and reboot.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>OS: Windows when I am forced to
+<ul>
+<li><a href="https://scoop.sh/">Scoop</a> package manager for installing applications</li>
+</ul>
+</li>
+<li>Desktop: Gnome with the following extensions:
+<ul>
+<li><a href="https://github.com/ubuntu/gnome-shell-extension-appindicator">Top Indicator App</a></li>
+<li><a href="https://github.com/fflewddur/tophat">TopHat</a></li>
+</ul>
+</li>
+<li>Web Browser: Firefox with the following extensions:
+<ul>
+<li><a href="https://iorate.github.io/ublacklist/docs">uBlacklist</a></li>
+<li><a href="https://github.com/gorhill/uBlock">uBlock Origin</a></li>
+</ul>
+</li>
+<li>Tools:
+<ul>
+<li><a href="https://gitlab.gnome.org/World/secrets">Password Safe / Secrets</a>. <a href="https://keepassxc.org/">KeePassXC</a> when I am using Windows.</li>
+<li><a href="https://github.com/settings/ssh/new">Create new SSH key</a></li>
+<li>git<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>git config --global user.email &quot;arunkd13@gmail.com&quot;
+</span><span>git config --global user.name &quot;Arunkumar Dhananjayan&quot;
+</span></code></pre>
+</li>
+</ul>
+</li>
+<li>IDE: <a href="https://code.visualstudio.com/">Visual Studio Code</a> with following extensions:
+<ul>
+<li>vscodevim.vim</li>
+<li>vscode-org-mode.org-mode</li>
+</ul>
+</li>
+<li>Application Software:
+<ul>
+<li><a href="https://www.getzola.org/documentation/getting-started/installation/#debian">Zola</a></li>
+<li><a href="https://www.dropbox.com/">Dropbox</a></li>
+<li><a href="https://www.gnucash.org/">Gnucash</a></li>
+<li><a href="https://www.gimp.org/">Gimp</a></li>
+</ul>
+</li>
+</ul>
+<p>Following is my mobile setup with my preferred apps:</p>
+<ul>
+<li>OS: Android</li>
+<li>Apps
+<ul>
+<li><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.files">Files</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.dropbox.android">Dropbox</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.orgzly">Orgzly</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.android.keepass">KeePassDroid</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.wunderground.android.weather">Weather Underground</a></li>
+<li><a href="https://f-droid.org/">F-Droid</a></li>
+<li><a href="https://f-droid.org/en/packages/org.schabi.newpipe/">NewPipe</a></li>
+</ul>
+</li>
+</ul>
+
+  </main>
+  <p>
+  </p>
+<script src="https://utteranc.es/client.js"
+        repo="arunkd13/arunkd13.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+<footer>
+    Made with <a href="https://codeberg.org/alanpearce/zola-bearblog">Zola ʕ•ᴥ•ʔ Bear</a>
+</footer>
+</body>
+</html>

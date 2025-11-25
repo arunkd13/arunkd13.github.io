@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Access raw.githubusercontent.com files in India | My Experiments</title>
+  <meta name="title" content="Access raw.githubusercontent.com files in India">
+<meta name="description" content="My Blog and Projects" />
+
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <link rel="alternate" type="application/atom+xml" title="My Experiments" href="https://arunkd13.github.io/atom.xml">
+  <style>  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title h1 {
+  font-size: 1.5em;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  .filter {
+    margin-bottom: 0;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  nav active {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  input {
+    font-size: 1rem;
+  }
+
+  main,article {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 0.875rem;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+  /* blog posts */
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+</style>
+  </head>
+<body>
+  <header>
+  
+
+  <a href="https://arunkd13.github.io/" class="title">
+    <h1>My Experiments</h1>
+  </a>
+  <nav>
+    
+
+  
+
+    
+      
+    
+      <a href="https://arunkd13.github.io/blog/">Blog</a>
+    
+      
+    
+      <a href="https://arunkd13.github.io/atom.xml">RSS</a>
+    
+      
+    
+      <a href="https:&#x2F;&#x2F;github.com&#x2F;arunkd13">GitHub</a>
+    
+      
+    
+      <a href="https://arunkd13.github.io/projects/">Projects</a>
+    
+      
+    
+      <a href="https://arunkd13.github.io/friends-n-folks/">Friends &amp; Folks</a>
+    
+      
+    
+      <a href="https://arunkd13.github.io/vendors/">Vendors</a>
+  </nav>
+</header>
+
+    <h1>Access raw.githubusercontent.com files in India</h1>
+      <p>
+        <i>
+          <time datetime='2023-01-18T00:00:00+00:00' pubdate>18 Jan, 2023</time>
+        </i>
+      </p>
+  <main>
+    <p>As of January 2023, raw.githubusercontent.com domain is blocked by Jio and
+possibly other ISPs in India. This likely is due to a wise government or court
+order. There is a substantial <a href="https://news.ycombinator.com/item?id=34231553">Hacker News
+thread</a> discussing this issue,
+but the situation has been the same now, for more than a
+couple of months.</p>
+<p>The block seems to be at the DNS level and I had sucess with using
+<a href="https://developers.google.com/speed/public-dns">Google's Public DNS</a> server.</p>
+<p>To change the DNS server I updated the <em>DNS servers</em> setting in the
+Jio broadband router under <em>Network &gt; LAN &gt; DNS servers</em>. Change the option to
+select <em>Use Below</em> and enter Google's primary and secondary DNS servers viz.
+<em>8.8.8.8</em> and <em>8.8.4.4.</em>. The <em>DNS Servers</em> setting seems to get reset to
+<em>Use DNS Proxy</em>, every time I reboot the router. So, finally I had to set the
+custom DNS directly on my PC.</p>
+<p>On my Redmi phone, there is no way to set a custom DNS as the setting has been
+removed by Xiaomi. The easiest way to overcome this was to use
+<a href="https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone&amp;hl=en&amp;gl=US">1.1.1.1 + Warp</a>
+from Cloudflare. This provides a VPN configuration that uses Cloudflare's
+free DNS resolver at 1.1.1.1.</p>
+<p>Sometimes the DNS server change didn't seem to work on my desktop. In this case, I got
+unblocked by using the <a href="https://www.torproject.org/">Tor Browser</a>. This doesn't
+help with other apps that make a request to <em>raw.githubusercontent.com</em>. I ran into
+this problem again when installing <a href="https://github.com/doomemacs/doomemacs">Doom Emacs</a>
+which unfortunately needed to download some files from the cursed github domain.
+After some Googling, I ended up using <a href="https://github.com/haad/proxychains">ProxyChains</a>
+to make the Doom Emacs install command to use the local tor connection.</p>
+<pre data-lang="bash" style="background-color:#2b303b;color:#c0c5ce;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#bf616a;">sudo</span><span> service tor start
+</span><span style="color:#bf616a;">sudo</span><span> apt install proxychains
+</span><span style="color:#bf616a;">proxychains ~</span><span>/.config/emacs/bin/doom install
+</span></code></pre>
+<p>Yay! I don't need to buy a VPN now, just because I cheaped out choosing Jio.</p>
+<p><strong>Update:</strong> As of 5 October, 2023, I am still unable to access content from raw.githubusercontent.com
+when using Jio Broadband unless I use one of the above techniques.</p>
+
+  </main>
+  <p>
+        Tags:
+          <a href="https://arunkd13.github.io/tags/tech/">#tech</a>
+  </p>
+<script src="https://utteranc.es/client.js"
+        repo="arunkd13/arunkd13.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+<footer>
+    Made with <a href="https://codeberg.org/alanpearce/zola-bearblog">Zola ʕ•ᴥ•ʔ Bear</a>
+</footer>
+</body>
+</html>

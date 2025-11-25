@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datastructures on Hypercore - Queue | My Experiments</title>
+  <meta name="title" content="Datastructures on Hypercore - Queue">
+<meta name="description" content="My Blog and Projects" />
+
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <link rel="alternate" type="application/atom+xml" title="My Experiments" href="https://arunkd13.github.io/atom.xml">
+  <style>  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title h1 {
+  font-size: 1.5em;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  .filter {
+    margin-bottom: 0;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  nav active {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  input {
+    font-size: 1rem;
+  }
+
+  main,article {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 0.875rem;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+  /* blog posts */
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+</style>
+  </head>
+<body>
+  <header>
+  
+
+  <a href="https://arunkd13.github.io/" class="title">
+    <h1>My Experiments</h1>
+  </a>
+  <nav>
+    
+
+  
+
+    
+      
+    
+      <a href="https://arunkd13.github.io/blog/">Blog</a>
+    
+      
+    
+      <a href="https://arunkd13.github.io/atom.xml">RSS</a>
+    
+      
+    
+      <a href="https:&#x2F;&#x2F;github.com&#x2F;arunkd13">GitHub</a>
+    
+      
+    
+      <a href="https://arunkd13.github.io/projects/">Projects</a>
+    
+      
+    
+      <a href="https://arunkd13.github.io/friends-n-folks/">Friends &amp; Folks</a>
+    
+      
+    
+      <a href="https://arunkd13.github.io/vendors/">Vendors</a>
+  </nav>
+</header>
+
+    <h1>Datastructures on Hypercore - Queue</h1>
+      <p>
+        <i>
+          <time datetime='2023-12-01T00:00:00+00:00' pubdate>01 Dec, 2023</time>
+        </i>
+      </p>
+  <main>
+    <p>In the <a href="../datastructures-on-hypercore-stack">previous post</a> we saw how we can
+implement a stack on a hypercore. In this post I explore how to implement a queue
+which turned out to be in some ways, more complex than a stack and also simpler.</p>
+<h2 id="take-1">Take 1</h2>
+<p><strong>Enqueue and dequeue</strong></p>
+<p>Enqeue adds a new element to the back of the queue which we can do by appending
+a new block to the hypercore.</p>
+<p>To perform a dequeue we need to find the front of
+the queue, which is the first block, before we have done any dequeue operation.
+But the front keeps increasing
+as we perform more dequeues. So to find the front in O(1) time, we add a pointer
+to it along with the new element during the append.</p>
+<p>To record the new position during dequeue, we append a special block
+with just the pointer to the front. Do distinguish the dequeue block, we show
+X where the element used to be for an enqueue block.</p>
+<p>You can see the hypercore state after 2 enqueues and a dequeue below.</p>
+<p><img src="https://arunkd13.github.io/blog/datastructures-on-hypercore-queue/hypercore-queue-1-3.excalidraw.png" alt="Queue on Hypercore - Take 1 - Step 3" /></p>
+<p><strong>Series of dequeues</strong></p>
+<p>This system looks good till now, but is still not O(1) for the dequeue operation as
+the blocks recording the dequeue states need to be skipped to find the new front.
+This can be seen below where in step 7, when we do the dequeue operation, we need to 
+skip blocks 5 and 6 before we find the new front, which is 7, and record it.</p>
+<p><img src="https://arunkd13.github.io/blog/datastructures-on-hypercore-queue/hypercore-queue-1-long-dequeue.excalidraw.png" alt="Queue on Hypercore - Take 1 - Long series of deqeues" /></p>
+<h2 id="take-2">Take 2</h2>
+<p>A simple solution for avoiding the clutter of the front pointers is to store it in
+a different hypercore than where the elements of the queue is stored.
+This is shown below</p>
+<p><img src="https://arunkd13.github.io/blog/datastructures-on-hypercore-queue/hypercore-queue-2-3.excalidraw.png" alt="Queue on Hypercore - Take 2" /></p>
+<p>We update the front of the hypercoreo only in case of a dequeue operation.</p>
+<p>Now that is simple!</p>
+<h2 id="code">Code</h2>
+<ul>
+<li><a href="https://github.com/arunkd13/experiment-hypercore/tree/main/queue-1.js">Take #1</a></li>
+<li><a href="https://github.com/arunkd13/experiment-hypercore/blob/main/queue-2.js">Take #2</a></li>
+</ul>
+
+  </main>
+  <p>
+        Tags:
+          <a href="https://arunkd13.github.io/tags/tech/">#tech</a>
+  </p>
+<script src="https://utteranc.es/client.js"
+        repo="arunkd13/arunkd13.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+<footer>
+    Made with <a href="https://codeberg.org/alanpearce/zola-bearblog">Zola ʕ•ᴥ•ʔ Bear</a>
+</footer>
+</body>
+</html>
