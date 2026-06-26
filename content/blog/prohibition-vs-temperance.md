@@ -8,21 +8,21 @@ date = 2026-06-19
 
 > The State shall regard the raising of the level of nutrition and the standard of living of its people and the improvement of public health as among its primary duties and, in particular, the State shall endeavour to bring about **prohibition** of the consumption except for medicinal purposes of *intoxicating drinks and of drugs which are injurious to health*.
 
-Fresh from the freedom struggle under Mahatma Gandhi, who viewed alcohol as a social evil, we would think, it would be very difficult to argue against prohibition. But there were [spirited discussions](https://www.constitutionofindia.net/debates/24-nov-1948/#99353) even when the Constitution was being drafted in 1948. Failure of prohibition in the United States, loss of revenue which could be used for solving more pressing issues, trampling on personal liberty and religious freedom of certain scheduled tribes were some of the arguments put forward against prohibition.
+Fresh from the freedom struggle under Mahatma Gandhi, who viewed alcohol as a social evil, we would think, it would be very difficult to argue against [prohibition](https://en.wikipedia.org/wiki/Prohibition). But there were [spirited discussions](https://www.constitutionofindia.net/debates/24-nov-1948/#99353) with many arguing against prohibition, even when the Constitution was being drafted in 1948.
 
-They were finally put to rest by [Dr. B. R. Ambedkar by reminding](https://www.constitutionofindia.net/debates/24-nov-1948/#99414), by reminding that this was part of the non-justiciable Directive Principles of State Policy and the state is free to decide when to act on it.
+Failure of prohibition in the United States, loss of revenue which could be used for solving more pressing issues, trampling on personal liberty and religious freedom of certain scheduled tribes were some of the arguments put forward against prohibition. They were finally put to rest by [Dr. B. R. Ambedkar by reminding](https://www.constitutionofindia.net/debates/24-nov-1948/#99414), by reminding that this was part of the non-justiciable Directive Principles of State Policy and the state is free to decide when to act on it.
 
 Interestingly during these debates, the present day Tamil Nadu was under the [Madras Prohibition Act, 1937](https://prsindia.org/files/bills_acts/acts_states/tamil-nadu/1937/1937TN10.pdf) and was the [poster boy for the prohibitionists](https://www.constitutionofindia.net/debates/24-nov-1948/#99350).
 
 After a bout of [repeal, revival and a number of amendments](https://en.wikipedia.org/wiki/Alcohol_prohibition_in_Tamil_Nadu), the Tamil Nadu Prohibition Act, 1937 ironically formed the basis for the creation of [TASMAC](https://www.tasmac.co.in/profile.php) in 1983. Today, Tamil Nadu is far from what we would call prohibition, while both the Government of Tamil Nadu and the political parties are addicted to its revenue.
 
-Total prohibition is used by almost all the political parties as an election hook to lure the votes of a certain section of the population, but after coming to power, it is termed impractical and used as a bogeyman to prevent people from questioning the mismanagement and corruption.
+Total prohibition is used by almost all the political parties as an election hook to lure the votes of a certain section of the population, but after coming to power, it is termed impractical and used as a bogeyman to prevent people from questioning the mismanagement, corruption and wash their hands off of the social and health impact to the population.
 
 I think, the best way to escape this vicious cycle is for the government to stop claiming prohibition as its goal and instead formalize its policy around inculcating [temperance i.e voluntary self-restraint](https://en.wikipedia.org/wiki/Temperance_(virtue)) among the people. Temperance is a virtue that is needed not only for the common man, but also for the Tamil Nadu Government in actively reducing its dependence on tax revenue from the sale of alcohol.
 
 The ultimate goal of the [Department of Prohibition and Excise](https://www.tn.gov.in/dept_profile.php?dep_id=MTQ=) should be to spend their entire tax revenue on furthering the goal Temperance instead of considering it as revenue source for other schemes.
 
-The current activities of the department are already aligning with the direction I am pushing for here. What is missing is an explicit policy that avoids the trap of prohibition and calls out an explicit policy of Temperance. Shunning the hypocrisy of prohibition would provide a renewed vigour to the real work needed.
+The current activities of the department are already aligning with the direction I am pushing for here. What is missing is explicitly calling out Temperance as the policy goal and thereby avoiding the trap of prohibition. Shunning the hypocrisy of prohibition would provide a renewed vigour to the real work that needs to be done.
 
 I try to discuss below, what a policy of Temperance should look like:
 
@@ -41,9 +41,9 @@ which both need to be tightened and rigorously enforced:
 
 4. **Restrict Advertising**: Although advertisements for alcohol are banned, surrogate advertisements for liquour brands continue.
 
-If you look only at the advertisements you would think, SNJ makes [granulated sugar](https://www.youtube.com/watch?v=pg1_1yxIH2c) and [drinking glasses](https://www.youtube.com/watch?v=3wdgtHAIh18), anything but alcohol.
+   If you look only at the advertisements you would think, SNJ makes [granulated sugar](https://www.youtube.com/watch?v=pg1_1yxIH2c) and [drinking glasses](https://www.youtube.com/watch?v=3wdgtHAIh18), anything but alcohol.
 
-This needs to be stopped.
+   This needs to be stopped.
 
 The ultimate success of the zoning and regulation activities will be when, a person recovering from alcohol addiction can move around and go about their life without encountering any triggers that will make them relapse back into drinking.
 
@@ -57,4 +57,4 @@ The Tamil culture and religions all shun the consumption of alcohol. The governm
 
 The [2025-26 policy note from the Department of Prohibition and Excise](https://cms.tn.gov.in/cms_migrated/document/docfiles/prohexc_e_pn_2025_26.pdf) talks about a number of awareness campaigns against alcohol and drug use and funds allocated for them. Are they being effectively used? With the call for more funds to be allocated for these campaigns, we also need to ensure that they are not funneled to NGOs which provide kickbacks.
 
-Today there are a number of addictions that hamper our society. Alcohol is probably the oldest and most widespread. By ensuring that we tackle alcohol addiction in our society, we would clearly build awareness and habits that would resist the other addictions.
+With the abundant and cheap pleasures manufactured by our industrial society, we even more of our basic instincts and hard wired chemical circuits are affected by addiction and have started to hamper our society. Alcohol is just the oldest and most widespread. I think our efforts to curb alcohol addiction, would also help build awareness and habits that would resist the other addictions.
