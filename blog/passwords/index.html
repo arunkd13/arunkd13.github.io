@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Passwords | My Experiments</title>
+  <meta name="title" content="Passwords">
+<meta name="description" content="My Blog and Projects" />
+
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <link rel="alternate" type="application/atom+xml" title="My Experiments" href="https://arunkd13.github.io/atom.xml">
+  <style>  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title h1 {
+  font-size: 1.5em;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  .filter {
+    margin-bottom: 0;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  nav active {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  input {
+    font-size: 1rem;
+  }
+
+  main,article {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 0.875rem;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+  /* blog posts */
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+</style>
+  </head>
+<body>
+  <header>
+  
+
+  <a href="https://arunkd13.github.io/" class="title">
+    <h1>My Experiments</h1>
+  </a>
+  <nav>
+    
+
+  
+
+    
+      
+    
+      <a href="https://arunkd13.github.io/blog/">Blog</a>
+    
+      
+    
+      <a href="https://arunkd13.github.io/atom.xml">RSS</a>
+    
+      
+    
+      <a href="https:&#x2F;&#x2F;github.com&#x2F;arunkd13">GitHub</a>
+    
+      
+    
+      <a href="https://arunkd13.github.io/projects/">Projects</a>
+    
+      
+    
+      <a href="https://arunkd13.github.io/friends-n-folks/">Friends &amp; Folks</a>
+    
+      
+    
+      <a href="https://arunkd13.github.io/vendors/">Vendors</a>
+  </nav>
+</header>
+
+    <h1>Passwords</h1>
+      <p>
+        <i>
+          <time datetime='2024-07-11T00:00:00+00:00' pubdate>11 Jul, 2024</time>
+        </i>
+      </p>
+  <main>
+    <p>Passwords are the simplest way for remote services to authenticate us and they
+are ubiquitous. With the
+number of online services we use, we try to cope by reusing passwords or making
+them simple enough for us to remember. Both of these are big security risks.</p>
+<p>To mitigate the friction of setting up passwords, many of the online services
+allow to login using your Google or other major service providers. This is
+technically secure, but has the risk that, if for some reason, Google determines
+that you have violated their usage policy, you might end up not only <a href="https://www.jefftk.com/p/how-likely-is-losing-a-google-account">getting
+locked out of your Google
+services</a>, but
+also, the entire Internet. </p>
+<p>Both Google Chrome and Firefox store passwords automatically in the
+browser and sync them with other devices. This also would pretty secure, except
+they don't provide explicit control over the files where the passwords are saved
+or an explicit way to back them up.</p>
+<p>Over the years, I have been using the <a href="https://keepassxc.org/">KeePassXC</a>
+software which saves account passwords and additional information in a single
+encrypted file which is unlocked using a master passwords. You still need to
+remember a strong master password, but remembering a few strong passwords should
+not be very difficult. In fact, it is similar to reusing the same
+passwords across multiple services, in terms of ease of use, but is much more
+secure.</p>
+<p>I also store this file in a <a href="https://www.dropbox.com/">Dropbox</a> folder which
+allows syncing with my desktop, laptop and my Android phone.</p>
+<p>On the desktop I actually use <a href="https://apps.gnome.org/Secrets/">Secrets</a>, which
+works with the KeePass file format and <a href="https://www.keepassdx.com/">KeePassDX</a>
+on Android. On iOS you can use
+<a href="https://apps.apple.com/us/app/strongbox-password-manager/id897283731">Strongbox</a>.</p>
+<p>Finally, to ensure that, you don't lose your passwords on any accidental
+corruption, I have setup periodic backups of the password file using
+<a href="https://apps.gnome.org/PikaBackup/">Pika</a> on my desktop. The backups are done
+to a Dropbox folder, and so, my backups reside on both my desktop and the
+Dropbox cloud.</p>
+<p>Although this setup may look more tedious than letting the browser store your
+passwords and sync them, it gives me more confidence when I explcitly see where
+things are stored.</p>
+
+  </main>
+  <p>
+        Tags:
+          <a href="https://arunkd13.github.io/tags/tech/">#tech</a>
+  </p>
+<script src="https://utteranc.es/client.js"
+        repo="arunkd13/arunkd13.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+<footer>
+    Made with <a href="https://codeberg.org/alanpearce/zola-bearblog">Zola ʕ•ᴥ•ʔ Bear</a>
+</footer>
+</body>
+</html>

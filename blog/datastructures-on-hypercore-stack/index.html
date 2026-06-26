@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datastructures on Hypercore - Stack | My Experiments</title>
+  <meta name="title" content="Datastructures on Hypercore - Stack">
+<meta name="description" content="My Blog and Projects" />
+
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <link rel="alternate" type="application/atom+xml" title="My Experiments" href="https://arunkd13.github.io/atom.xml">
+  <style>  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title h1 {
+  font-size: 1.5em;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  .filter {
+    margin-bottom: 0;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  nav active {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  input {
+    font-size: 1rem;
+  }
+
+  main,article {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 0.875rem;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+  /* blog posts */
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+</style>
+  </head>
+<body>
+  <header>
+  
+
+  <a href="https://arunkd13.github.io/" class="title">
+    <h1>My Experiments</h1>
+  </a>
+  <nav>
+    
+
+  
+
+    
+      
+    
+      <a href="https://arunkd13.github.io/blog/">Blog</a>
+    
+      
+    
+      <a href="https://arunkd13.github.io/atom.xml">RSS</a>
+    
+      
+    
+      <a href="https:&#x2F;&#x2F;github.com&#x2F;arunkd13">GitHub</a>
+    
+      
+    
+      <a href="https://arunkd13.github.io/projects/">Projects</a>
+    
+      
+    
+      <a href="https://arunkd13.github.io/friends-n-folks/">Friends &amp; Folks</a>
+    
+      
+    
+      <a href="https://arunkd13.github.io/vendors/">Vendors</a>
+  </nav>
+</header>
+
+    <h1>Datastructures on Hypercore - Stack</h1>
+      <p>
+        <i>
+          <time datetime='2023-12-01T00:00:00+00:00' pubdate>01 Dec, 2023</time>
+        </i>
+      </p>
+  <main>
+    <p><a href="https://docs.holepunch.to/building-blocks/hypercore">Hypercore</a> is a secure,
+distributed append-only log which I have been following since the days of
+<a href="https://dat-ecosystem.org/timeline.html">Dat</a>.</p>
+<p>I was recently exploring the datastrcutures that can be implemented over
+Hypercore and came up with a few. I will be exploring them in a series of
+posts.</p>
+<p>In this post, we will see the representation of a stack with diagrams
+representing the state after each step of a series of operations.</p>
+<p>Each rectangle represents a block in the Hypercore. The number above it
+represents the block number. Hypercore allows blocks to be only added.
+So the block number increases monotonically. Also, there is no way to
+remove a block. So You will see the total Hypercore size increases as
+we progress.</p>
+<p><strong>Step 1</strong></p>
+<p>The initial state is an empty Hypercore which represents an empty stack.</p>
+<p>On pushing an element into the stack, we ad a new block with the element
+added.</p>
+<p><img src="https://arunkd13.github.io/blog/datastructures-on-hypercore-stack/hypercore-stack-1.excalidraw.png" alt="Stack on Hypercore - Step 1 - Push A" /></p>
+<p><strong>Step 2</strong></p>
+<p>Now we push another.</p>
+<p><img src="https://arunkd13.github.io/blog/datastructures-on-hypercore-stack/hypercore-stack-2.excalidraw.png" alt="Stack on Hypercore - Step 2 - Push B" /></p>
+<p><strong>Step 3</strong></p>
+<p>Now we want to pop the top element. Till now, the top element of the stack
+has been the the last block in the Hypercore, but now need to change the
+top of the stack. We do this by writing the block number of the top
+element as a new block.</p>
+<p><img src="https://arunkd13.github.io/blog/datastructures-on-hypercore-stack/hypercore-stack-3.excalidraw.png" alt="Stack on Hypercore - Step 3 - Pop" /></p>
+<p>Till now a block had only the contents of the stack. Now we have an
+additional data type that a block can hold which is the block number
+of the top element or a pointer to the top. So you might need a type
+field as the first byte of the block in your implementation, but we
+skip it for simplicity as our block contents are always an alphabet.</p>
+<p>Also, the block number 2 is shown in gray as any further operations will
+never access block number 2. This enables sparse download of the Hypercore
+for an new comer or garbage collection of unused blocks for an existing
+user.</p>
+<p><strong>Step 4</strong></p>
+<p>Next we push a new element C. We once again do this by appending a new
+block with the element.</p>
+<p><img src="https://arunkd13.github.io/blog/datastructures-on-hypercore-stack/hypercore-stack-4.excalidraw.png" alt="Stack on Hypercore - Step 4 - Push C" /></p>
+<p><strong>Step 5</strong></p>
+<p>Now we want to pop an element from the stack. Since the last block
+contains the element directly and is not a pointer we directly read
+the value of the top. Now we need to append a block to the Hypercore
+with the block number of the previous element in the stack. We do this
+by looking at the previous block and if it is an element, we write its
+block number as the new top. If instead it is a pointer we write that
+as the new top. In this case, we write the pointer value 1.</p>
+<p><img src="https://arunkd13.github.io/blog/datastructures-on-hypercore-stack/hypercore-stack-5.excalidraw.png" alt="Stack on Hypercore - Step 5 - Pop" /></p>
+<p><strong>Step 6</strong></p>
+<p>Now a final pop to empty the stack.</p>
+<p><img src="https://arunkd13.github.io/blog/datastructures-on-hypercore-stack/hypercore-stack-6.excalidraw.png" alt="Stack on Hypercore - Step 6 - Pop" /></p>
+<p>We read the element A using the top pointer in the last block. Since
+there is no previous block, we write the value 0 as the pointer to the
+top by appending a new block. You will see that, now the beginning
+part of the Hypercore never needs to be downloaded by new users
+who are interested only in the latest state.</p>
+<p><strong>Step 7</strong></p>
+<p>Now we will see how the stack looks with a new element inserted after
+the stack has been emptied.</p>
+<p><img src="https://arunkd13.github.io/blog/datastructures-on-hypercore-stack/hypercore-stack-7.excalidraw.png" alt="Stack on Hypercore - Step 7 - Pop" /></p>
+<p>I hope this figure is now self explanatory. You can find the code I
+have used at <a href="https://github.com/arunkd13/experiment-hypercore/tree/main/stack.js">experiment-hypercore/stack.js</a></p>
+<p>In this <a href="../datastructures-on-hypercore-queue">next post</a>, I explore
+how we can implement a queue on a hypercore.</p>
+
+  </main>
+  <p>
+        Tags:
+          <a href="https://arunkd13.github.io/tags/tech/">#tech</a>
+  </p>
+<script src="https://utteranc.es/client.js"
+        repo="arunkd13/arunkd13.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+<footer>
+    Made with <a href="https://codeberg.org/alanpearce/zola-bearblog">Zola ʕ•ᴥ•ʔ Bear</a>
+</footer>
+</body>
+</html>

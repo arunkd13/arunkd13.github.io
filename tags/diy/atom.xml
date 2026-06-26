@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>My Experiments - diy</title>
+	<subtitle>My Blog and Projects</subtitle>
+	<link href="https://arunkd13.github.io/tags/diy/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://arunkd13.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2025-06-01T00:00:00+00:00</updated>
+	<id>https://arunkd13.github.io/tags/diy/atom.xml</id>
+	<entry xml:lang="en">
+		<title>NCERT Exemplar</title>
+		<published>2025-04-16T00:00:00+00:00</published>
+		<updated>2025-04-16T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://arunkd13.github.io/blog/ncert-exemplar/" type="text/html"/>
+		<id>https://arunkd13.github.io/blog/ncert-exemplar/</id>
+		<content type="html">&lt;p&gt;NCERT publishes a series of additional material to their text books called,
+&lt;a href=&quot;https:&#x2F;&#x2F;ncert.nic.in&#x2F;exemplar-problems.php?ln=en&quot;&gt;Exemplar Problems&lt;&#x2F;a&gt;. They
+provide this for Maths and Science subjects from Class VI to XII. This is
+really valuable for preparing for the exams and are used by both kids and
+teachers.&lt;&#x2F;p&gt;
+&lt;p&gt;Unfortunately, the website provides only individual PDF files for each chapter.
+Also, the PDF file is a pre-production version with paper size markings which
+increases the page size.&lt;&#x2F;p&gt;
+&lt;p&gt;All of these make it difficult to read on a small ereader and the kids get
+another reason to use the computer and eventually get distracted by the umpteen
+games and Youtube videos that can also be accessed from there.&lt;&#x2F;p&gt;
+&lt;p&gt;I needed a way to combine the individual PDFs into a single file and also crop
+the pages. There are a number of ways of doing this, but after a few trial and
+errors, I settled on the excellent &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;pdfarranger&#x2F;pdfarranger&quot;&gt;PDF
+Arranger&lt;&#x2F;a&gt; tool. I also did a print
+to PDF as a final step on my Gnome desktop and selected the option to &#x27;fit to
+page&#x27;, so that, all the pages have the standard A4 size, instead of the
+cropped sizes.&lt;&#x2F;p&gt;
+&lt;p&gt;I had the final PDF now, which I loaded onto my Kindle. The text was readable,
+but it was still a subpar experience. My &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Amazon_Kindle&quot;&gt;7th Gen
+Kindle&lt;&#x2F;a&gt;,
+bought in 2015 was showing its age.&lt;&#x2F;p&gt;
+&lt;p&gt;So I ended up creating A5 size books by
+&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Imposition&quot;&gt;imposing&lt;&#x2F;a&gt; two of the original pages
+on an A4 paper using the &lt;a href=&quot;https:&#x2F;&#x2F;bookbinder.app&#x2F;&quot;&gt;Book Binder&lt;&#x2F;a&gt; tool. I used
+the chain stitch that is &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=0gDHKZcdgDg&quot;&gt;explained in this
+video&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;With some additional help from a few scraps of card board, an old jeans, a chart paper and
+Fevicol, I now had a decent book whose binding was way better than commercially
+produced books, because the book can be laid flat due to using small bundles of
+pages that are stitched together called Signature. The papers also stay put for
+a long time, unlike the &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Bookbinding#Thermally_activated_binding&quot;&gt;Perfect
+bound&lt;&#x2F;a&gt;
+cheap paper backs, whose bindings fail after a few years and pages fall off
+randomly.&lt;&#x2F;p&gt;
+&lt;p&gt;See it here in all its glory.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;fuchsia-shallow-minnow-246.mypinata.cloud&#x2F;ipfs&#x2F;bafkreifa2xh4olozmai6y3s2bmhe5oeuwrpiwwmlsnv767pyvgxgqx52ny&quot; alt=&quot;The bound book&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The book with pages opened flat.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;fuchsia-shallow-minnow-246.mypinata.cloud&#x2F;ipfs&#x2F;bafkreiav3p4oqqb64emcha7hlrkybn2tk6bfvywq5req3ip3rmafhfhvxa&quot; alt=&quot;Opened flat&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I had previously made similar hand bound books for &lt;a href=&quot;https:&#x2F;&#x2F;standardebooks.org&#x2F;ebooks&#x2F;epictetus&#x2F;discourses&#x2F;george-long&quot;&gt;Discourses by
+Epictetus&lt;&#x2F;a&gt;
+and a fiction written by my friend called &lt;a href=&quot;https:&#x2F;&#x2F;sophia-publishing.github.io&#x2F;&quot;&gt;The Archer&#x27;s
+Revenge&lt;&#x2F;a&gt;. I was happy that I could use
+this new found hobby of mine in a more conventional way.&lt;&#x2F;p&gt;
+&lt;p&gt;Here are the PDF versions of the book in case you woudl find it useful:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;fuchsia-shallow-minnow-246.mypinata.cloud&#x2F;ipfs&#x2F;bafybeihyg3gedp6b3xowurf7li3qww6duemjhx3d4w2tybnppwq5f3qi6y&quot;&gt;10th-maths-exemplar.pdf&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;fuchsia-shallow-minnow-246.mypinata.cloud&#x2F;ipfs&#x2F;bafybeibp4l3q3ryzb6f5prprcpzmvlkmxw5vgc3bplsmbhfjs2l22mdghi&quot;&gt;10th-science-exemplar.pdf&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Breaking into a car and making duplicate keys</title>
+		<published>2025-02-15T00:00:00+00:00</published>
+		<updated>2025-02-15T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://arunkd13.github.io/blog/breaking-into-a-car-and-duplicate-keys/" type="text/html"/>
+		<id>https://arunkd13.github.io/blog/breaking-into-a-car-and-duplicate-keys/</id>
+		<content type="html">&lt;p&gt;When we bought our car, a Hyundai i10, in 2008, we received two keys and I was a
+happy driver for 16 years. If we mistakenly left the keys inside and got
+ourselves locked out of the car, the spare key saved the day.&lt;&#x2F;p&gt;
+&lt;p&gt;Last year, our car met with an accident and was towed away to the police
+station. Fortunately no one was hurt. We all learn from our mistakes, and we
+become a slightly better driver after an accident. But this one also taught me
+lessons of a different kind.&lt;&#x2F;p&gt;
+&lt;p&gt;This was on the day of a relative&#x27;s engagement. The car that hit ours was a
+Bolero pickup truck and didn&#x27;t show any signs of impact other than a small dent
+on its left bumper. But the Hyundai i10&#x27;s front right side fender, wheel and
+axle where totalled.&lt;&#x2F;p&gt;
+&lt;p&gt;The police didn&#x27;t agree to let us tow the car to our place and wanted both
+parties to come to the station with the vehicle. In retrospect, I should have
+gone to the station along with the car and dealt with the matter the same day.
+But I did not know better at that time and succumbed to the pressure to attend
+the function. The situation was further muddied by assurances from the Panchayat
+president of the nearby village, that I can deal with it the next day and didn&#x27;t have
+to worry. He was also a relative.&lt;&#x2F;p&gt;
+&lt;p&gt;I soon realized that this was one of the stupidest thing to do. Showing the
+least care for your property and trusting the police to protect it.&lt;&#x2F;p&gt;
+&lt;p&gt;We sought the help of a lawyer, who negotiated with the police. It took a few
+days for the police to confirm that the other party would not proceed with filing a
+case and to agree to return the confiscated property.&lt;&#x2F;p&gt;
+&lt;p&gt;I eagerly went to the Police station along with the lawyer the same evening. I
+was asked to write a letter with the details of the incident which included the
+statement that the police have duly returned the confiscated vehicle, and I
+agreed to report back with the car if there was any further inquiry or action
+needed.&lt;&#x2F;p&gt;
+&lt;p&gt;All these were the regular procedure and the lawyer handling it made it less
+stressful for me. But unfortunately, after giving the letter, they searched for
+the key, and it was nowhere to be found. We rummaged through two boxes full of
+keys from vehicles with a similar plight. The police said that the person who
+was on duty might have misplaced it, and he would be on duty only the next day.
+I would have to use the duplicate key until then.&lt;&#x2F;p&gt;
+&lt;p&gt;The duplicate key was in Chennai and the car was in the &lt;a href=&quot;https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;4X8JV1xESQeMGUFAA&quot;&gt;Mailam police
+station&lt;&#x2F;a&gt;, a distance of 135 km. We
+had already given the letter to the police before we were informed of the
+missing key.  Refusing to pick up the car now and asking for the letter to be
+returned would sour the matters, and cause more work for me. The lawyer too was
+in no mood to confront the police. Now that I remember the small talk he had
+with the constables on first name basis, I realized he would be even less
+interested than me in creating a ruckus.&lt;&#x2F;p&gt;
+&lt;p&gt;We weighed our options for opening the door. The lawyer called one of his
+juniors, who conveniently also ran an automotive scrapyard. After a bit of small
+talk with him, I made him realize that I was in no mood to scrap the car. He
+asked for a metal scale from the police station, tore of the weather stripping,
+inserted it between the door and the window glass and started playing around
+with it trying to open the lock.&lt;&#x2F;p&gt;
+&lt;p&gt;Meanwhile, the guy who we had called to tow the car to a local garage, suggested
+that he could either call up someone to pick the lock or just break the quarter
+pane glass and open the car. As I was slowly weighing my options, the lawyer
+made a more quick decision and asked the driver to call up the lock pickers. It
+was already getting dark now.&lt;&#x2F;p&gt;
+&lt;p&gt;Three guys arrived at the scene on a Honda Activa and started randomly
+disconnecting wires on the front and around the headlights.  Another guy started
+playing around with the scale inserted in the window, replacing the junior
+advocate.&lt;&#x2F;p&gt;
+&lt;p&gt;I felt like my car was being violated by five men and that blew my fuse off.&lt;&#x2F;p&gt;
+&lt;p&gt;&amp;quot;Stop!&amp;quot; I shouted. &amp;quot;Why are you disconnecting the wires, without asking me?
+Don&#x27;t you realize that there is no electronic theft device installed?&amp;quot;&lt;&#x2F;p&gt;
+&lt;p&gt;I was angry at the thought that they might break other things while trying to
+open the lock. I would be the one who would have to live with the consequences.
+There was no way these people would prioritize my interests. They were here for
+the easy money, that came from exploiting my helplessness. They didn&#x27;t care
+about reducing further loss to my property, but only about extracting the
+maximum amount of money from me. It wasn&#x27;t without reason that three people had
+come to pick a single lock which did not require man power but skill, patience
+and focus. The closest situation to this I had faced was when my father had
+developed a brain tumour.&lt;&#x2F;p&gt;
+&lt;p&gt;&amp;quot;I know you are a bunch of amateurs. Get lost&amp;quot;, I shouted again.&lt;&#x2F;p&gt;
+&lt;p&gt;Since they had just begun to work, it was easier for me to kick them out with a
+bit more of posturing. Fortunately, they left without extracting any money from me.&lt;&#x2F;p&gt;
+&lt;p&gt;I asked the towing service driver to break the quarter pane. I had already
+checked the price, and it was just around Rs. 600, including shipping.&lt;&#x2F;p&gt;
+&lt;p&gt;The driver took a lever from his boot, gave quick wack on the glass with it, and
+soon we were on our way to the garage, with the car in tow.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;Fast-forward a few years, and I was once again in the same situation, this time
+purely my doing.&lt;&#x2F;p&gt;
+&lt;p&gt;One day I was working on the front right door of our car after removing the door
+trim. I was trying to replace the side view mirror which was knocked off its
+fixture. I couldn&#x27;t remember how it happened. My best guess was the pesky
+neighbourhood kids, who I last saw playing ice-boy—now Americanized to
+hide-and-seek—running up and down the stairs beside which the car was parked.
+Now don&#x27;t mistake me for an old curmudgeon&lt;&#x2F;p&gt;
+&lt;p&gt;With a bit of guidance from a few YouTube videos, I soon completed the task.
+Feeling proud, I hurried to take a break.&lt;&#x2F;p&gt;
+&lt;p&gt;When I returned a few minutes later to clear up the tools, I couldn&#x27;t open the
+door. I had forgotten to check the lock position before slamming the door shut,
+and the key was still in the ignition switch. What a stupid mistake I had done.&lt;&#x2F;p&gt;
+&lt;p&gt;There are the occasions when you really wish you had a time machine so that you
+can go back and kick your past self on their butt right when they are about to
+do that one action which changes their lives.&lt;&#x2F;p&gt;
+&lt;p&gt;I stood there frozen, playing the events that happened in the last few minutes
+over and over in my mind. No one turned up with a time machine.&lt;&#x2F;p&gt;
+&lt;p&gt;I swallowed my pride and went through my options. I searched
+&lt;a href=&quot;https:&#x2F;&#x2F;boodmo.com&#x2F;&quot;&gt;boodmo&lt;&#x2F;a&gt; and the price was around Rs. 450. There was
+another item already in the cart and showed a shipping charge of Rs. 150. I
+concluded that the price was around the same that I had paid a year before and
+decided to break into my car, once again.&lt;&#x2F;p&gt;
+&lt;p&gt;I tested a few items like a box spanner and screwdriver, hitting the quarter
+pane with them. The glass was too strong, and all of them bounced back with just
+a few scratches left on the glass. I realized I needed something more hefty and
+with a sharp point. Immediately I remembered something that would do the work. I
+ran into the house, got hold of a bill hook and tapped the pointed end on the
+glass, imagining all the Tamil movies I had watched. The pane shattered into a
+thousand little diamonds held together by cheap cellophane.&lt;&#x2F;p&gt;
+&lt;p&gt;While carefully removing the broken bits of glass from the seat and floor, I
+silently vowed, to get the spare key made first before replacing the broken
+glass.&lt;&#x2F;p&gt;
+&lt;p&gt;I started with some quick research on the Internet and there were machines made
+by the ever innovative tool vendors from Coimbatore which &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=8-qh_XQPhfg&quot;&gt;duplicated a key onto
+a blank by using a cutting disk that moved by tracing the original
+key&lt;&#x2F;a&gt;. There were also blank keys
+being sold for the i10 online that cost Rs. 300.&lt;&#x2F;p&gt;
+&lt;p&gt;I wished I could buy the cutting machine and make my own duplicate key, but at
+my scale even a file set wouldn&#x27;t be worth the returns on my money.&lt;&#x2F;p&gt;
+&lt;p&gt;Being a locksmith required years of practice. You could see them on the
+roadsides setting shop with just a small vice, hacksaw and a file set. They had
+immense skill and would whip out a duplicate key from the hundreds of blanks on
+display, before you knew it. The quality of the fitting jobs I had done in the
+mechanical workshop at college were still fresh in my mind. I started to look
+for a locksmith.&lt;&#x2F;p&gt;
+&lt;p&gt;I went to the &lt;a href=&quot;https:&#x2F;&#x2F;www.google.com&#x2F;maps&#x2F;place&#x2F;13%C2%B005&amp;#x27;15.8%22N+80%C2%B011&amp;#x27;27.5%22E&#x2F;@13.0877875,80.1908324,333m&#x2F;&quot;&gt;round building
+shops&lt;&#x2F;a&gt;,
+a landmark around Mogappair, and a place filled with all manners of low
+investment trades. After a few enquiries, I located a locksmith&#x27;s shop, but they
+all seemed to have been put out of work by the machine. They still had their
+shops, but now used them as price gouging fronts. They would tell that it would
+take two days for the key to be made and take the key to another vendor who
+owned the duplicating machine. It had become a low turnover, high margin
+business.&lt;&#x2F;p&gt;
+&lt;p&gt;I enquired with the person sitting lazily on a stool.&lt;&#x2F;p&gt;
+&lt;p&gt;&amp;quot;OK, here talk to the owner&amp;quot;, he said. I took the phone and told my situation
+and asked how much a duplicate key would cost.&lt;&#x2F;p&gt;
+&lt;p&gt;&amp;quot;I can quote only after seeing the car, Sir&amp;quot;, the locksmith replied.&lt;&#x2F;p&gt;
+&lt;p&gt;I told him the make, model and year and also said there were no electronic security
+system.&lt;&#x2F;p&gt;
+&lt;p&gt;&amp;quot;It would cost Rs. 1800&amp;quot;, he replied.&lt;&#x2F;p&gt;
+&lt;p&gt;&amp;quot;What? Why do you need so much for a simple key?&amp;quot; I asked expressing my shock.&lt;&#x2F;p&gt;
+&lt;p&gt;&amp;quot;Sir, there is a chip inside the key&amp;quot;, he replied.&lt;&#x2F;p&gt;
+&lt;p&gt;&amp;quot;Really? This is what people told when the Rs. 2000 note was released&amp;quot;, I chuckled.&lt;&#x2F;p&gt;
+&lt;p&gt;The locksmith was not pleased with my sense of humour.&lt;&#x2F;p&gt;
+&lt;p&gt;&amp;quot;OK, I will call you once I get hold of the key. What is your name?&amp;quot; I asked.&lt;&#x2F;p&gt;
+&lt;p&gt;&amp;quot;Daniel&amp;quot;, he replied.&lt;&#x2F;p&gt;
+&lt;p&gt;As I walked into the Tirumangalam Metro station I took a photo of the key and
+sent it to Daniel through WhatsApp. I boarded the next train to central on my
+way to GP Road.&lt;&#x2F;p&gt;
+&lt;p&gt;GP Road is right behind the famous LIC building and was the Mecca of original
+auto parts in Chennai. I was looking at all the sign boards placed in the shops,
+as I walked past, for any indication of key duplication services. Finally, I
+spotted a photo of a car key on a shop called &lt;a href=&quot;https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;net8JSx45uy2g2oh9&quot;&gt;Nachiappa
+Stickers&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;The name sounded familiar and looked like a reputed shop. I went inside and
+showed the key to the attendant.&lt;&#x2F;p&gt;
+&lt;p&gt;&amp;quot;There might be a chip embedded in the plastic moulding, Sir. In that case, the
+duplicate can be used only to open the door and will not start the engine. If
+you also want to drive the car, you need to contact the dealer to get the key&amp;quot;,
+he said.&lt;&#x2F;p&gt;
+&lt;p&gt;&amp;quot;That is OK, how much does the duplicate cost?&amp;quot; I asked.&lt;&#x2F;p&gt;
+&lt;p&gt;&amp;quot;Rs. 150&amp;quot;, he replied.&lt;&#x2F;p&gt;
+&lt;p&gt;This sounded a better deal. &amp;quot;Go ahead and make me one&amp;quot;, I said handing over the
+key.&lt;&#x2F;p&gt;
+&lt;p&gt;In just under a minute, he came back with a new key with neatly cut grooves
+matching the original.&lt;&#x2F;p&gt;
+&lt;p&gt;&amp;quot;If it does not open, should I do any sanding or filing to fit it?&amp;quot; I asked.&lt;&#x2F;p&gt;
+&lt;p&gt;&amp;quot;No Sir, it will fit perfectly&amp;quot;, he replied.&lt;&#x2F;p&gt;
+&lt;p&gt;I then stopped at &lt;a href=&quot;https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;8CaK88WvvdiqYCA36&quot;&gt;Jehangir&lt;&#x2F;a&gt; where I
+had bought the quarter pane glass earlier.&lt;&#x2F;p&gt;
+&lt;p&gt;&amp;quot;It would cost Rs. 900&amp;quot;, the attendant replied.&lt;&#x2F;p&gt;
+&lt;p&gt;This was way more than what I had budgeted after checking the price on boodmo.&lt;&#x2F;p&gt;
+&lt;p&gt;&amp;quot;Is there any other cheaper option?&amp;quot; I enquired.&lt;&#x2F;p&gt;
+&lt;p&gt;&amp;quot;Try Pudupet&amp;quot;, he replied.&lt;&#x2F;p&gt;
+&lt;p&gt;Pudupet is the other automotive Mecca, situated on the opposite side of the
+Cooum river, from GP Road. It is famous for refurbished parts from old and more
+famously stolen vehicles. I had driven through the place a few times but never
+had a good look at the shops. I decided to pay my visits to this place too.&lt;&#x2F;p&gt;
+&lt;p&gt;As I walked across the bridge, I saw the usual sewage flowing in the Cooum
+river.  The stench was unbearable. The pilgrim&#x27;s road is never comfortable.&lt;&#x2F;p&gt;
+&lt;p&gt;Pudupet had a bit of an old world charm to it. After walking past some shops
+there was this large shady tree. The kind under which a village headman would
+sit to decide a local dispute. A shed with its doors locked stood under it now.
+The name board said, &amp;quot;Police at door step&amp;quot;.&lt;&#x2F;p&gt;
+&lt;p&gt;As I walked past, I couldn&#x27;t see any shops specializing in glass. It was mostly
+reworked engines, exhausts, suspensions and lots of cheap new accessories. I
+didn&#x27;t want to waste time enquiring anywhere as I had already made up my mind
+that it would be too much of a gamble buying from here.&lt;&#x2F;p&gt;
+&lt;p&gt;I walked a bit more and ended up at the Egmore railway station and boarded the
+metro back to Tirumangalam.&lt;&#x2F;p&gt;
+&lt;p&gt;As I got out of the metro, I received a voice message with a quote from Daniel.
+&amp;quot;There is no chip in this key Sir. It will cost Rs. 550&amp;quot;, he said.  I posted
+a &#x27;Thank You&#x27; emoji, feeling happy on the savings I made.&lt;&#x2F;p&gt;
+&lt;p&gt;Back home, I logged into boodmo to order the glass, but it showed a shipping cost
+of Rs. 500 which brought the cost to Rs. 950. I cursed myself for assuming the
+shipping cost and the government for the inflation and started looking for any
+vendor closer to home.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;teqzKfjepef7NBeJ7&quot;&gt;Calcutta Glass in Arumbakkam&lt;&#x2F;a&gt; seemed
+to be the nearest store. I called the shop, and they quoted Rs. 950. This was
+still a better option than boodmo as I didn&#x27;t have to wait for 10 days, or so I
+thought. Instead, I ended up being cheated by this guy who sold me a piece with
+a number of scratches. I realize now that I should have followed him when he
+took the piece inside for packing. A common ruse in the big bad world outside of
+Amazon. Running to the shop once again for replacement that may or may not come,
+wasn&#x27;t worth the time and money. I realize now why people vacillate towards
+Amazon even when it pulls up a few dirty tricks on its own.&lt;&#x2F;p&gt;
+&lt;p&gt;Now I am all set to attempt replacing the glass, without fear of locking myself
+out. No one would even guess that the glass was replaced as it looks as old as
+the car with scratches that mimics age. More importantly I was thankful that I
+did not have an engine immobilizer that requires the chip in the key to be
+reprogrammed, nor a car costly enough to require an engine immobilizer.
+Innovation is about selling a problem as a solution, so that you can keep
+innovating.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Cleaning your car</title>
+		<published>2024-05-15T00:00:00+00:00</published>
+		<updated>2024-05-15T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://arunkd13.github.io/blog/cleaning-your-car/" type="text/html"/>
+		<id>https://arunkd13.github.io/blog/cleaning-your-car/</id>
+		<content type="html">&lt;p&gt;I have a learnt a lot on car maintaineance from my guru
+&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;@chrisfix&quot;&gt;ChrisFix&lt;&#x2F;a&gt;. One of the basic lessons I had
+was cleaning my car for daily use. Not any fancy detailing, but just like the daily
+bath we have — getting rid of the dust and dirt from regular driving through the
+day or week or just  being parked.&lt;&#x2F;p&gt;
+&lt;p&gt;I see a number of people use different methods to clean their cars, and I get
+horrified when I see some drivers using a dirty looking piece of cloth and buffing
+around an expensive luxury car just before the owner gets in. Learning what to
+do, to maintain the fresh look of the painted surfaces is important. Learning
+what not to do is often more important. For, you can develop infinite capacity to
+not do things, but are limited by time on the things to do.&lt;&#x2F;p&gt;
+&lt;p&gt;Here is ChrisFix&#x27;s own advice on &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=ef_-SNSnByg&quot;&gt;what not to do when cleaning your cars&lt;&#x2F;a&gt;:&lt;&#x2F;p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https:&#x2F;&#x2F;www.youtube-nocookie.com&#x2F;embed&#x2F;ef_-SNSnByg?si=B7uaTmTe3X-lr3v7&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;&lt;&#x2F;iframe&gt;
+&lt;p&gt;And here is the daily bath routine I follow for my car:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Take two buckets of clean tap water.&lt;&#x2F;li&gt;
+&lt;li&gt;Take a clean, washed micro fiber towel.&lt;&#x2F;li&gt;
+&lt;li&gt;Rinse it in the first bucket of water.&lt;&#x2F;li&gt;
+&lt;li&gt;Fold it as many times as required to get a surface area that is size of the
+palm of your hand so that you can use it comfortably.&lt;&#x2F;li&gt;
+&lt;li&gt;Clean your car in straight motions, picking up the dust and dirt and leaving a clean surface.&lt;&#x2F;li&gt;
+&lt;li&gt;Clean the top part of the car first and then move to the bottom areas which is dirtier.&lt;&#x2F;li&gt;
+&lt;li&gt;As the area of the towel gets dirty, change the fold to expose a portion that
+is not soiled yet and use it. Once one side of the towel is all used up, you can
+change to the back side and fold it as before and use it.&lt;&#x2F;li&gt;
+&lt;li&gt;Once both side are dirty, rinse in the first bucket of water, and then another time in the second bucket.&lt;&#x2F;li&gt;
+&lt;li&gt;Once the water in the first bucket turns dirty enough, usually around 2
+rinses, Refill it and use it as the second bucket, while the earlier second
+bucket with the less dirty water, becomes the first.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Usually I am able to clean a car that is standing for a week without use, using
+two to three rinses of the towel and four buckets of water. I have used this
+technique for the better part of 15 years and I am really impresed with the
+shine that still remains on my car.&lt;&#x2F;p&gt;
+&lt;p&gt;If you are still here with me and this kind of thing excites you, move on to ChrisFix&#x27;s
+magnum opus — &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=CFXfSBR5Q9w&quot;&gt;How to Super Clean Your Car&lt;&#x2F;a&gt;:&lt;&#x2F;p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https:&#x2F;&#x2F;www.youtube-nocookie.com&#x2F;embed&#x2F;CFXfSBR5Q9w?si=_GfZkECo1Erskkk8&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;&lt;&#x2F;iframe&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Clearing Sewage Mains</title>
+		<published>2024-04-07T00:00:00+00:00</published>
+		<updated>2025-06-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://arunkd13.github.io/blog/clearing-sewage-mains/" type="text/html"/>
+		<id>https://arunkd13.github.io/blog/clearing-sewage-mains/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;I have used the technique I have described at the end, a couple of more times. Now I am starting to proactively check and do the treatment every year to avoid the surprise.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;When we reconstructed our house, we decided to reuse the existing sewage connection. We were fed up with the bribes that we kept paying right from getting building plan approval to tea money for the local beat constable. We didn&#x27;t want to once again pay the councillor and other metro water officials for a new connection.&lt;&#x2F;p&gt;
+&lt;p&gt;Since this was an old line, it was more than probably 10 feet under the ground level. We had the option to either make the sewage chamber deep enough so that the outlet pipe enters horizontally into the chamber or make the chamber less deep, and use a long bend to make the outlet line enter vertically into the chamber like an L.&lt;&#x2F;p&gt;
+&lt;p&gt;Having heard of labourers getting asphyxiated when entering sewage chambers to clear a clog, I decided to go for the second option, i.e. reduce the depth of the chamber and instead use a vertical pipe for the remaining depth. This unfortunately was not the right thing to do–because clearing any clog becomes difficult. The device used to clear the clog is a series of mild steel rods that are screwed along in a chain and has a bit of flex, but does not curve tight enough for it to pass through the long bend. On the other hand, if the outlet pipe is horizontal, the larger dimensions of the chamber opening provides a sufficient bend radius for the clog clearing rod to be inserted.&lt;&#x2F;p&gt;
+&lt;p&gt;Another problem was that, the old line did not connect to the nearest mains chamber on our street, but used an older pipeline that likely joined a chamber further down on the main road.&lt;&#x2F;p&gt;
+&lt;p&gt;In 2024, we ended up with our first clog with the sewage overlowing from the chamber during heavy inflow during the mornings. We called a few private people, on the recommendation of a metro water worker, who regularly visits houses to add chlorine to the water sumps. They unfortunately did not have the right tools and were not able to do clear the line.&lt;&#x2F;p&gt;
+&lt;p&gt;Next we went to the local metro water office, where there was a register to enter complaints about blocked sewage lines. We added the entry there and the worker on watch helpfully gave chlorine tablet to add to overhead tank. The sewage workers came in two days and said, since the block is in the line to our house we had to pay them separately for the work. With the situation we were in, we agreed to pay what they asked.&lt;&#x2F;p&gt;
+&lt;p&gt;As they prepared to start work, I broke the news on the vertical entry of the sewage pipe. On hearing this, they complained that this is going to make their work difficult. &amp;quot;The pipe should always be horizontal&amp;quot;, they declared. I told them reasoning for the decision that I had took. &amp;quot;Why do you worry Sir, however deep the chamber is, we will enter it to clear the line&amp;quot;, they said. Given our predicament, we asked what the options were.&lt;&#x2F;p&gt;
+&lt;p&gt;They asked for a big waste cloth and screwed it on to the segmented rod that they use for clearing the lines. Now using the cloth as a plunger, they inserted it into the pipe. The pipe was under a few feet of sewage that was standing in the chamber. Now, they used a pumping action to oscillate the water in the pipe which miraculously dislodged the clog and the water began to drain.&lt;&#x2F;p&gt;
+&lt;p&gt;After a week, we saw sewage, once again, stagnate in the chamber and panicked. Given that it was not sustainable to call the sewage workers every week, I decided to take the problem into my own hands. I checked out a number of YouTube videos on clearing sewage lines. There were a number of techniques, but the simple chemical solution ala Drainex seemed to be the simplest for my skill and equipment level.&lt;&#x2F;p&gt;
+&lt;p&gt;My theory was that, the clog was due to fat deposits that had not fully dissolved and had once again coalesced to reduce the flow. I had read about Sodium Hydroxide aka Caustic Soda beind used as a chemical agent to dissolve fat deposits clogging sewage pipes. This costed around Rs. 90 per kg vs Rs. 500 per kg for something like Drainex. &lt;&#x2F;p&gt;
+&lt;p&gt;I added around 1 kg of caustic soda and a bucket of hot water to the chamber before going to sleep. First thing in the morning, I eagerly opened the chamber to see the state. It had been around 6 hours from the time I had started the treatment. Now the water had drained completely from the chamber.&lt;&#x2F;p&gt;
+&lt;p&gt;Hopefully I can now maintain the sewage connection for life without having to get a new one.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Glass bottles</title>
+		<published>2024-03-26T00:00:00+00:00</published>
+		<updated>2024-03-26T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://arunkd13.github.io/blog/glass-bottles/" type="text/html"/>
+		<id>https://arunkd13.github.io/blog/glass-bottles/</id>
+		<content type="html">&lt;p&gt;I wanted a set of glass water bottles which I could use to &lt;a href=&quot;https:&#x2F;&#x2F;en.m.wikipedia.org&#x2F;wiki&#x2F;Solar_water_disinfection&quot;&gt;disinfect water, through solar radiation&lt;&#x2F;a&gt;. I obviously did not want to use plastic bottles as they degrade on exposure to the sun and also leech harmful chemicals.&lt;&#x2F;p&gt;
+&lt;p&gt;I searched on Amazon and liked this simple one litre &lt;a href=&quot;https:&#x2F;&#x2F;www.amazon.in&#x2F;gp&#x2F;product&#x2F;B07X97R325&quot;&gt;milk bottle model&lt;&#x2F;a&gt;, which cost Rs. 165 per bottle. This looked way expensive for my liking and I decided to checkout prices from wholesale stores around Parry&#x27;s corner.&lt;&#x2F;p&gt;
+&lt;p&gt;Nainiappa Naicken street is the street for pharmaceuticals, perfumes and chemicals. It also had a few glass bottle stores and I was able to locate a similar 1 litre milk bottle. I ended up buying an entire box containing 20 nos. for Rs. 800. That comes to around Rs. 40 per bottle. This is way cheap, but transport cost is what would now tip the balance. Fortunately, I was able to use the metro and share-auto to transport the box which was slightly smaller than a checkin luggage.&lt;&#x2F;p&gt;
+&lt;p&gt;Now I probably have a life&#x27;s supply of milk bottles :-)&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>
