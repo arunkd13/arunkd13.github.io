@@ -52,6 +52,7 @@ Identifying people who are addicted to alcohol and facing adverse impact to thei
 
 In February 2025, [25 de-addiction centers called 'Kalangarai'](https://www.thehindu.com/news/cities/Madurai/de-addiction-centre-kalangarai-inaugurated-at-grh/article69271206.ece) were opened in government medical colleges througout the state. But most people who battle daily with alcoholism are not aware of these facilities.
 
+
 ## Education
 The Tamil culture and religions all shun the consumption of alcohol. The government needs to reinforce the same in school and college curriculum. The actions here may not give immediate results, but will build a future generation that is not addicted to alcohol.
 
