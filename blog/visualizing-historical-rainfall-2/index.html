@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visualizing historical rainfall - Part 2 | My Experiments</title>
+  <meta name="title" content="Visualizing historical rainfall - Part 2">
+<meta name="description" content="My Blog and Projects" />
+
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <link rel="alternate" type="application/atom+xml" title="My Experiments" href="https://arunkd13.github.io/atom.xml">
+  <style>  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title h1 {
+  font-size: 1.5em;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  .filter {
+    margin-bottom: 0;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  nav active {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  input {
+    font-size: 1rem;
+  }
+
+  main,article {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 0.875rem;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+  /* blog posts */
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+</style>
+  </head>
+<body>
+  <header>
+  
+
+  <a href="https://arunkd13.github.io/" class="title">
+    <h1>My Experiments</h1>
+  </a>
+  <nav>
+    
+
+  
+
+    
+      
+    
+      <a href="https://arunkd13.github.io/blog/">Blog</a>
+    
+      
+    
+      <a href="https://arunkd13.github.io/atom.xml">RSS</a>
+    
+      
+    
+      <a href="https:&#x2F;&#x2F;github.com&#x2F;arunkd13">GitHub</a>
+    
+      
+    
+      <a href="https://arunkd13.github.io/projects/">Projects</a>
+    
+      
+    
+      <a href="https://arunkd13.github.io/friends-n-folks/">Friends &amp; Folks</a>
+    
+      
+    
+      <a href="https://arunkd13.github.io/vendors/">Vendors</a>
+  </nav>
+</header>
+
+    <h1>Visualizing historical rainfall - Part 2</h1>
+      <p>
+        <i>
+          <time datetime='2024-04-17T00:00:00+00:00' pubdate>17 Apr, 2024</time>
+        </i>
+      </p>
+  <main>
+    <p>In 2023, I made a <a href="visualizing-historical-rainfall.md">visualization of the historical rainfall over my farm</a> to help me improve my farming practice. This was made using the the <a href="https://observablehq.com/">Observable</a> tool.</p>
+<p>Now in 2024, Observable folks released the <a href="https://observablehq.com/framework/">Observable Framework</a>,
+which is a Javascript framework that can be used to create standalone
+visualizations and built into a static website. This sounded exciting and I decided to take another
+stab at rainfall visualization using this framework.</p>
+<p>You can see it embedded below.</p>
+<iframe width="100%" height="950" frameborder="0" src="https://arunkd13-public.observablehq.cloud/climate/"></iframe>
+<p>You can also access the <a href="https://arunkd13-public.observablehq.cloud/climate/">standalone website</a>. The <a href="https://github.com/arunkd13/climate-dash">source code</a> is available on Github.</p>
+
+  </main>
+  <p>
+        Tags:
+          <a href="https://arunkd13.github.io/tags/earth/">#earth</a>
+          <a href="https://arunkd13.github.io/tags/farming/">#farming</a>
+  </p>
+<script src="https://utteranc.es/client.js"
+        repo="arunkd13/arunkd13.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+<footer>
+    Made with <a href="https://codeberg.org/alanpearce/zola-bearblog">Zola ʕ•ᴥ•ʔ Bear</a>
+</footer>
+</body>
+</html>

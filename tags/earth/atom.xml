@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>My Experiments - earth</title>
+	<subtitle>My Blog and Projects</subtitle>
+	<link href="https://arunkd13.github.io/tags/earth/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://arunkd13.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2024-04-17T00:00:00+00:00</updated>
+	<id>https://arunkd13.github.io/tags/earth/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Visualizing historical rainfall - Part 2</title>
+		<published>2024-04-17T00:00:00+00:00</published>
+		<updated>2024-04-17T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://arunkd13.github.io/blog/visualizing-historical-rainfall-2/" type="text/html"/>
+		<id>https://arunkd13.github.io/blog/visualizing-historical-rainfall-2/</id>
+		<content type="html">&lt;p&gt;In 2023, I made a &lt;a href=&quot;visualizing-historical-rainfall.md&quot;&gt;visualization of the historical rainfall over my farm&lt;&#x2F;a&gt; to help me improve my farming practice. This was made using the the &lt;a href=&quot;https:&#x2F;&#x2F;observablehq.com&#x2F;&quot;&gt;Observable&lt;&#x2F;a&gt; tool.&lt;&#x2F;p&gt;
+&lt;p&gt;Now in 2024, Observable folks released the &lt;a href=&quot;https:&#x2F;&#x2F;observablehq.com&#x2F;framework&#x2F;&quot;&gt;Observable Framework&lt;&#x2F;a&gt;,
+which is a Javascript framework that can be used to create standalone
+visualizations and built into a static website. This sounded exciting and I decided to take another
+stab at rainfall visualization using this framework.&lt;&#x2F;p&gt;
+&lt;p&gt;You can see it embedded below.&lt;&#x2F;p&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;950&quot; frameborder=&quot;0&quot; src=&quot;https:&#x2F;&#x2F;arunkd13-public.observablehq.cloud&#x2F;climate&#x2F;&quot;&gt;&lt;&#x2F;iframe&gt;
+&lt;p&gt;You can also access the &lt;a href=&quot;https:&#x2F;&#x2F;arunkd13-public.observablehq.cloud&#x2F;climate&#x2F;&quot;&gt;standalone website&lt;&#x2F;a&gt;. The &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;arunkd13&#x2F;climate-dash&quot;&gt;source code&lt;&#x2F;a&gt; is available on Github.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Visualizing historical rainfall</title>
+		<published>2023-03-11T00:00:00+00:00</published>
+		<updated>2024-04-17T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://arunkd13.github.io/blog/visualizing-historical-rainfall/" type="text/html"/>
+		<id>https://arunkd13.github.io/blog/visualizing-historical-rainfall/</id>
+		<content type="html">&lt;p&gt;With the limited water capacity in my well, I have to depend mostly on rainfall
+for growing crops in my farm. Farmers have a rich traditional knowledge about
+the rainfall patterns, but I am very new to following the weather patterns and
+wanted to improve my intution. To start with I wanted to visualize the
+historical daily rainfall over a few decades and internalize the seasonal
+rainfall pattern over my farm.&lt;&#x2F;p&gt;
+&lt;p&gt;I began with searching for a good visualization scheme for seasonal variations
+and Spiral plots seemed to be a good option. I mucked around with installing and
+trying to use R, but it seemed to require a bit more of initial time investment
+to learn it proper before I could understand what I was doing.&lt;&#x2F;p&gt;
+&lt;p&gt;Then I came across &lt;a href=&quot;https:&#x2F;&#x2F;observablehq.com&#x2F;&quot;&gt;Observable&lt;&#x2F;a&gt; which is written by
+the authors of &lt;a href=&quot;https:&#x2F;&#x2F;d3js.org&#x2F;&quot;&gt;D3.js&lt;&#x2F;a&gt;. I already knew about D3.js as a
+good framework and decided to do my visualization with Observable. With a quick
+signup using my Google account I was able to play around using the large number
+of examples. I also found a spiral heatmap visualization notebook that I was
+able to clone and adapt to presenting my data.&lt;&#x2F;p&gt;
+&lt;p&gt;Here is the result of the visualization showing rainfall over Tindivanam from
+January 2000 to February 2023. Rainfall data was taken from
+&lt;a href=&quot;https:&#x2F;&#x2F;open-meteo.com&#x2F;en&#x2F;docs&#x2F;historical-weather-api#latitude=12.23&amp;amp;longitude=79.66&amp;amp;start_date=2000-01-01&amp;amp;end_date=2023-02-28&amp;amp;daily=precipitation_sum&amp;amp;timezone=auto&quot;&gt;Open-Meteo&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;800&quot; frameborder=&quot;0&quot;
+  src=&quot;https:&#x2F;&#x2F;observablehq.com&#x2F;embed&#x2F;f650972998319078?cells=chart&quot;&gt;&lt;&#x2F;iframe&gt;
+&lt;p&gt;In 2024, I have created &lt;a href=&quot;..&#x2F;visualizing-historical-rainfall-2&quot;&gt;another take on this visualization&lt;&#x2F;a&gt; using the Observable Framework.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;edits&quot;&gt;Edits&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2023-12-07: Updated rainfall data up to Dec 2023&lt;&#x2F;li&gt;
+&lt;li&gt;2023-04-17: Shortened the title of this post&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Climate Spiral</title>
+		<published>2023-03-05T00:00:00+00:00</published>
+		<updated>2023-03-05T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://arunkd13.github.io/blog/climate-spiral/" type="text/html"/>
+		<id>https://arunkd13.github.io/blog/climate-spiral/</id>
+		<content type="html">&lt;p&gt;I was searching for a nice way to visualize historical rainfall data in my farm and stumbled upon this scary visualization from NASA:&lt;&#x2F;p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https:&#x2F;&#x2F;www.youtube-nocookie.com&#x2F;embed&#x2F;jWoCXLuTIkI&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;&#x2F;iframe&gt;
+</content>
+	</entry>
+</feed>
